@@ -10,7 +10,9 @@
 - 💡 Love to collaborate on interesting projects
 
 ## 🎮 My Contributions
-![GitHub Snake Animation](https://github.com/OSOSerious/OSOSerious/blob/output/github-contribution-grid-snake.svg)
+<div align="center">
+  <img src="contribution_snake.gif" alt="GitHub Contribution Snake Animation" />
+</div>
 
 ## 📊 GitHub Stats
 <div align="center">

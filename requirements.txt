@@ -1,0 +1,5 @@
+pygame==2.5.2
+requests==2.31.0
+numpy==1.26.4
+Pillow==10.4.0
+imageio==2.34.0
