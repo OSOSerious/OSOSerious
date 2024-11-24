@@ -10,11 +10,7 @@
 - 💡 Love to collaborate on interesting projects
 
 ## 🎮 My Contributions
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OSOSerious/OSOSerious/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OSOSerious/OSOSerious/output/github-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/output/github-snake.svg" />
-</picture>
+![GitHub Snake Animation](https://github.com/OSOSerious/OSOSerious/blob/output/github-contribution-grid-snake.svg)
 
 ## 📊 GitHub Stats
 <div align="center">
