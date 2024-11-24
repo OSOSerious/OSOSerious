@@ -50,13 +50,6 @@
   <img src="https://img.shields.io/badge/-Ollama-FF4F8B?style=flat-square&logo=llama&logoColor=white" />
 </div>
 
-## 🔥 Featured Repositories
-<div align="center">
-  <a href="https://github.com/OSOSerious/PortfolioWebsite">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=OSOSerious&repo=PortfolioWebsite&theme=tokyonight" />
-  </a>
-</div>
-
 ## 🤝 Connect with Me
 <div align="center">
   <a href="https://github.com/OSOSerious" target="_blank">
