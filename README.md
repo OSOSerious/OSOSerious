@@ -1,4 +1,4 @@
-<div align="center">
+  <div align="center">
   <!-- Animated Header -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Nicholas%20Del%20Negro&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Agent%20Architect%20%7C%20MCP%20Platforms%20%7C%20Systems%20Engineer&descAlignY=52&descSize=18"/>
   <!-- Typing Animation -->
@@ -9,10 +9,7 @@
 <!-- Stats Badges with Animation -->
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Experience-6%2B%20Years-8B5CF6?style=for-the-badge&labelColor=1a1b27" />
-  <img src="https://img.shields.io/badge/LLM%20Providers-10+-EC4899?style=for-the-badge&labelColor=1a1b27" />
-  <img src="https://img.shields.io/badge/Agent%20Frameworks-11-10B981?style=for-the-badge&labelColor=1a1b27" />
-  <img src="https://img.shields.io/badge/Languages-12-F59E0B?style=for-the-badge&labelColor=1a1b27" />
+  
 </div>
 <br>
 <!-- About Section with Glow Effect -->
@@ -46,7 +43,7 @@
   <a href="https://x.com/OSO_5erious">
     <img src="https://img.shields.io/badge/X-@OSO__5erious-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1a1b27" />
   </a>
-  <img src="https://img.shields.io/badge/Available-For%20Hire-10B981?style=for-the-badge&labelColor=1a1b27" />
+  
 </div>
 
 <!-- Animated Line -->
@@ -54,17 +51,11 @@
 
 <!-- Stats Row -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=100%2B+Repos+•+6%2B+Years+•+10%2B+LLMs+•+11+Frameworks+•+12+Languages+•+6+Roles" alt="Stats" />
 </div>
 
 <br>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Experience-6%2B%20Years-8B5CF6?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/LLM%20Providers-10+-EC4899?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Agent%20Frameworks-11-10B981?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Languages-12-F59E0B?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Roles-6-06B6D4?style=for-the-badge&labelColor=0d1117" />
+
 </div>
 
 <br>
@@ -77,7 +68,7 @@
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35 "> What I Build
+<img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35 "> 
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=10B981&center=true&vCenter=true&width=700&lines=Production+Systems+%7C+Not+Demos;Infrastructure+You+Own+%7C+Not+Rent" alt="What I Build" />
