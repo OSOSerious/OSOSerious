@@ -1,184 +1,385 @@
 <div align="center">
-  <table>
-    <tr>
-      <td>🤖</td>
-      <td><b>AI agent automation frameworks</b> with production-grade orchestration</td>
-    </tr>
-    <tr>
-      <td>🔌</td>
-      <td><b>MCP-driven platforms</b> connecting LLMs to real tools and data</td>
-    </tr>
-    <tr>
-      <td>⚡</td>
-      <td><b>Multi-agent systems</b> with failover logic, memory, and human-in-the-loop</td>
-    </tr>
-    <tr>
-      <td>🔒</td>
-      <td><b>Private AI stacks</b> that never leave your infrastructure</td>
-    </tr>
-  </table>
+  <!-- Animated Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Nicholas%20Del%20Negro&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Agent%20Architect%20%7C%20MCP%20Platforms%20%7C%20Systems%20Engineer&descAlignY=52&descSize=18"/>
+  <!-- Typing Animation -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=80&lines=%22Own+your+systems%2C+don't+rent+them.%22;Infrastructure+you+control%2C+audit%2C+and+scale." alt="Typing SVG" />
+</div>
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- Stats Badges with Animation -->
+<div align="center">
+
+  <img src="https://img.shields.io/badge/Experience-6%2B%20Years-8B5CF6?style=for-the-badge&labelColor=1a1b27" />
+  <img src="https://img.shields.io/badge/LLM%20Providers-10+-EC4899?style=for-the-badge&labelColor=1a1b27" />
+  <img src="https://img.shields.io/badge/Agent%20Frameworks-11-10B981?style=for-the-badge&labelColor=1a1b27" />
+  <img src="https://img.shields.io/badge/Languages-12-F59E0B?style=for-the-badge&labelColor=1a1b27" />
+</div>
+<br>
+<!-- About Section with Glow Effect -->
+<div align="center">
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" width="400">
+</div>
+  
+  <!-- Animated Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Nicholas%20Del%20Negro&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Lead%20Backend%20%26%20Systems%20Engineer&descAlignY=55&descSize=20" />
+
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3B82F6&center=true&vCenter=true&width=800&height=50&lines=AI+Agent+Frameworks+%7C+MCP+Protocol+%7C+n8n+Automation" alt="Title" />
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=EC4899&center=true&vCenter=true&width=700&height=40&lines=%22Own+your+systems%2C+don't+rent+them.%22" alt="Tagline" />
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=94A3B8&center=true&vCenter=true&width=900&height=30&lines=I+help+businesses+move+from+duct-taped+SaaS+stacks+to+custom-owned+infrastructure" alt="Description" />
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://github.com/OSOSerious">
+    <img src="https://img.shields.io/badge/GitHub-100+%20Repos-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" />
+  </a>
+  <a href="https://x.com/OSO_5erious">
+    <img src="https://img.shields.io/badge/X-@OSO__5erious-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1a1b27" />
+  </a>
+  <img src="https://img.shields.io/badge/Available-For%20Hire-10B981?style=for-the-badge&labelColor=1a1b27" />
 </div>
 
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2gy3bvzwdzafc&rid=giphy.gif" width="30"> AI Agent Stack
-
+<!-- Stats Row -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=EC4899&center=true&vCenter=true&width=600&lines=LangGraph+1.0+%7C+CrewAI+%7C+AutoGen+%7C+Google+ADK;OpenAI+Agents+SDK+%7C+MCP+Protocol+%7C+Claude+Code;Swarm+%7C+LlamaIndex+%7C+LangChain+%7C+Flowise" alt="Agent Frameworks" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=100%2B+Repos+•+6%2B+Years+•+10%2B+LLMs+•+11+Frameworks+•+12+Languages+•+6+Roles" alt="Stats" />
 </div>
 
 <br>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
+  <img src="https://img.shields.io/badge/Experience-6%2B%20Years-8B5CF6?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/LLM%20Providers-10+-EC4899?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Agent%20Frameworks-11-10B981?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Languages-12-F59E0B?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Roles-6-06B6D4?style=for-the-badge&labelColor=0d1117" />
+</div>
 
-### <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> Agent Frameworks
+<br>
 
-| Framework | Experience |
-|:----------|:-----------|
-| 🔷 **LangGraph 1.0** | Graph orchestration, checkpointing, human-in-loop |
-| 🔷 **CrewAI** | Role-based multi-agent teams, hierarchical process |
-| 🔷 **OpenAI Agents SDK** | Handoffs, guardrails, native tool calling |
-| 🔷 **AutoGen / AG2** | Microsoft multi-agent, Semantic Kernel |
-| 🔷 **Google ADK** | Vertex AI Agent Engine, GCP-native |
-| 🔷 **MCP Protocol** | Server development, A2A interop |
-| 🔷 **LangChain** | Chains, agents, memory, LangSmith |
-| 🔷 **LlamaIndex** | RAG-first agents, enterprise retrieval |
-| 🔷 **Swarm (OpenAI)** | Lightweight orchestration patterns |
-| 🔷 **Flowise / Dify** | Visual agent design |
-| 🔷 **Claude Code** | AI-powered dev, MCP servers |
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30"> LLM Providers
-
-| Provider | Models |
-|:---------|:-------|
-| ⚡ **OpenAI** | GPT-5, GPT-4o, o3-pro, o4-mini, Codex |
-| ⚡ **Anthropic** | Claude 4.5 Opus/Sonnet, Claude Code |
-| ⚡ **Google** | Gemini 2.5 Pro (1M), Gemini 3 Pro |
-| ⚡ **xAI** | Grok 4, Grok 3 |
-| ⚡ **Meta** | Llama 4 (10M ctx), Llama 3.3 70B |
-| ⚡ **Mistral AI** | Medium 3, Codestral, Magistral |
-| ⚡ **DeepSeek** | V3.1 (671B), R1 reasoning |
-| ⚡ **Alibaba** | Qwen 3 (235B), Qwen 2.5 Coder |
-| ⚡ **Groq** | LPU-accelerated inference |
-| ⚡ **Self-hosted** | Ollama, vLLM, LiteLLM, Triton |
-
-</td>
-</tr>
-</table>
+<!-- AI Agent Animation -->
+<div align="center">
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" width="400">
+</div>
 
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/j2pOGeGYKe2xCCKwfi/giphy.gif" width="30"> Tech Arsenal
+<img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35 "> What I Build
 
 <div align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7bb1e704-6026-48f9-8435-2f4d40101348" width="300">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=10B981&center=true&vCenter=true&width=700&lines=Production+Systems+%7C+Not+Demos;Infrastructure+You+Own+%7C+Not+Rent" alt="What I Build" />
 </div>
 
 <br>
 
 <div align="center">
 
-### 💻 Languages
+| | |
+|:--:|:--|
+| <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> | **AI agent automation frameworks** with production-grade orchestration |
+| <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="28"> | **MCP-driven platforms** connecting LLMs to real tools and data |
+| <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="28"> | **Multi-agent systems** with failover logic, memory, and human-in-the-loop |
+| <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="28"> | **Private AI stacks** that never leave your infrastructure |
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=F59E0B&center=true&vCenter=true&width=500&lines=Python+%7C+TypeScript+%7C+JavaScript+%7C+Go+%7C+Rust+%7C+Elixir" alt="Languages" />
+</div>
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="35"> Requirements Match
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=EC4899&center=true&vCenter=true&width=500&lines=How+my+experience+maps+to+job+requirements" alt="Requirements" />
+</div>
 
 <br>
+
+| Requirement | My Experience & Proof |
+|:------------|:----------------------|
+| <img src="https://img.shields.io/badge/AI%20Builder-3B82F6?style=flat-square" /> | Multi-agent orchestration at The Swarms Corporation connecting GPT-5, Claude 4.5, Gemini 2.5 Pro, Grok 4, and Llama 4. Production-grade agent systems with failover logic, cost optimization, and full observability. |
+| <img src="https://img.shields.io/badge/AI%20Chatbot-8B5CF6?style=flat-square" /> | Production chatbots at Force Code AI with NLP integration, RAG pipelines (Qdrant, Pinecone), healthcare AI solutions, multi-channel deployment (Slack, Discord, WhatsApp, web). |
+| <img src="https://img.shields.io/badge/Autonomous%20Agents-EC4899?style=flat-square" /> | Autonomous agent development with tool calling, MCP Protocol integration, LangGraph 1.0 checkpointing, human-in-the-loop approval workflows, persistent memory systems. |
+| <img src="https://img.shields.io/badge/n8n%20Automation-EA4B71?style=flat-square" /> | Production n8n workflows, custom node development, n8n-claude-automation project, LangChain node integration, webhook orchestration, complex multi-step automations. |
+| <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | Expert-level — FastAPI, Django, Flask, TensorFlow, PyTorch, Celery, scikit-learn, Pandas, NumPy. |
+| <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" /> | Deep learning model training, deployment pipelines, NVIDIA Triton integration, Hugging Face Transformers, model fine-tuning, GPU-accelerated inference. |
+| <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" /> | Full-stack Django with Django REST Framework, ORM optimization, admin panel customization, Celery task queues, PostgreSQL integration. |
+| <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" /> | GPT-5, GPT-4o, o3-pro and o4-mini reasoning models, OpenAI Agents SDK with handoffs and guardrails, Assistants API, function calling, Codex. |
+| <img src="https://img.shields.io/badge/Google%20Cloud%20AI-4285F4?style=flat-square&logo=google-cloud&logoColor=white" /> | Gemini 2.5 Pro (1M token context), Gemini 3 Pro with Deep Think reasoning, Google ADK, Vertex AI Agent Engine for GCP-native deployment. |
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="35"> AI Agent Frameworks
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Updated-December%202025-10B981?style=for-the-badge&labelColor=0d1117" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=LangGraph+1.0+%7C+CrewAI+%7C+OpenAI+Agents+SDK+%7C+AutoGen+%7C+Google+ADK" alt="Frameworks 1" />
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=MCP+Protocol+%7C+LangChain+%7C+LlamaIndex+%7C+Swarm+%7C+Claude+Code" alt="Frameworks 2" />
+</div>
+
+<br>
+
+| Framework | Detailed Experience |
+|:----------|:--------------------|
+| 🔷 **LangGraph 1.0** | Graph-based agent orchestration with state management, checkpointing for long-running workflows, LangGraph Studio for visual debugging, human-in-the-loop interrupts, conditional branching, parallel execution, production deployment patterns. |
+| 🔷 **CrewAI** | Role-based multi-agent team orchestration with hierarchical process management, custom tool integration, agent delegation patterns, memory sharing between agents, production deployment of collaborative agent systems. |
+| 🔷 **OpenAI Agents SDK** | Native OpenAI agent framework with agent handoffs, built-in guardrails, native tool calling with structured outputs, tracing and observability, conversation management, GPT-5/o3/o4 model integration. |
+| 🔷 **AutoGen / AG2** | Microsoft's multi-agent conversation framework with AutoGen 2.0 (AG2), Semantic Kernel integration, conversational agents with code execution, group chat orchestration, enterprise deployment patterns. |
+| 🔷 **Google ADK** | Google Agent Development Kit for building agents on Google Cloud, Vertex AI Agent Engine integration, GCP-native deployment, BigQuery and Cloud Storage tool access, enterprise-scale agent systems. |
+| 🔷 **MCP Protocol** | Model Context Protocol server development, custom tool integration, resource management, A2A (Agent-to-Agent) interoperability, MCP server for Browserbase, production MCP deployments. |
+| 🔷 **LangChain** | Chains, agents, memory systems (ConversationBufferMemory, VectorStoreMemory), document loaders (PDF, DOCX, HTML, CSV), retrievers, LangSmith observability, LCEL expression language. |
+| 🔷 **LlamaIndex** | RAG-first agent framework with query engines, data connectors, index optimization, enterprise retrieval patterns, structured output parsing, hybrid search implementations. |
+| 🔷 **Swarm (OpenAI)** | OpenAI's lightweight agent orchestration pattern for simple multi-agent handoffs, context variable passing, function-based agent transitions. |
+| 🔷 **Flowise / Dify** | Low-code LLM flow builders for visual agent design, custom node development, API deployment, rapid prototyping of agent workflows. |
+| 🔷 **Claude Code** | AI-powered development with Claude, MCP server development, agent automation, codebase analysis, multi-file code generation. |
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35"> LLM Providers & Models
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Updated-December%202025-10B981?style=for-the-badge&labelColor=0d1117" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=EC4899&center=true&vCenter=true&width=700&lines=OpenAI+%7C+Anthropic+%7C+Google+%7C+xAI+%7C+Meta+%7C+Mistral" alt="Providers 1" />
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=F59E0B&center=true&vCenter=true&width=600&lines=DeepSeek+%7C+Alibaba+%7C+Groq+%7C+Self-hosted" alt="Providers 2" />
+</div>
+
+<br>
+
+| Provider | Models & Experience |
+|:---------|:--------------------|
+| ⚡ **OpenAI** | GPT-5 (latest flagship), GPT-4o (multimodal), o3-pro and o4-mini (reasoning models), OpenAI Agents SDK, Assistants API with retrieval and code interpreter, Codex for code generation, Embeddings API (text-embedding-3-large), Whisper for speech-to-text, DALL-E 3 for image generation. |
+| ⚡ **Anthropic** | Claude 4.5 Opus (most capable), Claude 4.5 Sonnet (77.2% SWE-bench verified), Claude 4.5 Haiku (fast), Claude Code for development, MCP Protocol integration, prompt caching for 90% cost reduction, tool use with structured outputs. |
+| ⚡ **Google** | Gemini 2.5 Pro (1 million token context window), Gemini 3 Pro (latest), Deep Think reasoning mode, Gemini Flash for speed, Vertex AI integration, Google ADK for agent development. |
+| ⚡ **xAI** | Grok 4 (latest flagship), Grok 3 with real-time X/Twitter integration, real-time information access, multimodal capabilities. |
+| ⚡ **Meta** | Llama 4 Scout (17B active params, 10M token context), Llama 4 Maverick (17B active, multimodal), Llama 3.3 70B Instruct, Llama 3.2 Vision models, open-weight deployment options. |
+| ⚡ **Mistral AI** | Mistral Medium 3 (latest flagship), Codestral (code-specialized), Magistral (reasoning), Ministral (edge deployment), Mixtral 8x22B MoE, open-weight options. |
+| ⚡ **DeepSeek** | DeepSeek-V3.1 (671B parameters, MoE architecture), DeepSeek-R1 reasoning model (MIT license), R1-Distill variants for efficient deployment, open-weight with commercial use. |
+| ⚡ **Alibaba (Qwen)** | Qwen 3 (235B MoE, flagship), Qwen 2.5 Coder 32B (code-specialized), Qwen-Math (mathematical reasoning), Qwen-VL (vision-language), open-weight Apache 2.0 license. |
+| ⚡ **Groq** | LPU (Language Processing Unit) accelerated inference, ultra-fast token generation, Llama and Mixtral hosting, production API with consistent low latency. |
+| ⚡ **Self-Hosted** | Ollama (local LLM deployment), vLLM (high-throughput serving), LiteLLM (unified API with cost tracking), NVIDIA Triton Inference Server (GPU-accelerated), Text Generation Inference (TGI), llama.cpp (CPU/GPU inference). |
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<img src="https://media.giphy.com/media/j2pOGeGYKe2xCCKwfi/giphy.gif" width="35"> Tech Arsenal
+
+<div align="center">
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7bb1e704-6026-48f9-8435-2f4d40101348" width="250">
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=F59E0B&center=true&vCenter=true&width=200&lines=Languages" alt="Languages" />
 
 <img src="https://skillicons.dev/icons?i=python,typescript,javascript,go,rust,bash&theme=dark" />
-<br><br>
+<br> <br>
 <img src="https://skillicons.dev/icons?i=elixir,graphql&theme=dark" />
+
+| Language | Proficiency | Use Cases |
+|:---------|:------------|:----------|
+| **Python** | <img src="https://img.shields.io/badge/Expert-3B82F6?style=flat-square" /> | AI/ML, FastAPI/Django/Flask, automation, TensorFlow/PyTorch, Celery, data processing |
+| **TypeScript** | <img src="https://img.shields.io/badge/Expert-3B82F6?style=flat-square" /> | Full-stack web dev, Node.js backends, React/Next.js, enterprise applications |
+| **JavaScript** | <img src="https://img.shields.io/badge/Expert-3B82F6?style=flat-square" /> | Frontend development, Node.js, browser automation, scripting |
+| **Go** | <img src="https://img.shields.io/badge/Advanced-8B5CF6?style=flat-square" /> | High-performance backends, CLI tools, microservices. Projects: deep-wiki, osa-main |
+| **SQL** | <img src="https://img.shields.io/badge/Expert-3B82F6?style=flat-square" /> | PostgreSQL (CTEs, window functions, JSONB), MySQL, query optimization, schema design |
+| **GraphQL** | <img src="https://img.shields.io/badge/Advanced-8B5CF6?style=flat-square" /> | Schema design, resolvers, subscriptions, Apollo Server/Client, Hasura |
+| **Bash** | <img src="https://img.shields.io/badge/Expert-3B82F6?style=flat-square" /> | Scripting, automation, DevOps pipelines, CI/CD workflows |
+| **Svelte** | <img src="https://img.shields.io/badge/Advanced-8B5CF6?style=flat-square" /> | Frontend apps, SvelteKit. Projects: cyber_agents, svelte-map |
+| **Rust** | <img src="https://img.shields.io/badge/Intermediate-10B981?style=flat-square" /> | Systems programming, performance-critical components, WebAssembly |
+| **Elixir** | <img src="https://img.shields.io/badge/Intermediate-10B981?style=flat-square" /> | Distributed systems, Phoenix LiveView, fault-tolerant architectures |
 
 ---
 
-### 🔧 Backend & Frameworks
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=8B5CF6&center=true&vCenter=true&width=500&lines=FastAPI+%7C+Django+%7C+Flask+%7C+Express+%7C+NestJS+%7C+Phoenix" alt="Backend" />
-
-<br>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=8B5CF6&center=true&vCenter=true&width=300&lines=Backend+Frameworks" alt="Backend" />
 
 <img src="https://skillicons.dev/icons?i=fastapi,django,flask,express,nextjs,nestjs&theme=dark" />
 <br><br>
 <img src="https://skillicons.dev/icons?i=svelte,react,tailwind&theme=dark" />
 
+| Framework | Experience |
+|:----------|:-----------|
+| **FastAPI** | High-performance Python APIs, async/await, OpenAPI docs, Pydantic validation, WebSocket support |
+| **Django** | Full-stack Python, Django REST Framework, ORM optimization, admin panel, Celery integration |
+| **Flask** | Lightweight REST APIs, Blueprint modularization, Flask-SQLAlchemy |
+| **Express.js** | Node.js API framework, middleware patterns, Passport authentication |
+| **Next.js** | Full-stack React, API routes, SSR/SSG/ISR, App Router, Server Components, Vercel deployment |
+| **NestJS** | Enterprise Node.js, TypeScript-first, modular architecture, dependency injection, GraphQL |
+| **Phoenix (Elixir)** | LiveView real-time UI, Channels for WebSockets, Ecto ORM, fault-tolerant architecture |
+| **SvelteKit** | Full-stack Svelte apps, server routes, form actions, adapter-based deployment |
+| **gRPC** | Protocol Buffers, service definition, bidirectional streaming, service mesh integration |
+
 ---
 
-### 🗄️ Databases & Vector Stores
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=3FCF8E&center=true&vCenter=true&width=500&lines=PostgreSQL+%7C+Redis+%7C+MongoDB+%7C+Supabase+%7C+Neon" alt="Databases" />
-
-<br>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=3FCF8E&center=true&vCenter=true&width=350&lines=Databases+%26+Vector+Stores" alt="Databases" />
 
 <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,mysql,supabase&theme=dark" />
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=FF4F64&center=true&vCenter=true&width=500&lines=Qdrant+%7C+Pinecone+%7C+ChromaDB+%7C+pgvector+%7C+FAISS" alt="Vector DBs" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=FF4F64&center=true&vCenter=true&width=500&lines=Qdrant+%7C+Pinecone+%7C+ChromaDB+%7C+pgvector+%7C+FAISS+%7C+Elasticsearch" alt="Vector DBs" />
+
+| Database | Experience |
+|:---------|:-----------|
+| **PostgreSQL** | Primary DB, CTEs, window functions, JSONB, full-text search, pgvector for embeddings, replication |
+| **Redis** | In-memory store, caching, pub/sub messaging, streams, session storage, rate limiting |
+| **MongoDB** | Document database, aggregation pipelines, Atlas cloud deployment |
+| **Supabase** | Postgres + Auth + Storage + Realtime subscriptions, Row Level Security, edge functions |
+| **Neon** | Serverless Postgres, branching for development, autoscaling, Vercel integration |
+| **Qdrant** | Vector database for semantic search, embeddings storage, filtering, hybrid search, production RAG |
+| **Pinecone** | Managed vector database, similarity search, metadata filtering, serverless deployment |
+| **ChromaDB** | Local vector database, Python-native, rapid prototyping |
+| **FAISS** | Facebook AI Similarity Search, high-performance vector indexing, billion-scale search |
+| **Elasticsearch** | Full-text search, analytics, log aggregation, vector search capabilities |
 
 ---
 
-### ☁️ Cloud & DevOps
+### <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=DC382D&center=true&vCenter=true&width=350&lines=Message+Queues+%26+Events" alt="Queues" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=4285F4&center=true&vCenter=true&width=500&lines=Docker+%7C+Kubernetes+%7C+Terraform+%7C+AWS+%7C+GCP+%7C+Vercel" alt="Cloud" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=EA4B71&center=true&vCenter=true&width=600&lines=Redis+Pub%2FSub+%7C+Kafka+%7C+RabbitMQ+%7C+Celery+%7C+BullMQ+%7C+AWS+SQS" alt="Queues" />
 
-<br>
+| Technology | Experience |
+|:-----------|:-----------|
+| **Redis Pub/Sub** | Real-time messaging, event distribution, inter-agent communication at The Swarms Corporation |
+| **Redis Streams** | Persistent message queues, consumer groups, exactly-once processing |
+| **Apache Kafka** | Event streaming platform, high-throughput ingestion, topic partitioning, log compaction |
+| **RabbitMQ** | AMQP message broker, queue management, exchange patterns (direct, topic, fanout) |
+| **Celery** | Python distributed task queue, periodic tasks with Celery Beat, canvas workflows |
+| **BullMQ** | Node.js job queue, Redis-backed, delayed jobs, rate limiting, job prioritization |
+| **AWS SQS** | Managed message queue, FIFO queues, dead letter queues, Lambda integration |
+
+---
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=EA4B71&center=true&vCenter=true&width=350&lines=Automation+%26+Orchestration" alt="Automation" />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=EA4B71&center=true&vCenter=true&width=600&lines=n8n+%7C+Temporal+%7C+Airflow+%7C+Playwright+%7C+Puppeteer+%7C+Browserbase" alt="Automation" />
+
+| Technology | Experience |
+|:-----------|:-----------|
+| **n8n** | Production workflows, custom node development, LangChain nodes, Claude integration, webhook orchestration, self-hosted deployment |
+| **Custom n8n Nodes** | TypeScript node development, credential handling, pagination, error handling, testing |
+| **Temporal** | Durable workflow execution, long-running processes, saga patterns, workflow versioning |
+| **Apache Airflow** | Data pipeline orchestration, DAG authoring, scheduling, monitoring, XComs |
+| **Playwright** | Browser automation, E2E testing, web scraping (google-shopping-playwright-scraper), cross-browser |
+| **Puppeteer** | Chrome automation, PDF generation, screenshot capture, web scraping |
+| **Browserbase** | Cloud browser infrastructure, MCP server integration (mcp-server-browserbase) |
+
+---
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=4285F4&center=true&vCenter=true&width=250&lines=Cloud+%26+DevOps" alt="Cloud" />
 
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,gcp,vercel,cloudflare,githubactions&theme=dark" />
 
+| Technology | Experience |
+|:-----------|:-----------|
+| **Docker** | Containerization, multi-stage builds, Docker Compose, image optimization |
+| **Kubernetes** | Container orchestration, deployments, services, ingress, ConfigMaps, Helm charts |
+| **Terraform** | Infrastructure as Code, provider management, state management, modules |
+| **AWS** | EC2, S3, Lambda, ECS, RDS, SQS, SNS, API Gateway, CloudFront, IAM, CloudWatch |
+| **Google Cloud** | Compute Engine, Cloud Run, Cloud Functions, BigQuery, Vertex AI |
+| **Vercel** | Frontend deployment, serverless functions, Edge Runtime, Next.js optimization |
+| **Cloudflare** | CDN, Workers (serverless), R2 storage, D1 database, DNS management, DDoS protection |
+| **GitHub Actions** | CI/CD pipelines, automated testing, deployment workflows, matrix builds |
+
 ---
 
-### 📊 Observability & Monitoring
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=F46800&center=true&vCenter=true&width=500&lines=Prometheus+%7C+Grafana+%7C+LangSmith+%7C+Langfuse+%7C+Datadog+%7C+Sentry" alt="Observability" />
-
-<br>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=F46800&center=true&vCenter=true&width=350&lines=Observability+%26+Monitoring" alt="Observability" />
 
 <img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" />
 
+<br>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=F46800&center=true&vCenter=true&width=600&lines=LangSmith+%7C+Langfuse+%7C+Datadog+%7C+Sentry+%7C+OpenTelemetry" alt="Monitoring" />
+
+| Technology | Experience |
+|:-----------|:-----------|
+| **LangSmith** | LLM observability, trace visualization, prompt debugging, cost tracking, evaluation datasets |
+| **Langfuse** | Self-hosted LLM tracing, open-source observability, prompt management |
+| **Prometheus** | Metrics collection, time-series database, alerting rules, PromQL queries |
+| **Grafana** | Dashboards, visualization, alerting, data source integration, Loki for logs |
+| **Datadog** | APM, logging, infrastructure monitoring, distributed tracing |
+| **Sentry** | Error tracking, performance monitoring, release tracking |
+| **OpenTelemetry** | Distributed tracing, metrics, logs, vendor-agnostic instrumentation |
+
 ---
 
-### 🧠 AI/ML Infrastructure
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=FF6F00&center=true&vCenter=true&width=500&lines=TensorFlow+%7C+PyTorch+%7C+Hugging+Face+%7C+NVIDIA+Triton+%7C+vLLM" alt="AI/ML" />
-
-<br>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=FF6F00&center=true&vCenter=true&width=300&lines=AI%2FML+Infrastructure" alt="AI/ML" />
 
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" />
 
----
+<br>
 
-### ⚡ Automation & Message Queues
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=EA4B71&center=true&vCenter=true&width=500&lines=n8n+%7C+Temporal+%7C+Kafka+%7C+RabbitMQ+%7C+Redis+Pub%2FSub+%7C+Celery" alt="Automation" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=FF6F00&center=true&vCenter=true&width=500&lines=Hugging+Face+%7C+NVIDIA+Triton+%7C+vLLM+%7C+ONNX+%7C+scikit-learn" alt="AI/ML" />
 
 ---
 
-### 🔒 Security
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=FFEC6E&center=true&vCenter=true&width=150&lines=Security" alt="Security" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=FFEC6E&center=true&vCenter=true&width=400&lines=OAuth+2.0+%7C+JWT+%7C+HashiCorp+Vault+%7C+SSL%2FTLS" alt="Security" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=FFEC6E&center=true&vCenter=true&width=500&lines=OAuth+2.0+%7C+JWT+%7C+HashiCorp+Vault+%7C+SSL%2FTLS+%7C+API+Keys" alt="Security" />
 
 ---
 
-### 🧪 Testing
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=0A9EDC&center=true&vCenter=true&width=150&lines=Testing" alt="Testing" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=0A9EDC&center=true&vCenter=true&width=400&lines=Pytest+%7C+Jest+%7C+Vitest+%7C+Playwright+%7C+Cypress+%7C+k6" alt="Testing" />
+<img src="https://skillicons.dev/icons?i=jest,cypress&theme=dark" />
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=jest,cypress&theme=dark" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=0A9EDC&center=true&vCenter=true&width=500&lines=Pytest+%7C+Jest+%7C+Vitest+%7C+Playwright+%7C+Cypress+%7C+k6" alt="Testing" />
 
 </div>
 
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="30"> Featured Projects
+<img src="https://media.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif" width="35"> API Integrations
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Payments+%7C+Communication+%7C+Google+%7C+Social+%7C+CRM+%7C+Developer" alt="APIs" />
+</div>
+
+<br>
+
+| Category | Integrations |
+|:---------|:-------------|
+| 💳 **Payments** | Stripe (subscriptions, webhooks, Connect, Checkout, Payment Intents) |
+| 💬 **Communication** | Slack API, Discord API, Twilio (SMS, Voice, WhatsApp), SendGrid, Mailgun |
+| 📊 **Google** | Calendar, Docs, Sheets, Gmail, Drive |
+| 🌐 **Social** | Twitter/X API, Facebook Graph API, LinkedIn API |
+| 🏢 **CRM** | HubSpot API, Salesforce API, Notion API, Airtable API |
+| 👨‍💻 **Developer** | GitHub API (repository automation, webhooks, Actions) |
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="35"> Featured Projects
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=F59E0B&center=true&vCenter=true&width=500&lines=🏆+Award-Winning+%7C+Open+Source+%7C+Production-Ready" alt="Projects" />
@@ -200,35 +401,73 @@
 </div>
 
 <details>
-<summary><b>🔥 More Projects</b></summary>
+<summary><b>🤖 AI Agent & Automation Projects</b></summary>
 <br>
-
-<div align="center">
 
 | Project | Tech | Description |
 |:--------|:-----|:------------|
+| [Enhance-SOP-of-Prompts](https://github.com/OSOSerious/Enhance-SOP-of-Prompts) | `TypeScript` `LangGraph` | 🏆 **Hackathon 2nd Place** — Self-optimizing SOP system with continuous improvement loops |
+| [Real-Estate-Optimizer-swarm](https://github.com/OSOSerious/Real-Estate-Optimizer-swarm) | `Python` `Swarm` | Multi-agent swarm for real estate optimization |
+| [Google-ADK-Agents](https://github.com/OSOSerious/Google-ADK-Agents) | `Python` `Google ADK` | Google Agent Development Kit implementations |
 | [agent-template-groq](https://github.com/OSOSerious/agent-template-groq-) | `Python` `Groq LPU` | Ultra-fast inference agent template |
-| [cyber_agents](https://github.com/OSOSerious/cyber_agents) | `Svelte` | Cyber agents interface |
-| [v0-ai-landing-page](https://github.com/OSOSerious/v0-ai-landing-page) | `TypeScript` `Next.js` | AI-powered landing page |
+| [cyber_agents](https://github.com/OSOSerious/cyber_agents) | `Svelte` | Cyber agents management interface |
+| [Agents](https://github.com/OSOSerious/Agents) | `Multi-Framework` | Collection of agent implementations |
+| [everything-n8n](https://github.com/OSOSerious/everything-n8n) | `Node.js` `n8n` | Comprehensive n8n resources + Claude integration |
+| [awesome-n8n](https://github.com/OSOSerious/awesome-n8n) | `n8n` | Curated n8n workflows and resources |
+
+</details>
+
+<details>
+<summary><b>🔧 Full-Stack & Backend Projects</b></summary>
+<br>
+
+| Project | Tech | Description |
+|:--------|:-----|:------------|
+| [v0-ai-landing-page](https://github.com/OSOSerious/v0-ai-landing-page) | `TypeScript` `Next.js` | AI-powered landing page with v0 |
 | [google-shopping-scraper](https://github.com/OSOSerious/google-shopping-playwright-scraper) | `Python` `Playwright` | E-commerce data extraction |
+| [ai-and-google-doc](https://github.com/OSOSerious/ai-and-google-doc) | `TypeScript` | Google Docs + AI integration |
+| [emil-chatbot](https://github.com/OSOSerious/emil-chatbot) | `TypeScript` | Custom chatbot implementation |
+| [deep-wiki](https://github.com/OSOSerious/deep-wiki) | `Go` | Knowledge management system |
 | [miosa-insight-forge](https://github.com/OSOSerious/miosa-insight-forge) | `TypeScript` | Insight generation platform |
-| [ai-pyramid-visualization](https://github.com/OSOSerious/ai-pyramid-visualization) | `JavaScript` `Three.js` | 3D AI evolution visualization |
 | [vercel-neon-postgres](https://github.com/OSOSerious/vercel-with-neon-postgres) | `TypeScript` | Vercel + Neon Postgres template |
 | [fullstack-app-generator-bolt](https://github.com/OSOSerious/fullstack-app-generator-bolt) | `TypeScript` | Full-stack app generator |
-| [svelte-map](https://github.com/OSOSerious/svelte-map) | `Svelte` | Mapping application |
-| [awesome-chatgpt-prompts](https://github.com/OSOSerious/awesome-chatgpt-prompts) | `JavaScript` | Curated ChatGPT prompts |
 
-</div>
+</details>
+
+<details>
+<summary><b>🎨 Frontend & Developer Resources</b></summary>
+<br>
+
+| Project | Tech | Description |
+|:--------|:-----|:------------|
+| [ai-pyramid-visualization](https://github.com/OSOSerious/ai-pyramid-visualization) | `JavaScript` `Three.js` | 3D AI evolution visualization (ANI → AGI → ASI) |
+| [svelte-map](https://github.com/OSOSerious/svelte-map) | `Svelte` | Mapping application |
+| [card-animation](https://github.com/OSOSerious/card-animation) | `TypeScript` | Card animation component library |
+| [Awesome-Context-Engineering](https://github.com/OSOSerious/Awesome-Context-Engineering) | `Research` | Hundreds of context engineering papers |
+| [awesome-chatgpt-prompts](https://github.com/OSOSerious/awesome-chatgpt-prompts) | `JavaScript` | Curated ChatGPT prompts |
 
 </details>
 
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> What I Deliver
+<img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="35"> Professional Experience
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=10B981&center=true&vCenter=true&width=500&lines=Production+Systems+%7C+Not+Demos;Infrastructure+You+Own+%7C+Not+Rent" alt="Deliver" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=8B5CF6&center=true&vCenter=true&width=400&lines=6+Professional+Roles+%7C+6%2B+Years" alt="Experience" />
+</div>
+
+<br>
+
+<img src="https://img.shields.io/badge/Current-10B981?style=flat-square" /> Lunivate — Lead Software Developer
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35"> What I Deliver
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=10B981&center=true&vCenter=true&width=600&lines=Production+Systems+Designed+for+Agencies+to+Deploy+to+Clients" alt="Deliver" />
 </div>
 
 <br>
@@ -238,46 +477,27 @@
 | <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="20"> AI Agents | <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="20"> Automation | <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="20"> Integration |
 |:-------------|:--------------|:---------------|
 | Multi-agent systems (LangGraph/CrewAI) | n8n workflows + LLM integrations | API design & documentation |
-| Tool calling & MCP integration | Custom node development | Webhooks & event handling |
-| Human-in-the-loop workflows | Event-driven architecture | Stripe, Google, Slack, CRMs |
-| Memory & context systems | Background job processing | Data sync & migration |
+| Tool calling with structured outputs | Custom n8n node development | Webhooks & event handling |
+| MCP Protocol integration | API orchestration and chaining | Data synchronization patterns |
+| Persistent memory (Qdrant, Pinecone) | Event-driven architecture | Stripe, Google, Slack, CRMs |
+| Human-in-the-loop approval | Background job processing | Migration planning |
+| GPT-5, Claude 4.5, Llama 4 support | Webhook management | Legacy system integration |
 
-| <img src="https://media.giphy.com/media/3oKIPic2BnoVZkRla8/giphy.gif" width="20"> Optimization | <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="20"> Privacy | <img src="https://media.giphy.com/media/fwbzI2kV3Qrlpkh59e/giphy.gif" width="20"> Architecture |
+| <img src="https://media.giphy.com/media/3oKIPic2BnoVZkRla8/giphy.gif" width="20"> Optimization | <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="20"> Privacy | <img src="https://media.giphy.com/media/fwbzI2kV3Qrlpkh59e/giphy.gif" width="20"> Training |
 |:----------------|:------------------------|:-----------------|
-| Cost-controlled LLM usage | Local/VPC (Ollama, vLLM) | Local/private AI stacks |
-| Prompt caching (90% cost ↓) | Data never leaves your infra | Modular design patterns |
-| Hybrid model routing | Open source model deployment | Future-proof architecture |
-| LangSmith/Langfuse observability | Compliance-ready architecture | Scalable infrastructure |
+| Cost-controlled LLM usage | Local/VPC (Ollama, vLLM, LiteLLM) | Technical documentation |
+| Prompt caching (90% cost ↓) | Data never leaves your infra | Knowledge base creation |
+| Hybrid model routing | Open source model deployment | Onboarding materials |
+| Token optimization | Compliance-ready architecture | Team training sessions |
+| LangSmith/Langfuse observability | Audit trail logging | Video walkthroughs |
+| Performance benchmarking | GDPR/HIPAA considerations | Ongoing support options |
 
 </div>
 
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif" width="30"> API Integrations
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=3B82F6&center=true&vCenter=true&width=500&lines=Payments+%7C+Communication+%7C+Google+%7C+Social+%7C+AI%2FLLM" alt="APIs" />
-</div>
-
-<br>
-
-<div align="center">
-
-| Category | Integrations |
-|:---------|:-------------|
-| 💳 **Payments** | Stripe, Subscriptions, Webhooks, Billing |
-| 💬 **Communication** | Slack, Discord, Twilio, WhatsApp, SendGrid, Mailgun |
-| 📊 **Google APIs** | Calendar, Docs, Sheets, Gmail, Drive |
-| 🌐 **Social & CRM** | Twitter/X, Facebook, LinkedIn, HubSpot, Salesforce, Notion, Airtable |
-| 🤖 **AI/LLM** | OpenAI, Anthropic, Google AI, Groq, Replicate |
-
-</div>
-
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> GitHub Stats
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35"> GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=OSOSerious&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=8B5CF6&text_color=c9d1d9" height="180"/>
@@ -299,152 +519,32 @@
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="30"> Capabilities Overview
+<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width="60"> Let's Build
 
 <div align="center">
-
-My bad, got cut off. Here's the complete section that matches your README style:
-
-
-## <img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="30"> Capabilities Overview
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=120&section=header&text=NICHOLAS%20DEL%20NEGRO&fontSize=30&fontColor=3B82F6&animation=fadeIn&desc=AI%20Agent%20Architect&descSize=14&descAlignY=75&descColor=8B5CF6"/>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=EC4899&center=true&vCenter=true&width=450&lines=%22Own+your+systems%2C+don't+rent+them.%22" alt="Tagline" />
-</div>
-
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=10B981&center=true&vCenter=true&width=200&lines=WHAT+I+BUILD" alt="What I Build" />
-</div>
-
-<div align="center">
-  <table>
-    <tr><td>→</td><td>AI agent automation frameworks with production-grade orchestration</td></tr>
-    <tr><td>→</td><td>MCP-driven platforms connecting LLMs to real tools and data</td></tr>
-    <tr><td>→</td><td>Multi-agent systems with failover logic, memory, and human-in-the-loop</td></tr>
-    <tr><td>→</td><td>Private AI stacks that never leave your infrastructure</td></tr>
-  </table>
-</div>
-
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=3B82F6&center=true&vCenter=true&width=200&lines=AGENT+FRAMEWORKS" alt="Frameworks" />
-</div>
-
-| Framework |
-|:----------|
-| 🔷 **LangGraph 1.0** |
-| 🔷 **CrewAI** |
-| 🔷 **OpenAI Agents SDK** |
-| 🔷 **AutoGen / AG2** |
-| 🔷 **Google ADK** |
-| 🔷 **MCP Protocol** |
-
-</td>
-<td width="50%" valign="top">
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=EC4899&center=true&vCenter=true&width=200&lines=LLM+PROVIDERS" alt="Providers" />
-</div>
-
-| Provider |
-|:---------|
-| ⚡ **OpenAI** (GPT-5, GPT-4o, o3-pro) |
-| ⚡ **Anthropic** (Claude 4.5, Claude Code) |
-| ⚡ **Google** (Gemini 2.5/3 Pro) |
-| ⚡ **Meta** (Llama 4) |
-| ⚡ **Mistral, DeepSeek, Qwen** |
-| ⚡ **Self-hosted** (Ollama, vLLM) |
-
-</td>
-</tr>
-</table>
-
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=F59E0B&center=true&vCenter=true&width=200&lines=WHAT+I+DELIVER" alt="What I Deliver" />
-</div>
-
-<div align="center">
-
-| <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="18"> AI Agents | <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="18"> Automation | <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="18"> Integration |
-|:-------------|:--------------|:---------------|
-| Multi-agent systems | n8n workflows | API design |
-| Tool calling | Custom nodes | Webhooks |
-| MCP integration | Event-driven | Stripe/Google |
-| Memory systems | Background jobs | Slack/CRMs |
-
-| <img src="https://media.giphy.com/media/3oKIPic2BnoVZkRla8/giphy.gif" width="18"> Optimization | <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="18"> Privacy | <img src="https://media.giphy.com/media/fwbzI2kV3Qrlpkh59e/giphy.gif" width="18"> Architecture |
-|:----------------|:-----------|:-----------------|
-| Cost control | Local/VPC | Private stacks |
-| Prompt caching | Data isolation | Modular design |
-| Model routing | Compliance-ready | Future-proof |
-| Observability | Open source | Scalable |
-
-</div>
-
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=8B5CF6&center=true&vCenter=true&width=550&lines=100%2B+Repos+•+6%2B+Years+•+11+Agent+Frameworks+•+10%2B+LLM+Providers" alt="Stats" />
-</div>
-
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1000&color=EC4899&center=true&vCenter=true&width=600&lines=I+don't+build+demos+—+I+build+production+systems." alt="Closing" />
-</div>
-'''
-
-**Now it matches:**
-- Same animated line dividers
-- Same table styling as your "What I Deliver" section
-- Same animated GIF headers in tables
-- Same typing SVG patterns
-- Same color scheme (3B82F6, 8B5CF6, EC4899, 10B981, F59E0B)
-- Capsule render header that matches the footer style
-
-Drop this in place of the old ASCII block.
-
-</div>
-
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width="60"> Let's Build
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=EC4899&center=true&vCenter=true&width=500&lines=Available+for+consulting+%26+projects;Let's+build+production+systems+together" alt="Contact" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=EC4899&center=true&vCenter=true&width=600&lines=Available+for+consulting+%26+projects;Let's+build+production+systems+together" alt="Contact" />
 </div>
 
 <br>
 
 <div align="center">
-  <a href="mailto:nicholasdelnegro80@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
   <a href="https://github.com/OSOSerious">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/nicholas-del-negro">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://x.com/OSO_5erious">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
   </a>
+</div>
+
+<br>
+
+<!-- Philosophy Box -->
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=3B82F6&center=true&vCenter=true&width=500&lines=Systems+That+Businesses+Own" alt="Philosophy" />
+</div>
+
+<div align="center">
+  <i>No more renting disconnected software. I build infrastructure where you own the code and data, you control the deployment, you can audit every workflow, you can extend and customize freely, and you're not locked into vendor pricing.</i>
 </div>
 
 <br>
@@ -473,3 +573,5 @@ Drop this in place of the old ASCII block.
 
 <!-- Animated Bottom Marquee -->
 <img src="https://raw.githubusercontent.com/trinib/trinib/a5f17399d881c5651a89bfe4a621014b08346cf0/images/marquee.svg">
+
+
