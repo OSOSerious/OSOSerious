@@ -9,8 +9,7 @@
 <!-- Stats Badges with Animation -->
 <div align="center">
 
-  
-</div>
+  </div>
 <br>
 <!-- About Section with Glow Effect -->
 <div align="center">
