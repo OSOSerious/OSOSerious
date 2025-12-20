@@ -449,7 +449,7 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/Current-10B981?style=flat-square" /> Lunivate — Lead Software Developer
+<img src="https://img.shields.io/badge/Current-10B981?style=flat-square" /> 
 
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
