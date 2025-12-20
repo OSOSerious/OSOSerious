@@ -1,64 +1,34 @@
 <div align="center">
-  
-  <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Nicholas%20Del%20Negro&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Agent%20Architect%20%7C%20MCP%20Platforms%20%7C%20Systems%20Engineer&descAlignY=52&descSize=18"/>
-
-  <!-- Typing Animation -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=80&lines=%22Own+your+systems%2C+don't+rent+them.%22;Infrastructure+you+control%2C+audit%2C+and+scale." alt="Typing SVG" />
-
+  <table>
+    <tr>
+      <td>🤖</td>
+      <td><b>AI agent automation frameworks</b> with production-grade orchestration</td>
+    </tr>
+    <tr>
+      <td>🔌</td>
+      <td><b>MCP-driven platforms</b> connecting LLMs to real tools and data</td>
+    </tr>
+    <tr>
+      <td>⚡</td>
+      <td><b>Multi-agent systems</b> with failover logic, memory, and human-in-the-loop</td>
+    </tr>
+    <tr>
+      <td>🔒</td>
+      <td><b>Private AI stacks</b> that never leave your infrastructure</td>
+    </tr>
+  </table>
 </div>
-
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<!-- Stats Badges with Animation -->
-<div align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&label=Repos&query=public_repos&url=https://api.github.com/users/OSOSerious&color=3B82F6&labelColor=1a1b27" />
-  <img src="https://img.shields.io/badge/Experience-6%2B%20Years-8B5CF6?style=for-the-badge&labelColor=1a1b27" />
-  <img src="https://img.shields.io/badge/LLM%20Providers-10+-EC4899?style=for-the-badge&labelColor=1a1b27" />
-  <img src="https://img.shields.io/badge/Agent%20Frameworks-11-10B981?style=for-the-badge&labelColor=1a1b27" />
-  <img src="https://img.shields.io/badge/Languages-12-F59E0B?style=for-the-badge&labelColor=1a1b27" />
-</div>
-
-<br>
-
-<!-- About Section with Glow Effect -->
-<div align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" width="400">
-</div>
-
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> What I Build
-
-```typescript
-const nicholas = {
-    focus: "AI Agent Automation Frameworks & MCP-Driven Platforms",
-    philosophy: "Own your systems, don't rent them",
-    background: "Self-taught systems engineer — no CS degree, just production systems",
-    approach: "I don't build demos — I build production systems"
-};
-```
-
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="30"> Requirements Match
-
-| Requirement | My Experience |
-|:------------|:--------------|
-| **AI Builder** | Multi-agent orchestration — GPT-5, Claude 4.5, Gemini 2.5 Pro, Grok 4, Llama 4 |
-| **AI Chatbot** | Production chatbots — NLP, RAG pipelines, Qdrant/Pinecone, healthcare AI |
-| **AI Bot** | Autonomous agents — tool calling, MCP integration, LangGraph checkpointing, human-in-loop |
-| **n8n** | Production workflows, custom node development, n8n-claude-automation, LangChain nodes |
-| **Python** | Expert — FastAPI, Django, Flask, TensorFlow, PyTorch, Celery, scikit-learn |
-| **TensorFlow** | Deep learning, model training, deployment, NVIDIA Triton, Hugging Face |
-| **Django** | Full-stack Python, ORM, admin panels, REST APIs, Celery task queues |
-| **OpenAI GPT** | GPT-5, GPT-4o, o3-pro/o4-mini reasoning, Agents SDK, Assistants API, function calling |
-| **Google Cloud AI** | Gemini 2.5 Pro (1M ctx), Gemini 3 Pro, Google ADK, Vertex AI Agent Engine |
 
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2gy3bvzwdzafc&rid=giphy.gif" width="30"> AI Agent Stack
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=EC4899&center=true&vCenter=true&width=600&lines=LangGraph+1.0+%7C+CrewAI+%7C+AutoGen+%7C+Google+ADK;OpenAI+Agents+SDK+%7C+MCP+Protocol+%7C+Claude+Code;Swarm+%7C+LlamaIndex+%7C+LangChain+%7C+Flowise" alt="Agent Frameworks" />
+</div>
+
+<br>
 
 <table>
 <tr>
@@ -108,121 +78,100 @@ const nicholas = {
 ## <img src="https://media.giphy.com/media/j2pOGeGYKe2xCCKwfi/giphy.gif" width="30"> Tech Arsenal
 
 <div align="center">
-
-### 💻 Languages
-  
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,go,rust,bash&theme=dark" />
-<br>
-<img src="https://skillicons.dev/icons?i=elixir,graphql,svelte&theme=dark" />
-
-### 🔧 Backend & Frameworks
-
-<img src="https://skillicons.dev/icons?i=fastapi,django,flask,express,nextjs,nestjs&theme=dark" />
-
-### 🗄️ Databases & Vector Stores
-
-<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,mysql,supabase&theme=dark" />
-<br><br>
-![Qdrant](https://img.shields.io/badge/-Qdrant-FF4F64?style=for-the-badge&logoColor=white)
-![Pinecone](https://img.shields.io/badge/-Pinecone-000000?style=for-the-badge&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6B6B?style=for-the-badge&logoColor=white)
-![pgvector](https://img.shields.io/badge/-pgvector-4169E1?style=for-the-badge&logoColor=white)
-![FAISS](https://img.shields.io/badge/-FAISS-0467DF?style=for-the-badge&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-
-### ☁️ Cloud & DevOps
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,gcp,vercel,cloudflare,githubactions&theme=dark" />
-<br><br>
-![DigitalOcean](https://img.shields.io/badge/-DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
-![Railway](https://img.shields.io/badge/-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
-![NGINX](https://img.shields.io/badge/-NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
-
-### 📊 Observability & Monitoring
-
-<img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" />
-<br><br>
-![LangSmith](https://img.shields.io/badge/-LangSmith-1C3C3C?style=for-the-badge&logoColor=white)
-![Langfuse](https://img.shields.io/badge/-Langfuse-000000?style=for-the-badge&logoColor=white)
-![Datadog](https://img.shields.io/badge/-Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
-![Sentry](https://img.shields.io/badge/-Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
-![PagerDuty](https://img.shields.io/badge/-PagerDuty-06AC38?style=for-the-badge&logo=pagerduty&logoColor=white)
-
-### 🧠 AI/ML
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" />
-<br><br>
-![Hugging Face](https://img.shields.io/badge/-🤗%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black)
-![NVIDIA Triton](https://img.shields.io/badge/-Triton-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![ONNX](https://img.shields.io/badge/-ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-
-### 🔓 Open Source LLMs
-
-![Llama 4](https://img.shields.io/badge/-Llama%204%20(10M%20ctx)-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-![DeepSeek-V3](https://img.shields.io/badge/-DeepSeek--V3%20(671B)-000000?style=for-the-badge&logoColor=white)
-![DeepSeek-R1](https://img.shields.io/badge/-DeepSeek--R1-000000?style=for-the-badge&logoColor=white)
-![Qwen 3](https://img.shields.io/badge/-Qwen%203%20235B-1A73E8?style=for-the-badge&logoColor=white)
-![Qwen 2.5 Coder](https://img.shields.io/badge/-Qwen%202.5%20Coder-1A73E8?style=for-the-badge&logoColor=white)
-![Mixtral](https://img.shields.io/badge/-Mixtral%208x22B-FF7000?style=for-the-badge&logoColor=white)
-![Gemma 3](https://img.shields.io/badge/-Gemma%203%2027B-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
-### ⚡ Automation & Queues
-
-![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Temporal](https://img.shields.io/badge/-Temporal-000000?style=for-the-badge&logoColor=white)
-![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Redis Pub/Sub](https://img.shields.io/badge/-Redis%20Pub%2FSub-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Celery](https://img.shields.io/badge/-Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
-![BullMQ](https://img.shields.io/badge/-BullMQ-E63C4D?style=for-the-badge&logoColor=white)
-![AWS SQS](https://img.shields.io/badge/-AWS%20SQS-FF9900?style=for-the-badge&logo=amazonsqs&logoColor=white)
-
-### 🔒 Security
-
-![OAuth 2.0](https://img.shields.io/badge/-OAuth%202.0%2FOIDC-000000?style=for-the-badge&logoColor=white)
-![JWT](https://img.shields.io/badge/-JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![HashiCorp Vault](https://img.shields.io/badge/-Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
-![SSL/TLS](https://img.shields.io/badge/-SSL%2FTLS-721412?style=for-the-badge&logoColor=white)
-![Rate Limiting](https://img.shields.io/badge/-Rate%20Limiting-4A154B?style=for-the-badge&logoColor=white)
-
-### 🧪 Testing
-
-![Pytest](https://img.shields.io/badge/-Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Jest](https://img.shields.io/badge/-Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Vitest](https://img.shields.io/badge/-Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Cypress](https://img.shields.io/badge/-Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
-![k6](https://img.shields.io/badge/-k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
-![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-### 🌐 Browser Automation
-
-![Playwright](https://img.shields.io/badge/-Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Puppeteer](https://img.shields.io/badge/-Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white)
-![Browserbase](https://img.shields.io/badge/-Browserbase-000000?style=for-the-badge&logoColor=white)
-![Firecrawl](https://img.shields.io/badge/-Firecrawl-FF4500?style=for-the-badge&logoColor=white)
-
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7bb1e704-6026-48f9-8435-2f4d40101348" width="300">
 </div>
 
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> API Integrations Built
+<br>
 
 <div align="center">
 
-| 💳 Payments | 📧 Communication | 🔗 Google APIs | 📱 Social & CRM |
-|:------------|:-----------------|:---------------|:----------------|
-| Stripe | Slack | Calendar | Twitter/X |
-| Subscriptions | Discord | Docs | Facebook |
-| Webhooks | Twilio | Sheets | LinkedIn |
-| | WhatsApp | Gmail | HubSpot |
-| | SendGrid | | Salesforce |
-| | Mailgun | | Notion |
-| | | | Airtable |
+### 💻 Languages
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=F59E0B&center=true&vCenter=true&width=500&lines=Python+%7C+TypeScript+%7C+JavaScript+%7C+Go+%7C+Rust+%7C+Elixir" alt="Languages" />
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=python,typescript,javascript,go,rust,bash&theme=dark" />
+<br><br>
+<img src="https://skillicons.dev/icons?i=elixir,graphql&theme=dark" />
+
+---
+
+### 🔧 Backend & Frameworks
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=8B5CF6&center=true&vCenter=true&width=500&lines=FastAPI+%7C+Django+%7C+Flask+%7C+Express+%7C+NestJS+%7C+Phoenix" alt="Backend" />
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=fastapi,django,flask,express,nextjs,nestjs&theme=dark" />
+<br><br>
+<img src="https://skillicons.dev/icons?i=svelte,react,tailwind&theme=dark" />
+
+---
+
+### 🗄️ Databases & Vector Stores
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=3FCF8E&center=true&vCenter=true&width=500&lines=PostgreSQL+%7C+Redis+%7C+MongoDB+%7C+Supabase+%7C+Neon" alt="Databases" />
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,mysql,supabase&theme=dark" />
+
+<br>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=FF4F64&center=true&vCenter=true&width=500&lines=Qdrant+%7C+Pinecone+%7C+ChromaDB+%7C+pgvector+%7C+FAISS" alt="Vector DBs" />
+
+---
+
+### ☁️ Cloud & DevOps
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=4285F4&center=true&vCenter=true&width=500&lines=Docker+%7C+Kubernetes+%7C+Terraform+%7C+AWS+%7C+GCP+%7C+Vercel" alt="Cloud" />
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,gcp,vercel,cloudflare,githubactions&theme=dark" />
+
+---
+
+### 📊 Observability & Monitoring
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=F46800&center=true&vCenter=true&width=500&lines=Prometheus+%7C+Grafana+%7C+LangSmith+%7C+Langfuse+%7C+Datadog+%7C+Sentry" alt="Observability" />
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" />
+
+---
+
+### 🧠 AI/ML Infrastructure
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=FF6F00&center=true&vCenter=true&width=500&lines=TensorFlow+%7C+PyTorch+%7C+Hugging+Face+%7C+NVIDIA+Triton+%7C+vLLM" alt="AI/ML" />
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" />
+
+---
+
+### ⚡ Automation & Message Queues
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=EA4B71&center=true&vCenter=true&width=500&lines=n8n+%7C+Temporal+%7C+Kafka+%7C+RabbitMQ+%7C+Redis+Pub%2FSub+%7C+Celery" alt="Automation" />
+
+---
+
+### 🔒 Security
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=FFEC6E&center=true&vCenter=true&width=400&lines=OAuth+2.0+%7C+JWT+%7C+HashiCorp+Vault+%7C+SSL%2FTLS" alt="Security" />
+
+---
+
+### 🧪 Testing
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=0A9EDC&center=true&vCenter=true&width=400&lines=Pytest+%7C+Jest+%7C+Vitest+%7C+Playwright+%7C+Cypress+%7C+k6" alt="Testing" />
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=jest,cypress&theme=dark" />
 
 </div>
 
@@ -230,6 +179,12 @@ const nicholas = {
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="30"> Featured Projects
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=F59E0B&center=true&vCenter=true&width=500&lines=🏆+Award-Winning+%7C+Open+Source+%7C+Production-Ready" alt="Projects" />
+</div>
+
+<br>
 
 <div align="center">
 
@@ -245,54 +200,25 @@ const nicholas = {
 </div>
 
 <details>
-<summary><b>🤖 AI Agent & Automation Projects</b></summary>
+<summary><b>🔥 More Projects</b></summary>
 <br>
+
+<div align="center">
 
 | Project | Tech | Description |
 |:--------|:-----|:------------|
-| 🏆 [Enhance-SOP-of-Prompts](https://github.com/OSOSerious/Enhance-SOP-of-Prompts) | `TypeScript` `LangGraph` | Award-winning self-optimizing SOP system |
-| [Real-Estate-Optimizer-swarm](https://github.com/OSOSerious/Real-Estate-Optimizer-swarm) | `Python` `Multi-agent` | Multi-agent swarm for real estate optimization |
-| [Google-ADK-Agents](https://github.com/OSOSerious/Google-ADK-Agents) | `Python` `Google ADK` | Google Agent Development Kit implementations |
 | [agent-template-groq](https://github.com/OSOSerious/agent-template-groq-) | `Python` `Groq LPU` | Ultra-fast inference agent template |
 | [cyber_agents](https://github.com/OSOSerious/cyber_agents) | `Svelte` | Cyber agents interface |
-| [Agents](https://github.com/OSOSerious/Agents) | `Multi-framework` | Agent frameworks collection |
-| [everything-n8n](https://github.com/OSOSerious/everything-n8n) | `Node.js` `n8n` `Claude` | Comprehensive n8n resources + Claude integration |
-| [awesome-n8n](https://github.com/OSOSerious/awesome-n8n) | `n8n Resources` | Curated n8n workflows and community resources |
-
-</details>
-
-<details>
-<summary><b>🔧 Full-Stack & Backend Projects</b></summary>
-<br>
-
-| Project | Tech | Description |
-|:--------|:-----|:------------|
-| [v0-ai-landing-page](https://github.com/OSOSerious/v0-ai-landing-page) | `TypeScript` `Next.js` | AI-powered landing page with v0 |
+| [v0-ai-landing-page](https://github.com/OSOSerious/v0-ai-landing-page) | `TypeScript` `Next.js` | AI-powered landing page |
 | [google-shopping-scraper](https://github.com/OSOSerious/google-shopping-playwright-scraper) | `Python` `Playwright` | E-commerce data extraction |
-| [ai-and-google-doc](https://github.com/OSOSerious/ai-and-google-doc) | `TypeScript` `Google APIs` | Google Docs + AI integration |
-| [emil-chatbot](https://github.com/OSOSerious/emil-chatbot) | `TypeScript` | Custom chatbot implementation |
-| [sales-funnel](https://github.com/OSOSerious/sales-funnel) | `JavaScript` | Sales funnel builder |
 | [miosa-insight-forge](https://github.com/OSOSerious/miosa-insight-forge) | `TypeScript` | Insight generation platform |
-| [deep-wiki](https://github.com/OSOSerious/deep-wiki) | `Go` | Knowledge management system |
-| [osa-deep-wiki](https://github.com/OSOSerious/osa-deep-wiki) | `Go` | OSA wiki integration |
-| [vercel-neon-postgres](https://github.com/OSOSerious/vercel-with-neon-postgres) | `TypeScript` `Vercel` `Neon` | Vercel + Neon Postgres template |
-| [fullstack-app-generator-bolt](https://github.com/OSOSerious/fullstack-app-generator-bolt) | `TypeScript` `Bolt` | Full-stack app generator |
 | [ai-pyramid-visualization](https://github.com/OSOSerious/ai-pyramid-visualization) | `JavaScript` `Three.js` | 3D AI evolution visualization |
-| [super](https://github.com/OSOSerious/super) | `TypeScript` | Super UI framework |
-
-</details>
-
-<details>
-<summary><b>🎨 Frontend & Developer Resources</b></summary>
-<br>
-
-| Project | Tech | Description |
-|:--------|:-----|:------------|
+| [vercel-neon-postgres](https://github.com/OSOSerious/vercel-with-neon-postgres) | `TypeScript` | Vercel + Neon Postgres template |
+| [fullstack-app-generator-bolt](https://github.com/OSOSerious/fullstack-app-generator-bolt) | `TypeScript` | Full-stack app generator |
 | [svelte-map](https://github.com/OSOSerious/svelte-map) | `Svelte` | Mapping application |
-| [wcat-svelte](https://github.com/OSOSerious/wcat-svelte) | `Svelte` | WCAT Svelte interface |
-| [card-animation](https://github.com/OSOSerious/card-animation) | `TypeScript` | Card animation components |
-| [Awesome-Context-Engineering](https://github.com/OSOSerious/Awesome-Context-Engineering) | `Research` `Papers` | Hundreds of context engineering papers |
 | [awesome-chatgpt-prompts](https://github.com/OSOSerious/awesome-chatgpt-prompts) | `JavaScript` | Curated ChatGPT prompts |
+
+</div>
 
 </details>
 
@@ -302,43 +228,49 @@ const nicholas = {
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> What I Deliver
 
 <div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=10B981&center=true&vCenter=true&width=500&lines=Production+Systems+%7C+Not+Demos;Infrastructure+You+Own+%7C+Not+Rent" alt="Deliver" />
+</div>
 
-| 🤖 AI Agents | ⚙️ Automation | 🔗 Integration |
+<br>
+
+<div align="center">
+
+| <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="20"> AI Agents | <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="20"> Automation | <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="20"> Integration |
 |:-------------|:--------------|:---------------|
 | Multi-agent systems (LangGraph/CrewAI) | n8n workflows + LLM integrations | API design & documentation |
 | Tool calling & MCP integration | Custom node development | Webhooks & event handling |
 | Human-in-the-loop workflows | Event-driven architecture | Stripe, Google, Slack, CRMs |
 | Memory & context systems | Background job processing | Data sync & migration |
 
-| 📈 Optimization | 🔒 Privacy & Compliance | 📚 Training & Support |
-|:----------------|:------------------------|:----------------------|
-| Cost-controlled LLM usage | Local/VPC (Ollama, vLLM) | Documentation & knowledge bases |
-| Prompt caching (90% cost ↓) | Data never leaves your infra | Onboarding materials |
-| Hybrid model routing | Open source model deployment | Team training sessions |
-| LangSmith/Langfuse observability | Compliance-ready architecture | Knowledge transfer |
+| <img src="https://media.giphy.com/media/3oKIPic2BnoVZkRla8/giphy.gif" width="20"> Optimization | <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="20"> Privacy | <img src="https://media.giphy.com/media/fwbzI2kV3Qrlpkh59e/giphy.gif" width="20"> Architecture |
+|:----------------|:------------------------|:-----------------|
+| Cost-controlled LLM usage | Local/VPC (Ollama, vLLM) | Local/private AI stacks |
+| Prompt caching (90% cost ↓) | Data never leaves your infra | Modular design patterns |
+| Hybrid model routing | Open source model deployment | Future-proof architecture |
+| LangSmith/Langfuse observability | Compliance-ready architecture | Scalable infrastructure |
 
 </div>
 
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="30"> Consultation Services
+## <img src="https://media.giphy.com/media/uhQuegHFqkVYuFMXMQ/giphy.gif" width="30"> API Integrations
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=3B82F6&center=true&vCenter=true&width=500&lines=Payments+%7C+Communication+%7C+Google+%7C+Social+%7C+AI%2FLLM" alt="APIs" />
+</div>
+
+<br>
 
 <div align="center">
 
-| 🎯 AI Strategy | 💬 NLP & Communication | 🔄 Workflow Automation |
-|:---------------|:-----------------------|:-----------------------|
-| Where AI fits in your business | Email/message summarization | Beyond Zapier/Make |
-| What to automate first | Natural language Q&A | Code-backed systems |
-| Build vs buy decisions | Document parsing | n8n, Temporal, custom APIs |
-| ROI analysis | Voice and text interfaces | Pipeline development |
-
-| 🛠️ AI Development | 🔌 Integration Guidance | 🏗️ Architecture |
-|:-------------------|:------------------------|:-----------------|
-| OpenAI, Claude, Groq, HF | Connect AI to your stack | Local/private AI stacks |
-| Robust prompts & agents | APIs, webhooks, queues | Data flow & access control |
-| Tool design & integration | Slack, Gmail, CRMs | Modular design |
-| Memory & context management | Data synchronization | Future-proof architecture |
+| Category | Integrations |
+|:---------|:-------------|
+| 💳 **Payments** | Stripe, Subscriptions, Webhooks, Billing |
+| 💬 **Communication** | Slack, Discord, Twilio, WhatsApp, SendGrid, Mailgun |
+| 📊 **Google APIs** | Calendar, Docs, Sheets, Gmail, Drive |
+| 🌐 **Social & CRM** | Twitter/X, Facebook, LinkedIn, HubSpot, Salesforce, Notion, Airtable |
+| 🤖 **AI/LLM** | OpenAI, Anthropic, Google AI, Groq, Replicate |
 
 </div>
 
@@ -352,9 +284,13 @@ const nicholas = {
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OSOSerious&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3B82F6&text_color=c9d1d9" height="180"/>
 </div>
 
+<br>
+
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=OSOSerious&theme=tokyonight&hide_border=true&background=0d1117&stroke=3B82F6&ring=8B5CF6&fire=EC4899&currStreakLabel=c9d1d9" />
 </div>
+
+<br>
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=OSOSerious&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=3B82F6&line=8B5CF6&point=EC4899" width="100%"/>
@@ -363,27 +299,157 @@ const nicholas = {
 <!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width="60"> Connect
+## <img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="30"> Capabilities Overview
 
 <div align="center">
-  
+
+My bad, got cut off. Here's the complete section that matches your README style:
+
+
+## <img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="30"> Capabilities Overview
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=120&section=header&text=NICHOLAS%20DEL%20NEGRO&fontSize=30&fontColor=3B82F6&animation=fadeIn&desc=AI%20Agent%20Architect&descSize=14&descAlignY=75&descColor=8B5CF6"/>
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=EC4899&center=true&vCenter=true&width=450&lines=%22Own+your+systems%2C+don't+rent+them.%22" alt="Tagline" />
+</div>
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=10B981&center=true&vCenter=true&width=200&lines=WHAT+I+BUILD" alt="What I Build" />
+</div>
+
+<div align="center">
+  <table>
+    <tr><td>→</td><td>AI agent automation frameworks with production-grade orchestration</td></tr>
+    <tr><td>→</td><td>MCP-driven platforms connecting LLMs to real tools and data</td></tr>
+    <tr><td>→</td><td>Multi-agent systems with failover logic, memory, and human-in-the-loop</td></tr>
+    <tr><td>→</td><td>Private AI stacks that never leave your infrastructure</td></tr>
+  </table>
+</div>
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=3B82F6&center=true&vCenter=true&width=200&lines=AGENT+FRAMEWORKS" alt="Frameworks" />
+</div>
+
+| Framework |
+|:----------|
+| 🔷 **LangGraph 1.0** |
+| 🔷 **CrewAI** |
+| 🔷 **OpenAI Agents SDK** |
+| 🔷 **AutoGen / AG2** |
+| 🔷 **Google ADK** |
+| 🔷 **MCP Protocol** |
+
+</td>
+<td width="50%" valign="top">
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=EC4899&center=true&vCenter=true&width=200&lines=LLM+PROVIDERS" alt="Providers" />
+</div>
+
+| Provider |
+|:---------|
+| ⚡ **OpenAI** (GPT-5, GPT-4o, o3-pro) |
+| ⚡ **Anthropic** (Claude 4.5, Claude Code) |
+| ⚡ **Google** (Gemini 2.5/3 Pro) |
+| ⚡ **Meta** (Llama 4) |
+| ⚡ **Mistral, DeepSeek, Qwen** |
+| ⚡ **Self-hosted** (Ollama, vLLM) |
+
+</td>
+</tr>
+</table>
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=F59E0B&center=true&vCenter=true&width=200&lines=WHAT+I+DELIVER" alt="What I Deliver" />
+</div>
+
+<div align="center">
+
+| <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="18"> AI Agents | <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="18"> Automation | <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="18"> Integration |
+|:-------------|:--------------|:---------------|
+| Multi-agent systems | n8n workflows | API design |
+| Tool calling | Custom nodes | Webhooks |
+| MCP integration | Event-driven | Stripe/Google |
+| Memory systems | Background jobs | Slack/CRMs |
+
+| <img src="https://media.giphy.com/media/3oKIPic2BnoVZkRla8/giphy.gif" width="18"> Optimization | <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="18"> Privacy | <img src="https://media.giphy.com/media/fwbzI2kV3Qrlpkh59e/giphy.gif" width="18"> Architecture |
+|:----------------|:-----------|:-----------------|
+| Cost control | Local/VPC | Private stacks |
+| Prompt caching | Data isolation | Modular design |
+| Model routing | Compliance-ready | Future-proof |
+| Observability | Open source | Scalable |
+
+</div>
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=8B5CF6&center=true&vCenter=true&width=550&lines=100%2B+Repos+•+6%2B+Years+•+11+Agent+Frameworks+•+10%2B+LLM+Providers" alt="Stats" />
+</div>
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1000&color=EC4899&center=true&vCenter=true&width=600&lines=I+don't+build+demos+—+I+build+production+systems." alt="Closing" />
+</div>
+'''
+
+**Now it matches:**
+- Same animated line dividers
+- Same table styling as your "What I Deliver" section
+- Same animated GIF headers in tables
+- Same typing SVG patterns
+- Same color scheme (3B82F6, 8B5CF6, EC4899, 10B981, F59E0B)
+- Capsule render header that matches the footer style
+
+Drop this in place of the old ASCII block.
+
+</div>
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width="60"> Let's Build
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=EC4899&center=true&vCenter=true&width=500&lines=Available+for+consulting+%26+projects;Let's+build+production+systems+together" alt="Contact" />
+</div>
+
+<br>
+
+<div align="center">
+  <a href="mailto:nicholasdelnegro80@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
   <a href="https://github.com/OSOSerious">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="https://linkedin.com/in/nicholas-del-negro">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://x.com/OSO_5erious">
-    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
-  </a>
-  <a href="https://www.instagram.com/ososerious.ai/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-
 </div>
 
 <br>
 
+<!-- Animated Footer -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=I%20don't%20build%20demos%20—%20I%20build%20production%20systems&fontSize=16&fontColor=fff&animation=twinkling"/>
 </div>
@@ -391,6 +457,8 @@ const nicholas = {
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=OSOSerious&color=3B82F6&style=for-the-badge&label=PROFILE+VIEWS" />
 </div>
+
+<br>
 
 <!-- Snake Animation -->
 <div align="center">
@@ -400,3 +468,8 @@ const nicholas = {
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
   </picture>
 </div>
+
+<br>
+
+<!-- Animated Bottom Marquee -->
+<img src="https://raw.githubusercontent.com/trinib/trinib/a5f17399d881c5651a89bfe4a621014b08346cf0/images/marquee.svg">
