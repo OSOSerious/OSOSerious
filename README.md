@@ -16,8 +16,7 @@
   <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" width="400">
 </div>
   
-  <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Nicholas%20Del%20Negro&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Lead%20Backend%20%26%20Systems%20Engineer&descAlignY=55&descSize=20" />
+
 
 </div>
 
