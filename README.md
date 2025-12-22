@@ -44,8 +44,7 @@
   
 </div>
 
-<!-- Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 
 <!-- Stats Row -->
 <div align="center">
@@ -58,9 +57,7 @@
 
 <br>
 
-<!-- AI Agent Animation -->
-<div align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" width="400">
+
 </div>
 
 <!-- Animated Line -->
