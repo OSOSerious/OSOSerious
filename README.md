@@ -8,7 +8,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <!-- Stats Badges with Animation -->
 <div align="center">
-
+ <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Nicholas%20Del%20Negro&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Lead%20Backend%20%26%20Systems%20Engineer&descAlignY=55&descSize=20" />
   </div>
 <br>
 <!-- About Section with Glow Effect -->
