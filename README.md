@@ -38,8 +38,8 @@
   <a href="https://github.com/OSOSerious">
     <img src="https://img.shields.io/badge/GitHub-100+%20Repos-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" />
   </a>
-  <a href="https://x.com/OSO_5erious">
-    <img src="https://img.shields.io/badge/X-@OSO__5erious-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1a1b27" />
+ 
+  <img src="https://img.shields.io/badge/X-@OSO__5erious-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1a1b27" />
   </a>
   
 </div>
