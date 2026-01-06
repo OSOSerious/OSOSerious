@@ -1,6 +1,6 @@
   <div align="center">
   <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=fff&animation=twinkling&fontAlignY=32&desc=AI%20Agent%20Architect%20%7C%20MCP%20Platforms%20%7C%20Systems%20Engineer&descAlignY=52&descSize=18"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&animation=twinkling&fontAlignY=32&desc=AI%20Agent%20Architect%20%7C%20MCP%20Platforms%20%7C%20Systems%20Engineer&descAlignY=52&descSize=18"/>
   <!-- Typing Animation -->
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=80&lines=%22Own+your+systems%2C+don't+rent+them.%22;Infrastructure+you+control%2C+audit%2C+and+scale." alt="Typing SVG" />
 </div>
