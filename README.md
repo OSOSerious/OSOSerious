@@ -41,7 +41,7 @@
 <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="35"> AI Agent Frameworks
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Updated-December%202025-10B981?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Updated-November%202026-10B981?style=for-the-badge&labelColor=0d1117" />
 </div>
 
 <br>
@@ -74,7 +74,7 @@
 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uW/giphy.gif" width="35"> LLM Providers & Models
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Updated-December%202025-10B981?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Updated-November%202026-10B981?style=for-the-badge&labelColor=0d1117" />
 </div>
 
 <br>
@@ -300,14 +300,14 @@
 
 <div align="center">
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=OSOSerious&repo=Enhance-SOP-of-Prompts&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Enhance-SOP-of-Prompts)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=OSOSerious&repo=Real-Estate-Optimizer-swarm&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Real-Estate-Optimizer-swarm)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=Enhance-SOP-of-Prompts&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Enhance-SOP-of-Prompts)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=Real-Estate-Optimizer-swarm&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Real-Estate-Optimizer-swarm)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=OSOSerious&repo=Google-ADK-Agents&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Google-ADK-Agents)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=OSOSerious&repo=everything-n8n&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/everything-n8n)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=Google-ADK-Agents&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Google-ADK-Agents)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=everything-n8n&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/everything-n8n)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=OSOSerious&repo=deep-wiki&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/deep-wiki)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=OSOSerious&repo=Awesome-Context-Engineering&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Awesome-Context-Engineering)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=deep-wiki&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/deep-wiki)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=Awesome-Context-Engineering&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Awesome-Context-Engineering)
 
 </div>
 
@@ -396,8 +396,8 @@
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35"> GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=OSOSerious&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=8B5CF6&text_color=c9d1d9" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OSOSerious&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3B82F6&text_color=c9d1d9" height="180"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=OSOSerious&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=8B5CF6&text_color=c9d1d9" height="180"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=OSOSerious&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=3B82F6&text_color=c9d1d9" height="180"/>
 </div>
 
 <br>
