@@ -300,14 +300,14 @@
 
 <div align="center">
 
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=oso-obliterated-models-&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/oso-obliterated-models-)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=discord-bot&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/discord-bot)
+
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=discord-translation-bot&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/discord-translation-bot)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=oso-sec&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/oso-sec)
+
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=content-curation-agent&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/content-curation-agent)
 [![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=Enhance-SOP-of-Prompts&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Enhance-SOP-of-Prompts)
-[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=Real-Estate-Optimizer-swarm&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Real-Estate-Optimizer-swarm)
-
-[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=Google-ADK-Agents&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Google-ADK-Agents)
-[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=everything-n8n&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/everything-n8n)
-
-[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=deep-wiki&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/deep-wiki)
-[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=Awesome-Context-Engineering&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/OSOSerious/Awesome-Context-Engineering)
 
 </div>
 
@@ -317,10 +317,16 @@
 
 | Project | Tech | Description |
 |:--------|:-----|:------------|
+| [discord-bot (NEXUS-PRIME)](https://github.com/OSOSerious/discord-bot) | `Python` `Red-DiscordBot` | Multi-agent research orchestrator — 4-stage pipeline (Scout → Analyst → Validator → Synthesizer), fan-out/fan-in concurrency, semantic caching, per-command USD budget caps |
+| [oso-obliterated-models-](https://github.com/OSOSerious/oso-obliterated-models-) | `Python` `Transformers` | Refusal-direction abliteration pipeline (Arditi et al.) — matched-pair extraction, inference-time projection removal, honest evals: Qwen2.5-1.5B 97.5%→0% refusal, 0% false-refusal, +57% ppl |
+| [discord-translation-bot](https://github.com/OSOSerious/discord-translation-bot) | `Elixir` | English↔Spanish Discord bot — slash commands + per-channel auto-translate, ETS-cached, pluggable backends (DeepL/LibreTranslate), .txt file translation |
+| [oso-sec](https://github.com/OSOSerious/oso-sec) | `Python` | Security toolkit — passive audit SDK for owned assets + loopback-only exploit lab with validated detection engineering |
 | [Enhance-SOP-of-Prompts](https://github.com/OSOSerious/Enhance-SOP-of-Prompts) | `TypeScript` `LangGraph` | 🏆 **Hackathon 2nd Place** — Self-optimizing SOP system with continuous improvement loops |
 | [Real-Estate-Optimizer-swarm](https://github.com/OSOSerious/Real-Estate-Optimizer-swarm) | `Python` `Swarm` | Multi-agent swarm for real estate optimization |
 | [Google-ADK-Agents](https://github.com/OSOSerious/Google-ADK-Agents) | `Python` `Google ADK` | Google Agent Development Kit implementations |
 | [agent-template-groq](https://github.com/OSOSerious/agent-template-groq-) | `Python` `Groq LPU` | Ultra-fast inference agent template |
+| [content-curation-agent](https://github.com/OSOSerious/content-curation-agent) | `JavaScript` | Content curation & aggregation — automated newsletter updates, central topic feeds |
+| [ClaudeBlogAutomation](https://github.com/OSOSerious/ClaudeBlogAutomation) | `Svelte` | AI-assisted blog + social content generation |
 | [cyber_agents](https://github.com/OSOSerious/cyber_agents) | `Svelte` | Cyber agents management interface |
 | [Agents](https://github.com/OSOSerious/Agents) | `Multi-Framework` | Collection of agent implementations |
 | [everything-n8n](https://github.com/OSOSerious/everything-n8n) | `Node.js` `n8n` | Comprehensive n8n resources + Claude integration |
@@ -334,7 +340,7 @@
 
 | Project | Tech | Description |
 |:--------|:-----|:------------|
-| [v0-ai-landing-page](https://github.com/OSOSerious/v0-ai-landing-page) | `TypeScript` `Next.js` | AI-powered landing page with v0 |
+| [Basic-chat-ui-for-llms-with-tool-use](https://github.com/OSOSerious/Basic-chat-ui-for-llms-with-tool-use) | `TypeScript` | Chat UI with LLM tool-use rendering |
 | [google-shopping-scraper](https://github.com/OSOSerious/google-shopping-playwright-scraper) | `Python` `Playwright` | E-commerce data extraction |
 | [ai-and-google-doc](https://github.com/OSOSerious/ai-and-google-doc) | `TypeScript` | Google Docs + AI integration |
 | [emil-chatbot](https://github.com/OSOSerious/emil-chatbot) | `TypeScript` | Custom chatbot implementation |
