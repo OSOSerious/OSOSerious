@@ -57,8 +57,8 @@
           </g>
         </g>
         <!-- prize chute + signal wink -->
-        <rect x="470" y="180" width="64" height="60" rx="6" fill="#0E0A16" stroke="#E85D26" stroke-width="2" stroke-dasharray="6 4"/>
-        <text x="502" y="215" text-anchor="middle" font-size="10" fill="#E85D26">SHIP</text>
+        <rect x="470" y="180" width="64" height="60" rx="6" fill="#0E0A16" stroke="#E9D5FF" stroke-width="2" stroke-dasharray="6 4"/>
+        <text x="502" y="215" text-anchor="middle" font-size="10" fill="#E9D5FF">SHIP</text>
         <!-- glass glare -->
         <polygon points="500,58 540,58 460,282 430,282" fill="#E9D5FF" opacity=".03"/>
       </svg>

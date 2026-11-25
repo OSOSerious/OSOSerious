@@ -80,5 +80,5 @@
         <line x1="472" y1="60" x2="472" y2="130" stroke="#9D8AB8" stroke-width="6">
           <animateTransform attributeName="transform" type="rotate" values="0 472 130;28 472 130;0 472 130" keyTimes="0;.1;.3" dur="5s" repeatCount="indefinite"/>
         </line>
-        <circle cx="472" cy="56" r="14" fill="#E85D26" stroke="#17121F" stroke-width="2"/>
+        <circle cx="472" cy="56" r="14" fill="#E9D5FF" stroke="#17121F" stroke-width="2"/>
       </svg>

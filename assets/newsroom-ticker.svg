@@ -22,8 +22,8 @@
         <text x="60" y="96" font-size="13" fill="#9D8AB8">crew ▸ hook question → attribution → full quote</text>
         <text x="60" y="120" font-size="13" fill="#6D28D9">emoji: 😳 drama · 😮 surprise · 📈👏 growth</text>
         <!-- REC dot -->
-        <circle cx="498" cy="112" r="7" fill="#E85D26"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
-        <text x="474" y="116" font-size="11" fill="#E85D26" text-anchor="end">REC</text>
+        <circle cx="498" cy="112" r="7" fill="#E9D5FF"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+        <text x="474" y="116" font-size="11" fill="#E9D5FF" text-anchor="end">REC</text>
         <!-- wire marquee -->
         <rect x="20" y="152" width="520" height="34" rx="6" fill="#17121F" stroke="#2E1065"/>
         <clipPath id="wire"><rect x="24" y="152" width="512" height="34"/></clipPath>
