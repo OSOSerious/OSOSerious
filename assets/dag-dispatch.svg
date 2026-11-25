@@ -30,7 +30,7 @@
         <g font-size="10">
           <g><circle cx="70" cy="60" r="22" fill="#2E1065" stroke="#8B5CF6" stroke-width="2"/><text x="70" y="63" text-anchor="middle" fill="#E9D5FF">plan</text></g>
           <g><circle cx="70" cy="176" r="22" fill="#2E1065" stroke="#8B5CF6" stroke-width="2"/><text x="70" y="179" text-anchor="middle" fill="#E9D5FF">probe</text></g>
-          <g><circle cx="272" cy="34" r="26" fill="#4C1D95" stroke="#A78BFA" stroke-width="2" style="animation:shiver 2.4s infinite"><circle cx="272" cy="34" r="34" fill="none" stroke="#8B5CF6" style="animation:ringOut 2.4s ease-out infinite" transform-origin="272 34"/></g>
+          <g><circle cx="272" cy="34" r="26" fill="#4C1D95" stroke="#A78BFA" stroke-width="2" style="animation:shiver 2.4s infinite"/><circle cx="272" cy="34" r="34" fill="none" stroke="#8B5CF6" style="animation:ringOut 2.4s ease-out infinite" transform-origin="272 34"/></g>
           <text x="272" y="37" text-anchor="middle" fill="#E9D5FF">mutate</text>
           <g><circle cx="272" cy="112" r="26" fill="#6D28D9" stroke="#C4B5FD" stroke-width="2"/><text x="272" y="115" text-anchor="middle" fill="#E9D5FF">write</text>
             <text x="272" y="152" text-anchor="middle" class="hud" fill="#A78BFA">✓ verify gate</text></g>

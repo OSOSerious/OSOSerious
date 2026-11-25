@@ -15,7 +15,7 @@
           <animate attributeName="opacity" values=".5;0" dur="3.6s" repeatCount="indefinite"/>
         </circle>
         <text x="240" y="94" text-anchor="middle" font-size="30" font-weight="900" fill="#E9D5FF" letter-spacing="6">OSO</text>
-        <!-- morse row: O=--- S=... O=--- -->
+        <!-- morse row: O dash×3, S dot×3, O dash×3 -->
         <g fill="#A78BFA" transform="translate(70,150)">
           <rect x="0" width="26" height="10" rx="5"><animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0;0" dur="3.6s" repeatCount="indefinite"/></rect>
           <rect x="34" width="26" height="10" rx="5"><animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0" dur="3.6s" repeatCount="indefinite"/></rect>
