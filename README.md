@@ -48,20 +48,29 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ### ▸ HOW THE SYSTEMS EXECUTE
 
-<table>
-<tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/dag-dispatch.svg" width="100%" alt="DAG dispatch"/><br/><sub><b>Plan-as-DAG, one mutation per node.</b> Nodes fire in dependency order, packets stream the edges, <code>write</code> sits behind a ✓ verify gate — nothing downstream runs until the gate passes.</sub></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/memory-graph.svg" width="100%" alt="Memory graph"/><br/><sub><b>Findings survive, context doesn't.</b> Left: context compacted to ~10%. Right: findings lit with provenance (<code>ex:97</code>, <code>cli.py:412</code>) — bug → root-cause → fix-plan wired together.</sub></td>
-</tr>
-<tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/mcp-handshake.svg" width="100%" alt="MCP handshake"/><br/><sub><b>The only way data leaves.</b> <code>tools/call</code> out, <code>result [[LEAD]]</code> back, everything crosses the <b>anonymize gate at egress</b> — names become tokens before the server. The model never writes the sent text.</sub></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/xray-scanner.svg" width="100%" alt="X-ray scanner"/><br/><sub><b>Inventory by truth, not by claim.</b> A box rides the belt through XR-1; the screen reveals its skeleton — <code>db:5432</code>, <code>q:rabbit</code> — and stamps <b>SAFE ✓</b>.</sub></td>
-</tr>
-<tr>
-<td width="50%"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/own-ifier.svg" width="100%" alt="Own-ifier factory"/><br/><sub><b>The thesis, as a factory line.</b> Duct-tape SaaS goes in, the OWN-IFIER press slams, identical owned modules come out stacked: db ✓ auth ✓ agents ✓ audit ✓.</sub></td>
-<td width="50%"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rube-goldberg.svg" width="100%" alt="Rube Goldberg"/><br/><sub><b>One intent, chain of steps.</b> Ball → teeter-totter → hammer → dominoes → bell → <b>SHIP ✓</b>. Your execution philosophy told as physical comedy, 7s loop.</sub></td>
-</tr>
-</table>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/dag-dispatch.svg" width="100%" alt="DAG dispatch"/>
+
+**Plan-as-DAG, one mutation per node.** Nodes fire in dependency order, packets stream the edges, `write` sits behind a ✓ verify gate — nothing downstream runs until the gate passes.
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/memory-graph.svg" width="100%" alt="Memory graph"/>
+
+**Findings survive, context doesn't.** Left: context compacted to ~10%. Right: findings lit with provenance (`ex:97`, `cli.py:412`) — bug → root-cause → fix-plan wired together.
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/mcp-handshake.svg" width="100%" alt="MCP handshake"/>
+
+**The only way data leaves.** `tools/call` out, `result [[LEAD]]` back, everything crosses the **anonymize gate at egress** — names become tokens before the server. The model never writes the sent text.
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/xray-scanner.svg" width="100%" alt="X-ray scanner"/>
+
+**Inventory by truth, not by claim.** A box rides the belt through XR-1; the screen reveals its skeleton — `db:5432`, `q:rabbit` — and stamps **SAFE ✓**.
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/own-ifier.svg" width="100%" alt="Own-ifier factory"/>
+
+**The thesis, as a factory line.** Duct-tape SaaS goes in, the OWN-IFIER press slams, identical owned modules come out stacked: db ✓ auth ✓ agents ✓ audit ✓.
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rube-goldberg.svg" width="100%" alt="Rube Goldberg"/>
+
+**One intent, chain of steps.** Ball → teeter-totter → hammer → dominoes → bell → **SHIP ✓**. Your execution philosophy told as physical comedy, 7s loop.
 
 ### ▸ BUILT FROM THE PRODUCTS
 
