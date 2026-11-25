@@ -1,9 +1,13 @@
 <!-- profile readme v5 @ full purple — all 44 SVG assets, all sections open, nothing from v3 dropped -->
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/aurora-header.svg?v=2" width="100%" alt="OSO — aurora header"/>
+  
 
-  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/oso-flip.svg?v=2" width="360" alt="OSO — reads the same upside down"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/aurora-header.svg?v=2" width="100%" alt="OSO — aurora header"/>
+
+  
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/oso-flip.svg?v=2" width="360" alt="OSO — reads the same upside down"/>
 
 ### *own your systems, don't rent them.*
 **Infrastructure you control, audit, and scale.**
@@ -16,7 +20,10 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/terminal-sig.svg?v=2" width="560" alt="oso@local:~$ own --your-systems → control · audit · scale. never rent."/>
+  
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/terminal-sig.svg?v=2" width="560" alt="oso@local:~$ own --your-systems → control · audit · scale. never rent."/>
+
 </p>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=900&lines=I+help+businesses+move+from+duct-taped+SaaS+stacks+to+custom-owned+infrastructure" alt="Description"/>
@@ -103,6 +110,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/blueprint-mark.svg?v=2" width="100%" alt="Self-drawing blueprint"/>
 
 **Self-drawing blueprint.** A plotter draws OSO with construction circles, then stamps the dimensions: `180° palindrome · favicon 16px · NO GRADIENT · DWG OSO-001 REV 5`.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/kaleidoscope.svg?v=2" width="100%" alt="Kaleidoscope"/>
 
 **Symmetry generated, not drawn.** Three mirror wedges rotate against a seed of your real contribution squares — infinite violet symmetry from finite work.
@@ -110,6 +118,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rorschach.svg?v=2" width="100%" alt="Rorschach palindrome"/>
 
 **The palindrome, literal.** Your graph mirrored into an inkblot that breathes and flips through 180° — indistinguishable upside-down, because that IS the brand.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/morse-beacon.svg?v=2" width="100%" alt="Morse beacon"/>
 
 **The beacon.** OSO in Morse — `—··· ··· —···` — symmetric in that alphabet too. The palindrome holds everywhere.
@@ -117,6 +126,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/wax-seal.svg?v=2" width="100%" alt="Wax seal"/>
 
 **The seal.** A stamp presses OSO into violet wax over `signed-off-by` — provenance you can feel, same rule as the findings graph.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/holo-identity.svg?v=2" width="100%" alt="Hologram"/>
 
 **The projection.** The mark as a flickering hologram — identity that only exists while the system is powered.
@@ -124,6 +134,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/metronome.svg?v=2" width="100%" alt="Metronome"/>
 
 **The tempo.** 72 BPM, <i>consistency &gt; intensity</i> — how the shipping actually works: parallel threads, one steady beat.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rolling-ritual.svg?v=2" width="100%" alt="Convergence ritual"/>
 
 **The convergence tick.** Your report ritual as HUD: pips fill, `[4] → [5]`, bar sweeps. Converge · report · repeat.
@@ -133,6 +144,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pinball.svg?v=2" width="100%" alt="Pinball failover"/>
 
 **Failover as pinball.** The SHIP ball ricochets bumpers (`mcp · memory · harness`), flippers fire as retries, drain is **▼DEADLINE▼** — the ball never dies, it reroutes.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pachinko-router.svg?v=2" width="100%" alt="Pachinko router"/>
 
 **Probability as hardware.** A token drops through SLA pins into `LOCAL / BALANCED / FRONTIER` buckets; cost meter flips `0.31 → 0.04`.
@@ -140,6 +152,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/domino-plan.svg?v=2" width="100%" alt="Domino plan"/>
 
 **One push, full cascade.** probe → plan → mutate → test → lint → build fall in sequence, last reveal **SHIP ✓**. "Deps = gravity."
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/marble-run.svg?v=2" width="100%" alt="Marble run"/>
 
 **Merge discipline.** The marble waits at gates that only swing when `test ✓` and `review ✓` pass, then rolls into the **merged** bin.
@@ -147,6 +160,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lighthouse.svg?v=2" width="100%" alt="Lighthouse"/>
 
 **Observability as weather.** The beam sweeps 360° through fog; your fleet's ships flip green → amber → green as light passes. `uptime 99.97`.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/launch-countdown.svg?v=2" width="100%" alt="Launch countdown"/>
 
 **Deploy ritual.** Split-flap digits 10…3…2, **LIFTOFF**, rocket rises past the checklist: `✓ 3252/3252 ✓ rollback staged ▸ canary 5%`.
@@ -154,6 +168,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/slot-ship.svg?v=2" width="100%" alt="Slot SHIP"/>
 
 **Jackpot logic.** Reels snap S·H·I·P, bell flashes, counters read `3,252 tests ✓ 0f` and commits ticking 240 → 242. Retro chrome, one Signal lever.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/agent-elevator.svg?v=2" width="100%" alt="Agent elevator"/>
 
 **The execution loop, as a building.** Car rides `PLAN → ACT → VERIFY → REMEMBER → SHIP`, doors hold at VERIFY — one floor per gate.
@@ -161,6 +176,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/maze-runner.svg?v=2" width="100%" alt="Maze runner"/>
 
 **Discovery through search.** Wrong turns dim, dead-ends re-route, the winning path locks in violet behind the token. Recon instinct, tiny game.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/disk-vacuum.svg?v=2" width="100%" alt="Disk vacuum"/>
 
 **The real session.** Vacuum eats the cache piles (lima · mix · go · brew), free-space gauge climbs `57GB → 128GB`, log reads: **no rm. moved. logged.**
@@ -170,6 +186,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lava-plasma.svg?v=2" width="100%" alt="Lava plasma"/>
 
 **Goo-filter metaballs.** `feGaussianBlur → feColorMatrix` makes five violet blobs — your five languages — fuse and split into one organism. Zero JS.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/game-of-life.svg?v=2" width="100%" alt="Game of Life"/>
 
 **Conway B3/S23 on your squares.** A glider crosses, a blinker rotates, a pulsar breathes — emergence from simple rules, your agent thesis in motion.
@@ -177,6 +194,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/dna-helix.svg?v=2" width="100%" alt="DNA helix"/>
 
 **The genome of shipping.** Two strands path-morphing through each other, base-pair rungs lighting in sequence, codon scanner sweeping. Code as life.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/ship-oscope.svg?v=2" width="100%" alt="Ship oscilloscope"/>
 
 **Your cadence as test equipment.** CRT waveform morphs calm → burst → spike (push days), glowing scan dot on the graticule: `TRIG ▸ AUTO · SIG: prod`.
@@ -184,6 +202,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/repo-orbitals.svg?v=2" width="100%" alt="Repo orbitals"/>
 
 **The constellation.** Repos on elliptical SMIL orbits around the OSO core — `harness · memory · mcp-tools · abliterate · erp · agents` — periods staggered so it never repeats the same way twice.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/the-hive.svg?v=2" width="100%" alt="The hive"/>
 
 **Swarm with no single point.** Scouts fly a real waggle-dance figure-8, hex cells fill with `[[TOKENS]]`, the queen cell pulses as orchestrator.
@@ -202,9 +221,9 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-# ▸ languages — Elixir first
+## ◆ languages — Elixir first
 
-<img src="https://skillicons.dev/icons?i=elixir,graphql,python,typescript,go,rust&theme=dark" alt="elixir graphql python typescript go rust" />
+<img src="https://img.shields.io/badge/Elixir-8B5CF6?style=flat-square" alt="Elixir"/> <img src="https://img.shields.io/badge/GraphQL-8B5CF6?style=flat-square" alt="GraphQL"/> <img src="https://img.shields.io/badge/Python-6D28D9?style=flat-square" alt="Python"/> <img src="https://img.shields.io/badge/TypeScript-6D28D9?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Go-6D28D9?style=flat-square" alt="Go"/> <img src="https://img.shields.io/badge/Rust-4C1D95?style=flat-square" alt="Rust"/>
 
 | Language | Proficiency | Use Cases |
 |:---------|:------------|:----------|
@@ -221,10 +240,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-# ▸ frameworks — Phoenix first
+## ◆ frameworks — Phoenix first
 
-<img src="https://skillicons.dev/icons?i=elixir,fastapi,django,flask,express,nextjs,nestjs&theme=dark" alt="backend icons"/>
-<img src="https://skillicons.dev/icons?i=svelte,react,tailwind&theme=dark" alt="frontend icons"/>
 
 | Framework | Experience |
 |:----------|:-----------|
@@ -255,39 +272,38 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 | Framework | Detailed Experience |
 |:----------|:--------------------|
-| 🔷 **LangGraph 1.0** | Graph-based agent orchestration with state management, checkpointing for long-running workflows, LangGraph Studio for visual debugging, human-in-the-loop interrupts, conditional branching, parallel execution, production deployment patterns. |
-| 🔷 **CrewAI** | Role-based multi-agent team orchestration with hierarchical process management, custom tool integration, agent delegation patterns, memory sharing between agents, production deployment of collaborative agent systems. |
-| 🔷 **OpenAI Agents SDK** | Agent handoffs, built-in guardrails, native tool calling with structured outputs, tracing and observability, conversation management, GPT-5/o3/o4 model integration. |
-| 🔷 **AutoGen / AG2** | Microsoft's multi-agent conversation framework (AutoGen 2.0/AG2), Semantic Kernel integration, conversational agents with code execution, group chat orchestration, enterprise deployment patterns. |
-| 🔷 **Google ADK** | Google Agent Development Kit, Vertex AI Agent Engine integration, GCP-native deployment, BigQuery and Cloud Storage tool access, enterprise-scale agent systems. |
-| 🔷 **MCP Protocol** | Model Context Protocol server development, custom tool integration, resource management, A2A interoperability, MCP server for Browserbase, production MCP deployments. |
-| 🔷 **LangChain** | Chains, agents, memory systems (ConversationBufferMemory, VectorStoreMemory), document loaders (PDF, DOCX, HTML, CSV), retrievers, LangSmith observability, LCEL expression language. |
-| 🔷 **LlamaIndex** | RAG-first agent framework with query engines, data connectors, index optimization, enterprise retrieval patterns, structured output parsing, hybrid search implementations. |
-| 🔷 **Swarm (OpenAI)** | Lightweight agent orchestration for simple multi-agent handoffs, context variable passing, function-based agent transitions. |
-| 🔷 **Flowise / Dify** | Low-code LLM flow builders for visual agent design, custom node development, API deployment, rapid prototyping of agent workflows. |
-| 🔷 **Claude Code** | AI-powered development with Claude, MCP server development, agent automation, codebase analysis, multi-file code generation. |
-| 🔷 **Custom Agent Harnesses** | Built agent runtimes from scratch — event-driven loops, multi-provider routing, plan-as-DAG execution (one mutation per node), persistent memory with confidence decay, checkpoint/restore, and embedded object storage. |
+| ◆ **LangGraph 1.0** | Graph-based agent orchestration with state management, checkpointing for long-running workflows, LangGraph Studio for visual debugging, human-in-the-loop interrupts, conditional branching, parallel execution, production deployment patterns. |
+| ◆ **CrewAI** | Role-based multi-agent team orchestration with hierarchical process management, custom tool integration, agent delegation patterns, memory sharing between agents, production deployment of collaborative agent systems. |
+| ◆ **OpenAI Agents SDK** | Agent handoffs, built-in guardrails, native tool calling with structured outputs, tracing and observability, conversation management, GPT-5/o3/o4 model integration. |
+| ◆ **AutoGen / AG2** | Microsoft's multi-agent conversation framework (AutoGen 2.0/AG2), Semantic Kernel integration, conversational agents with code execution, group chat orchestration, enterprise deployment patterns. |
+| ◆ **Google ADK** | Google Agent Development Kit, Vertex AI Agent Engine integration, GCP-native deployment, BigQuery and Cloud Storage tool access, enterprise-scale agent systems. |
+| ◆ **MCP Protocol** | Model Context Protocol server development, custom tool integration, resource management, A2A interoperability, MCP server for Browserbase, production MCP deployments. |
+| ◆ **LangChain** | Chains, agents, memory systems (ConversationBufferMemory, VectorStoreMemory), document loaders (PDF, DOCX, HTML, CSV), retrievers, LangSmith observability, LCEL expression language. |
+| ◆ **LlamaIndex** | RAG-first agent framework with query engines, data connectors, index optimization, enterprise retrieval patterns, structured output parsing, hybrid search implementations. |
+| ◆ **Swarm (OpenAI)** | Lightweight agent orchestration for simple multi-agent handoffs, context variable passing, function-based agent transitions. |
+| ◆ **Flowise / Dify** | Low-code LLM flow builders for visual agent design, custom node development, API deployment, rapid prototyping of agent workflows. |
+| ◆ **Claude Code** | AI-powered development with Claude, MCP server development, agent automation, codebase analysis, multi-file code generation. |
+| ◆ **Custom Agent Harnesses** | Built agent runtimes from scratch — event-driven loops, multi-provider routing, plan-as-DAG execution (one mutation per node), persistent memory with confidence decay, checkpoint/restore, and embedded object storage. |
 
 ---
 
-# ▸ models & providers
+## ◆ models & providers
 
 | Provider | Models & Experience |
 |:---------|:--------------------|
-| ⚡ **OpenAI** | GPT-5 (latest flagship), GPT-4o (multimodal), o3-pro and o4-mini (reasoning), OpenAI Agents SDK, Assistants API with retrieval and code interpreter, Codex, Embeddings API (text-embedding-3-large), Whisper, DALL-E 3. |
-| ⚡ **Anthropic** | Claude 4.5 (Opus/Sonnet), extended thinking, tool use, prompt caching (90% cost ↓), batch processing, MCP server development. |
-| ⚡ **Google** | Gemini 2.5 Pro/Flash, Vertex AI Agent Engine, AI Studio, grounding with Google Search, Gemini Code Assist. |
-| ⚡ **DeepSeek** | DeepSeek-V3.1 (671B parameters, MoE architecture), DeepSeek-R1 reasoning model (MIT license), R1-Distill variants for efficient deployment, open-weight with commercial use. |
-| ⚡ **Alibaba (Qwen)** | Qwen 3 (235B MoE, flagship), Qwen 2.5 Coder 32B (code-specialized), Qwen-Math, Qwen-VL, open-weight Apache 2.0 license. |
-| ⚡ **Zhipu (GLM)** | GLM-5.x family for agentic coding — provider routing between flash and full tiers, OpenAI/Anthropic-compatible endpoint integration, cost/performance tuning for daily agent workloads. |
-| ⚡ **Groq** | LPU (Language Processing Unit) accelerated inference, ultra-fast token generation, Llama and Mixtral hosting, production API with consistent low latency. |
-| ⚡ **Self-Hosted** | Ollama (local LLM deployment), vLLM (high-throughput serving, prefix-cache economics), LiteLLM (unified API with cost tracking), NVIDIA Triton Inference Server, Text Generation Inference (TGI), llama.cpp (CPU/GPU inference). |
+| ▲ **OpenAI** | GPT-5 (latest flagship), GPT-4o (multimodal), o3-pro and o4-mini (reasoning), OpenAI Agents SDK, Assistants API with retrieval and code interpreter, Codex, Embeddings API (text-embedding-3-large), Whisper, DALL-E 3. |
+| ▲ **Anthropic** | Claude 4.5 (Opus/Sonnet), extended thinking, tool use, prompt caching (90% cost ↓), batch processing, MCP server development. |
+| ▲ **Google** | Gemini 2.5 Pro/Flash, Vertex AI Agent Engine, AI Studio, grounding with Google Search, Gemini Code Assist. |
+| ▲ **DeepSeek** | DeepSeek-V3.1 (671B parameters, MoE architecture), DeepSeek-R1 reasoning model (MIT license), R1-Distill variants for efficient deployment, open-weight with commercial use. |
+| ▲ **Alibaba (Qwen)** | Qwen 3 (235B MoE, flagship), Qwen 2.5 Coder 32B (code-specialized), Qwen-Math, Qwen-VL, open-weight Apache 2.0 license. |
+| ▲ **Zhipu (GLM)** | GLM-5.x family for agentic coding — provider routing between flash and full tiers, OpenAI/Anthropic-compatible endpoint integration, cost/performance tuning for daily agent workloads. |
+| ▲ **Groq** | LPU (Language Processing Unit) accelerated inference, ultra-fast token generation, Llama and Mixtral hosting, production API with consistent low latency. |
+| ▲ **Self-Hosted** | Ollama (local LLM deployment), vLLM (high-throughput serving, prefix-cache economics), LiteLLM (unified API with cost tracking), NVIDIA Triton Inference Server, Text Generation Inference (TGI), llama.cpp (CPU/GPU inference). |
 
 ---
 
-# ▸ databases & vector stores
+## ◆ databases & vector stores
 
-<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,mysql,supabase&theme=dark" alt="databases"/>
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=A78BFA&center=true&vCenter=true&width=500&lines=Qdrant+%7C+Pinecone+%7C+ChromaDB+%7C+pgvector+%7C+FAISS+%7C+Elasticsearch" alt="Vector DBs" />
 
 | Database | Experience |
@@ -305,7 +321,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-# ▸ message queues & events
+## ◆ message queues & events
 
 | Technology | Experience |
 |:-----------|:-----------|
@@ -319,7 +335,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-# ▸ automation & orchestration
+## ◆ automation & orchestration
 
 | Technology | Experience |
 |:-----------|:-----------|
@@ -333,9 +349,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-# ▸ cloud & devops
+## ◆ cloud & devops
 
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,gcp,vercel,cloudflare,githubactions&theme=dark" alt="cloud"/>
 
 | Technology | Experience |
 |:-----------|:-----------|
@@ -350,9 +365,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-# ▸ observability, monitoring & security
+## ◆ observability, monitoring & security
 
-<img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" alt="observability"/>
 
 | Technology | Experience |
 |:-----------|:-----------|
@@ -372,22 +386,22 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-# ▸ API integrations
+## ◆ API integrations
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Payments+%7C+Communication+%7C+Google+%7C+Social+%7C+CRM+%7C+Developer" alt="APIs" />
 
 | Category | Integrations |
 |:---------|:-------------|
-| 💳 **Payments** | Stripe (subscriptions, webhooks, Connect, Checkout, Payment Intents) |
-| 💬 **Communication** | Slack API, Discord API, Twilio (SMS, Voice, WhatsApp), SendGrid, Mailgun |
-| 📊 **Google** | Calendar, Docs, Sheets, Gmail, Drive |
-| 🌐 **Social** | Twitter/X API, Facebook Graph API, LinkedIn API |
-| 🏢 **CRM** | HubSpot API, Salesforce API, Notion API, Airtable API |
-| 👨‍💻 **Developer** | GitHub API (repository automation, webhooks, Actions) |
+| ▣ **Payments** | Stripe (subscriptions, webhooks, Connect, Checkout, Payment Intents) |
+| ▣ **Communication** | Slack API, Discord API, Twilio (SMS, Voice, WhatsApp), SendGrid, Mailgun |
+| ▣ **Google** | Calendar, Docs, Sheets, Gmail, Drive |
+| ▣ **Social** | Twitter/X API, Facebook Graph API, LinkedIn API |
+| ▣ **CRM** | HubSpot API, Salesforce API, Notion API, Airtable API |
+| ▣ **Developer** | GitHub API (repository automation, webhooks, Actions) |
 
 ---
 
-# ▸ featured projects — award-winning · open source · production-ready
+## ◆ featured projects — award-winning · open source · production-ready
 
 <div align="center">
 
@@ -400,7 +414,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 </div>
 
-### 🤖 AI Agent & Automation Projects
+### ◈ AI Agent & Automation Projects
 
 | Project | Tech | Description |
 |:--------|:-----|:------------|
@@ -408,7 +422,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 | [oso-obliterated-models-](https://github.com/OSOSerious/oso-obliterated-models-) | `Python` `Transformers` | Refusal-direction abliteration pipeline (Arditi et al.) — matched-pair extraction, inference-time projection removal, honest evals: Qwen2.5-1.5B 97.5%→0% refusal, 0% false-refusal, +57% ppl |
 | [discord-translation-bot](https://github.com/OSOSerious/discord-translation-bot) | `Elixir` | English↔Spanish Discord bot — slash commands + per-channel auto-translate, ETS-cached, pluggable backends (DeepL/LibreTranslate), .txt file translation |
 | [oso-sec](https://github.com/OSOSerious/oso-sec) | `Python` | Security toolkit — passive audit SDK for owned assets + loopback-only exploit lab with validated detection engineering |
-| [Enhance-SOP-of-Prompts](https://github.com/OSOSerious/Enhance-SOP-of-Prompts) | `TypeScript` `LangGraph` | 🏆 **Hackathon 2nd Place** — Self-optimizing SOP system with continuous improvement loops |
+| [Enhance-SOP-of-Prompts](https://github.com/OSOSerious/Enhance-SOP-of-Prompts) | `TypeScript` `LangGraph` | ★ **Hackathon 2nd Place** — Self-optimizing SOP system with continuous improvement loops |
 | [Real-Estate-Optimizer-swarm](https://github.com/OSOSerious/Real-Estate-Optimizer-swarm) | `Python` `Swarm` | Multi-agent swarm for real estate optimization |
 | [Google-ADK-Agents](https://github.com/OSOSerious/Google-ADK-Agents) | `Python` `Google ADK` | Google Agent Development Kit implementations |
 | [agent-template-groq](https://github.com/OSOSerious/agent-template-groq-) | `Python` `Groq LPU` | Ultra-fast inference agent template |
@@ -419,7 +433,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 | [everything-n8n](https://github.com/OSOSerious/everything-n8n) | `Node.js` `n8n` | Comprehensive n8n resources + Claude integration |
 | [awesome-n8n](https://github.com/OSOSerious/awesome-n8n) | `n8n` | Curated n8n workflows and resources |
 
-### 🔧 Full-Stack & Backend Projects
+### ◈ Full-Stack & Backend Projects
 
 | Project | Tech | Description |
 |:--------|:-----|:------------|
@@ -432,7 +446,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 | [vercel-neon-postgres](https://github.com/OSOSerious/vercel-with-neon-postgres) | `TypeScript` | Vercel + Neon Postgres template |
 | [fullstack-app-generator-bolt](https://github.com/OSOSerious/fullstack-app-generator-bolt) | `TypeScript` | Full-stack app generator |
 
-### 🎨 Frontend & Developer Resources
+### ◈ Frontend & Developer Resources
 
 | Project | Tech | Description |
 |:--------|:-----|:------------|
@@ -444,9 +458,9 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-# ▸ what I deliver — production systems designed for agencies to deploy to clients
+## ◆ what I deliver — production systems designed for agencies to deploy to clients
 
-| 🤖 AI Agents | ⚙️ Automation | 🔌 Integration |
+| ◈ AI Agents | ◈ Automation | ◈ Integration |
 |:-------------|:--------------|:---------------|
 | Multi-agent systems (LangGraph/CrewAI) | n8n workflows + LLM integrations | API design & documentation |
 | Tool calling with structured outputs | Custom n8n node development | Webhooks & event handling |
@@ -455,7 +469,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 | Human-in-the-loop approval | Background job processing | Migration planning |
 | GPT-5, Claude 4.5, Llama 4 support | Webhook management | Legacy system integration |
 
-| 🎯 Optimization | 🔒 Privacy | 🎓 Training |
+| ◈ Optimization | ◈ Privacy | ◈ Training |
 |:----------------|:------------------------|:-----------------|
 | Cost-controlled LLM usage | Local/VPC (Ollama, vLLM, LiteLLM) | Technical documentation |
 | Prompt caching (90% cost ↓) | Data never leaves your infra | Knowledge base creation |
@@ -466,7 +480,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-# ▸ github stats
+## ◆ github stats
 
 <div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=OSOSerious&show_icons=true&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=A78BFA&text_color=E9D5FF" height="180" alt="OSOSerious stats"/>
@@ -514,13 +528,18 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/output/github-snake-dark.svg">
   </picture>
   <br/>
-  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/snake-footer.svg?v=2" width="100%" alt="violet snake on my contribution squares"/>
+  
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/snake-footer.svg?v=2" width="100%" alt="violet snake on my contribution squares"/>
+
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/oso-flip.svg?v=2" width="200" alt="OSO"/>
+  
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/oso-flip.svg?v=2" width="200" alt="OSO"/>
 
 *I don't build demos — I build production systems.*
 
