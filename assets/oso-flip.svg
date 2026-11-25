@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="150" viewBox="0 0 420 150" role="img" aria-label="OSO">
+  <!-- OSO self-flipping palindrome mark — SMIL, purple era -->
+  <rect width="420" height="150" fill="none"/>
+  <g style="transform-origin:210px 75px">
+    <animateTransform attributeName="transform" type="rotate"
+      values="0 210 75;0 210 75;180 210 75;180 210 75;360 210 75"
+      keyTimes="0;.42;.5;.92;1" dur="6s" repeatCount="indefinite"/>
+    <!-- extrusion layers -->
+    <text x="216" y="98" text-anchor="middle" font-family="Courier New,monospace" font-weight="900" font-size="86" fill="#2E1065" letter-spacing="7">OSO</text>
+    <text x="213" y="95" text-anchor="middle" font-family="Courier New,monospace" font-weight="900" font-size="86" fill="#4C1D95" letter-spacing="7">OSO</text>
+    <text x="210" y="92" text-anchor="middle" font-family="Courier New,monospace" font-weight="900" font-size="86" fill="#8B5CF6" letter-spacing="7">OSO</text>
+    <text x="210" y="92" text-anchor="middle" font-family="Courier New,monospace" font-weight="900" font-size="86" fill="none" stroke="#E9D5FF" stroke-width=".8" letter-spacing="7" opacity=".85">OSO</text>
+  </g>
+  <text x="210" y="136" text-anchor="middle" font-family="Courier New,monospace" font-size="11" fill="#9D8AB8" letter-spacing="6">READS SAME UPSIDE-DOWN</text>
+</svg>
