@@ -301,6 +301,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ## ◆ message queues & events
 
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pipeline-3d.svg" width="100%" alt="events pipeline — four extruded stations, glowing packets riding the rail"/>
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-07.svg" width="100%" alt="queues — purple data table"/>
 
 ---
