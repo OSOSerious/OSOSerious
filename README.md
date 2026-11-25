@@ -82,25 +82,37 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/dag-dispatch.svg?v=2" width="100%" alt="DAG dispatch"/>
 
+**The rule behind the gate:** verification isn't a step in the work — it's a *wall* the work has to get past. One mutation per node means a failure has exactly one address. Debugging is boring on purpose here; boring is the feature.
+
 **Plan-as-DAG, one mutation per node.** Nodes fire in dependency order, packets stream the edges, `write` sits behind a ✓ verify gate — nothing downstream runs until the gate passes.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/memory-graph.svg?v=2" width="100%" alt="Memory graph"/>
+
+**The teaching:** context *must* be thrown away — that's what compaction is — but lessons shouldn't be. Findings carry their file:line so a future session starts wise instead of starting over. Forgetting on purpose, remembering on purpose.
 
 **Findings survive, context doesn't.** Left: context compacted to ~10%. Right: findings lit with provenance (`ex:97`, `cli.py:412`) — bug → root-cause → fix-plan wired together.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/mcp-handshake.svg?v=2" width="100%" alt="MCP handshake"/>
 
+**The security lesson:** safety is a *door*, not a wall. Everything still flows — it just can't flow raw: names become `[[TOKENS]]` before egress, the model never writes what gets sent, every hop leaves an audit row. Useful and safe at the same time, or it isn't shipped.
+
 **The only way data leaves.** `tools/call` out, `result [[LEAD]]` back, everything crosses the **anonymize gate at egress** — names become tokens before the server. The model never writes the sent text.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/xray-scanner.svg?v=2" width="100%" alt="X-ray scanner"/>
+
+**Why scan first:** every migration starts with a lie — *we know our systems*. The scanner replaces claims with structure: you can't secure, cost, or re-architect what you haven't actually looked inside of.
 
 **Inventory by truth, not by claim.** A box rides the belt through XR-1; the screen reveals its skeleton — `db:5432`, `q:rabbit` — and stamps **SAFE ✓**.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/own-ifier.svg?v=2" width="100%" alt="Own-ifier factory"/>
 
+**The economic lesson:** rent is fine until the renter changes the price. The press takes duct-taped SaaS and stamps out modules you hold the deed to — db, auth, agents, audit. That's the whole business, one machine wide.
+
 **The thesis, as a factory line.** Duct-tape SaaS goes in, the OWN-IFIER press slams, identical owned modules come out stacked: db ✓ auth ✓ agents ✓ audit ✓.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rube-goldberg.svg?v=2" width="100%" alt="Rube Goldberg"/>
+
+**The joke is the point:** complex pipelines *should* look silly drawn out — ball, seesaw, hammer, dominoes, bell. If your automation can't be told as a story with five stages, you don't understand it well enough to trust it.
 
 **One intent, chain of steps.** Ball → teeter-totter → hammer → dominoes → bell → **SHIP ✓**. Your execution philosophy told as physical comedy, 7s loop.
 
@@ -108,25 +120,37 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/goldclaw-machine.svg?v=2" width="100%" alt="Goldclaw claw machine"/>
 
+**The flagship loop:** grab → process → ship, over and over — ERP work is not one big brain, it's a reliable claw. The lesson: boring repetition, done with grip and audit, is what *AI-powered business* actually looks like underneath.
+
 **Goldclaw.ai as an arcade claw.** Cable drops, jaws grab a `[[TOKEN]]` off the lead belt, hauls it to the **SHIP** chute. Flagship loop: grab → process → ship.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/newsroom-ticker.svg?v=2" width="100%" alt="Newsroom ticker"/>
+
+**Content rules learned the hard way:** angle beats the raw news (a denial outperforms an announcement 6:1), story collisions beat single facts, speed is the whole pipeline — 2:58 to publish, under the 3:00 line. The ticker runs the rules I actually use.
 
 **NewsTerminal / AutomateMedia press line.** Split-flap flips `BREAKING ▸ ANGLE ▸ SHIPPED (2:58 < 3:00)`, wire marquee runs the real content rules, REC dot pulses.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/voiceprint.svg?v=2" width="100%" alt="Voiceprint lock"/>
 
+**The identity lesson:** a password proves you *know* something; a voiceprint proves you *are* something — and it expires the moment it's copied wrong. Liveness check + match threshold, or it's just theater with a waveform.
+
 **Voiceprints.ai.** 22 breathing waveform bars, scan line sweeps, shackle clicks open on **MATCH ✓** — your voice is the key.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/the-rack.svg?v=2" width="100%" alt="Server rack"/>
+
+**Placement is policy:** *data never leaves your infrastructure* isn't a promise in a privacy policy — it's a rack with no route to the outside. Compliance you can *point at* beats compliance you can only claim.
 
 **Data never leaves your infrastructure.** Fans spin, drive LEDs blink in I/O rhythm, packets pulse down patch cables, LCD reads `gdpr: audit ON`.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/router-mixer.svg?v=2" width="100%" alt="Model routing mixer"/>
 
+**The 80/20 of model cost:** the cheap channel handles the routine, the frontier channel gets called only when the cheap one shrugs — and caching kills 90% of the repeat spend before any model is called at all. Faders, not forks.
+
 **ROUTER-9000 — hybrid routing as a DJ desk.** Faders for GPT-5/CLAUDE/LOCAL ride themselves on SLA, VU meters bounce, cache LED reads **−90%**, master gauge: `0.31 → 0.04 $/1k tok`.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/coffee-machine.svg?v=2" width="100%" alt="Coffee machine"/>
+
+**Ritual as deploy anchor:** the pull, the steam, the shots-ticker — every serious system I've worked on had one absurdly consistent ritual. It marks the boundary between *thinking about it* and *it's in production*.
 
 **Espresso pulls = pushes.** Press, portafilter fills, stream pulls into a cup labeled `main`, "shots today" ticks. Every deploy starts the same way.
 
@@ -134,9 +158,13 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/blueprint-mark.svg?v=2" width="100%" alt="Self-drawing blueprint"/>
 
+**Constraints first, pixels second:** draw the thing before you style it — 180° palindrome, favicon-legible at 16px, flat fill, no gradients. A mark that survives those constraints survives every medium it lands in.
+
 **Self-drawing blueprint.** A plotter draws OSO with construction circles, then stamps the dimensions: `180° palindrome · favicon 16px · NO GRADIENT · DWG OSO-001 REV 5`.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/kaleidoscope.svg?v=2" width="100%" alt="Kaleidoscope"/>
+
+**Symmetry you can trust:** rotate real data through mirrors and it *generates* beauty without lying — every petal still traces back to a real day. That's the design brief for this whole page: pretty, but provable.
 
 **Symmetry generated, not drawn.** Three mirror wedges rotate against a seed of your real contribution squares — infinite violet symmetry from finite work.
 
@@ -146,17 +174,25 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/morse-beacon.svg?v=2" width="100%" alt="Morse beacon"/>
 
+**The palindrome holds everywhere:** OSO reads the same flipped — and Morse (`—··· ··· —···`) proves it isn't a Latin-script trick. Test your brand in the oldest alphabet you can find; if it survives that, it survives anything.
+
 **The beacon.** OSO in Morse — `—··· ··· —···` — symmetric in that alphabet too. The palindrome holds everywhere.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/wax-seal.svg?v=2" width="100%" alt="Wax seal"/>
+
+**Provenance you can feel:** a stamp doesn't stop tampering by force — it makes tampering *visible*. Same as signed commits and audit rows: the goal isn't to prevent, it's to make every touch leave a mark.
 
 **The seal.** A stamp presses OSO into violet wax over `signed-off-by` — provenance you can feel, same rule as the findings graph.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/holo-identity.svg?v=2" width="100%" alt="Hologram"/>
 
+**The sober version of cool:** identity that only exists while the system is powered is also identity that dies with the power. Holograms are the aesthetic — the engineering underneath is still keys, rotation, and revocation.
+
 **The projection.** The mark as a flickering hologram — identity that only exists while the system is powered.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/metronome.svg?v=2" width="100%" alt="Metronome"/>
+
+**Tempo over sprints:** 72 BPM — a working pace you can hold for years. Big-bang weeks produce big-bang reverts; a metronome produces 1,162 contributions. Consistency compounds, intensity just burns.
 
 **The tempo.** 72 BPM, <i>consistency &gt; intensity</i> — how the shipping actually works: parallel threads, one steady beat.
 
@@ -168,13 +204,19 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pinball.svg?v=2" width="100%" alt="Pinball failover"/>
 
+**Failover is not the same as no failure:** the ball *will* drain toward the deadline — the design question is how many bumpers and flippers you've built between there and here. Resilience is measured in ricochets survived.
+
 **Failover as pinball.** The SHIP ball ricochets bumpers (`mcp · memory · harness`), flippers fire as retries, drain is **▼DEADLINE▼** — the ball never dies, it reroutes.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pachinko-router.svg?v=2" width="100%" alt="Pachinko router"/>
 
+**Bet, don't predict:** routing shouldn't guess which model *feels* right — it should drop the token through SLA pins and let landing decide. Probability with receipts beats intuition with vibes, every time.
+
 **Probability as hardware.** A token drops through SLA pins into `LOCAL / BALANCED / FRONTIER` buckets; cost meter flips `0.31 → 0.04`.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/domino-plan.svg?v=2" width="100%" alt="Domino plan"/>
+
+**Dependencies are gravity:** every standing domino is a promise to the next, and the cascade only runs because the order was *designed* first. Plan the fall before you push the first tile.
 
 **One push, full cascade.** probe → plan → mutate → test → lint → build fall in sequence, last reveal **SHIP ✓**. "Deps = gravity."
 
@@ -184,25 +226,37 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lighthouse.svg?v=2" width="100%" alt="Lighthouse"/>
 
+**Observability as weather:** you can't steer by a lighthouse you built after the wreck. The beam sweeps whether ships are out or not — monitoring that only runs during incidents is a smoke detector that needs a fire.
+
 **Observability as weather.** The beam sweeps 360° through fog; your fleet's ships flip green → amber → green as light passes. `uptime 99.97`.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/launch-countdown.svg?v=2" width="100%" alt="Launch countdown"/>
+
+**Theater with a checklist:** count downs exist so nobody skips the boring part. Every gate on that list — tests, dry-run migration, staged rollback, canary — is a promise you can keep *because* you said it out loud first.
 
 **Deploy ritual.** Split-flap digits 10…3…2, **LIFTOFF**, rocket rises past the checklist: `✓ 3252/3252 ✓ rollback staged ▸ canary 5%`.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/slot-ship.svg?v=2" width="100%" alt="Slot SHIP"/>
 
+**Luck removal:** a jackpot you can't reproduce isn't engineering. 3,252 tests green before the reels stop is what turns *it works* into *it will keep working* — the only winning move is not leaving it to the spin.
+
 **Jackpot logic.** Reels snap S·H·I·P, bell flashes, counters read `3,252 tests ✓ 0f` and commits ticking 240 → 242. Retro chrome, one Signal lever.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/agent-elevator.svg?v=2" width="100%" alt="Agent elevator"/>
+
+**HITL is a floor, not a bug:** the car holds at VERIFY because a human standing between an agent and production is a *feature of the architecture*. One floor per gate — you can ride down and override, but the doors don't just open.
 
 **The execution loop, as a building.** Car rides `PLAN → ACT → VERIFY → REMEMBER → SHIP`, doors hold at VERIFY — one floor per gate.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/maze-runner.svg?v=2" width="100%" alt="Maze runner"/>
 
+**Explore before you exploit:** wrong turns aren't wasted — they're the map being drawn. The locked violet path at the end only exists because the dim ones were walked first.
+
 **Discovery through search.** Wrong turns dim, dead-ends re-route, the winning path locks in violet behind the token. Recon instinct, tiny game.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/disk-vacuum.svg?v=2" width="100%" alt="Disk vacuum"/>
+
+**The housekeeping lesson:** space problems are almost never space problems — they're hygiene. And the real discipline isn't deleting, it's *moving + logging*: every cleanup leaves a receipt (space_recovery.txt) so future-you knows what disappeared and why.
 
 **The real session.** Vacuum eats the cache piles (lima · mix · go · brew), free-space gauge climbs `57GB → 128GB`, log reads: **no rm. moved. logged.**
 
@@ -210,29 +264,43 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lava-plasma.svg?v=2" width="100%" alt="Lava plasma"/>
 
+**Fusion, literally:** five languages, one organism — that's what a polyglot stack should feel like when it's wired right. If your services don't merge under load, you built silos with APIs.
+
 **Goo-filter metaballs.** `feGaussianBlur → feColorMatrix` makes five violet blobs — your five languages — fuse and split into one organism. Zero JS.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/game-of-life.svg?v=2" width="100%" alt="Game of Life"/>
+
+**Emergence is the whole thesis:** four rules, no leader, and gliders appear — the same way simple agent loops produce behavior nobody wrote. Complexity you can *explain* is complexity you can own; complexity you can't explain is just weather.
 
 **Conway B3/S23 on your squares.** A glider crosses, a blinker rotates, a pulsar breathes — emergence from simple rules, your agent thesis in motion.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/dna-helix.svg?v=2" width="100%" alt="DNA helix"/>
 
+**Every system has a genome:** the double helix here is your commit cadence — base pairs lighting in order. Read the rhythm and you can predict the system: steady pairs ship, gaps mutate.
+
 **The genome of shipping.** Two strands path-morphing through each other, base-pair rungs lighting in sequence, codon scanner sweeping. Code as life.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/ship-oscope.svg?v=2" width="100%" alt="Ship oscilloscope"/>
+
+**Measure before you tune:** the waveform says more about shipping health than any standup — bursts are feature weeks, flatlines are burnout or blockers. A cadence you can *see* is a cadence you can defend.
 
 **Your cadence as test equipment.** CRT waveform morphs calm → burst → spike (push days), glowing scan dot on the graticule: `TRIG ▸ AUTO · SIG: prod`.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/repo-orbitals.svg?v=2" width="100%" alt="Repo orbitals"/>
 
+**Constellation, not monolith:** repos on staggered periods so the sky never repeats — the architecture lesson is independent lifecycles. When everything shares one orbit, one collision takes the whole sky down.
+
 **The constellation.** Repos on elliptical SMIL orbits around the OSO core — `harness · memory · mcp-tools · abliterate · erp · agents` — periods staggered so it never repeats the same way twice.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/the-hive.svg?v=2" width="100%" alt="The hive"/>
 
+**No single point:** scouts dance the figure-eight, cells fill with tokens, the queen only *coordinates*. That's multi-agent done right — workers carry the load, the orchestrator carries the map, and any one can die without losing the swarm.
+
 **Swarm with no single point.** Scouts fly a real waggle-dance figure-8, hex cells fill with `[[TOKENS]]`, the queen cell pulses as orchestrator.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/contribution-koi.svg?v=2" width="100%" alt="Contribution koi"/>
+
+**Data as a creature:** the koi's body *is* your contribution squares — the visualization isn't decorating the data, it's wearing it. If you can point at every scale and say which day it was, the picture is honest.
 
 **The koi, rebuilt.** A fish whose body IS your contribution squares, iso-shaded like the city — tail flicks, ripples. Your data, alive.
 
