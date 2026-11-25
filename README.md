@@ -281,6 +281,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ## ◆ models & providers
 
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/provider-orbit.svg" width="100%" alt="providers in orbit around the guarded routing core — 8 extruded chips on 3 tilted rings"/>
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-05.svg" width="100%" alt="models providers — purple data table"/>
 
 ---

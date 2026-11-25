@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-label="providers orbiting the routing core">
+<style>svg{filter:saturate(1.7) brightness(1.3) contrast(1.1);}</style>
+<rect width="900" height="460" rx="14" fill="#17121F"/>
+<text x="24" y="34" font-size="14" font-family="Courier New,monospace" fill="#A78BFA">// providers, in orbit</text>
+<text x="876" y="34" text-anchor="end" font-size="12" font-family="Courier New,monospace" fill="#6D28D9">8 chips · 3 rings · one core</text>
+<ellipse cx="450" cy="236" rx="170" ry="62" fill="none" stroke="#4C1D95" stroke-width="2" stroke-dasharray="8 7"/><ellipse cx="450" cy="236" rx="265" ry="96" fill="none" stroke="#3B1580" stroke-width="2" stroke-dasharray="8 7"/><ellipse cx="450" cy="236" rx="355" ry="132" fill="none" stroke="#2E1065" stroke-width="2" stroke-dasharray="8 7"/>
+<ellipse cx="450" cy="236" rx="90" ry="44" fill="none" stroke="#C4B5FD" stroke-width="2"><animate attributeName="rx" values="90;360" dur="3.6s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="3.6s" begin="0s" repeatCount="indefinite"/><animate attributeName="ry" values="44;150" dur="3.6s" begin="0s" repeatCount="indefinite"/></ellipse><ellipse cx="450" cy="236" rx="90" ry="44" fill="none" stroke="#C4B5FD" stroke-width="2"><animate attributeName="rx" values="90;360" dur="3.6s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="3.6s" begin="1s" repeatCount="indefinite"/><animate attributeName="ry" values="44;150" dur="3.6s" begin="1s" repeatCount="indefinite"/></ellipse><ellipse cx="450" cy="236" rx="90" ry="44" fill="none" stroke="#C4B5FD" stroke-width="2"><animate attributeName="rx" values="90;360" dur="3.6s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="3.6s" begin="2s" repeatCount="indefinite"/><animate attributeName="ry" values="44;150" dur="3.6s" begin="2s" repeatCount="indefinite"/></ellipse>
+<g>
+<path d="M 536.0 236.0 L 450.0 276.0 L 450.0 310.0 L 536.0 270.0 Z" fill="#241A38"/><path d="M 364.0 236.0 L 450.0 276.0 L 450.0 310.0 L 364.0 270.0 Z" fill="#1E1730"/><path d="M 450.0 196.0 L 536.0 236.0 L 450.0 276.0 L 364.0 236.0 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".25"/>
+<text x="450" y="242" text-anchor="middle" font-size="15" font-weight="700" font-family="Courier New,monospace" fill="#17121F" letter-spacing="3">CORE</text>
+<text x="450" y="270" text-anchor="middle" font-size="10" font-family="Courier New,monospace" fill="#E9D5FF">route · cache · guard</text>
+</g>
+<g>
+  <g>
+    <path d="M 52.0 0.0 L 0.0 20.0 L 0.0 29.0 L 52.0 9.0 Z" fill="#241A38"/><path d="M -52.0 0.0 L 0.0 20.0 L 0.0 29.0 L -52.0 9.0 Z" fill="#1E1730"/><path d="M 0.0 -20.0 L 52.0 0.0 L 0.0 20.0 L -52.0 0.0 Z" fill="#6D28D9" stroke="#E9D5FF" stroke-opacity=".25"/>
+    <text x="0" y="5" text-anchor="middle" font-size="9.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">OPENAI</text>
+    <animateMotion dur="14s" begin="-0.0s" repeatCount="indefinite" path="M 280 236 a 170 62 0 1 1 340 0 a 170 62 0 1 1 -340 0" rotate="0"/>
+  </g>
+</g><g>
+  <g>
+    <path d="M 52.0 0.0 L 0.0 20.0 L 0.0 29.0 L 52.0 9.0 Z" fill="#241A38"/><path d="M -52.0 0.0 L 0.0 20.0 L 0.0 29.0 L -52.0 9.0 Z" fill="#1E1730"/><path d="M 0.0 -20.0 L 52.0 0.0 L 0.0 20.0 L -52.0 0.0 Z" fill="#5B21B6" stroke="#E9D5FF" stroke-opacity=".25"/>
+    <text x="0" y="5" text-anchor="middle" font-size="9.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">ANTHROPIC</text>
+    <animateMotion dur="22s" begin="-7.7s" repeatCount="indefinite" path="M 185 236 a 265 96 0 1 1 530 0 a 265 96 0 1 1 -530 0" rotate="0"/>
+  </g>
+</g><g>
+  <g>
+    <path d="M 52.0 0.0 L 0.0 20.0 L 0.0 29.0 L 52.0 9.0 Z" fill="#241A38"/><path d="M -52.0 0.0 L 0.0 20.0 L 0.0 29.0 L -52.0 9.0 Z" fill="#1E1730"/><path d="M 0.0 -20.0 L 52.0 0.0 L 0.0 20.0 L -52.0 0.0 Z" fill="#4C1D95" stroke="#E9D5FF" stroke-opacity=".25"/>
+    <text x="0" y="5" text-anchor="middle" font-size="9.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">GOOGLE</text>
+    <animateMotion dur="31s" begin="-21.7s" repeatCount="indefinite" path="M 95 236 a 355 132 0 1 1 710 0 a 355 132 0 1 1 -710 0" rotate="0"/>
+  </g>
+</g><g>
+  <g>
+    <path d="M 52.0 0.0 L 0.0 20.0 L 0.0 29.0 L 52.0 9.0 Z" fill="#241A38"/><path d="M -52.0 0.0 L 0.0 20.0 L 0.0 29.0 L -52.0 9.0 Z" fill="#1E1730"/><path d="M 0.0 -20.0 L 52.0 0.0 L 0.0 20.0 L -52.0 0.0 Z" fill="#6D28D9" stroke="#E9D5FF" stroke-opacity=".25"/>
+    <text x="0" y="5" text-anchor="middle" font-size="9.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">DEEPSEEK</text>
+    <animateMotion dur="14s" begin="-0.0s" repeatCount="indefinite" path="M 280 236 a 170 62 0 1 1 340 0 a 170 62 0 1 1 -340 0" rotate="0"/>
+  </g>
+</g><g>
+  <g>
+    <path d="M 52.0 0.0 L 0.0 20.0 L 0.0 29.0 L 52.0 9.0 Z" fill="#241A38"/><path d="M -52.0 0.0 L 0.0 20.0 L 0.0 29.0 L -52.0 9.0 Z" fill="#1E1730"/><path d="M 0.0 -20.0 L 52.0 0.0 L 0.0 20.0 L -52.0 0.0 Z" fill="#5B21B6" stroke="#E9D5FF" stroke-opacity=".25"/>
+    <text x="0" y="5" text-anchor="middle" font-size="9.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">QWEN</text>
+    <animateMotion dur="22s" begin="-7.7s" repeatCount="indefinite" path="M 185 236 a 265 96 0 1 1 530 0 a 265 96 0 1 1 -530 0" rotate="0"/>
+  </g>
+</g><g>
+  <g>
+    <path d="M 52.0 0.0 L 0.0 20.0 L 0.0 29.0 L 52.0 9.0 Z" fill="#241A38"/><path d="M -52.0 0.0 L 0.0 20.0 L 0.0 29.0 L -52.0 9.0 Z" fill="#1E1730"/><path d="M 0.0 -20.0 L 52.0 0.0 L 0.0 20.0 L -52.0 0.0 Z" fill="#4C1D95" stroke="#E9D5FF" stroke-opacity=".25"/>
+    <text x="0" y="5" text-anchor="middle" font-size="9.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">GLM</text>
+    <animateMotion dur="31s" begin="-21.7s" repeatCount="indefinite" path="M 95 236 a 355 132 0 1 1 710 0 a 355 132 0 1 1 -710 0" rotate="0"/>
+  </g>
+</g><g>
+  <g>
+    <path d="M 52.0 0.0 L 0.0 20.0 L 0.0 29.0 L 52.0 9.0 Z" fill="#241A38"/><path d="M -52.0 0.0 L 0.0 20.0 L 0.0 29.0 L -52.0 9.0 Z" fill="#1E1730"/><path d="M 0.0 -20.0 L 52.0 0.0 L 0.0 20.0 L -52.0 0.0 Z" fill="#6D28D9" stroke="#E9D5FF" stroke-opacity=".25"/>
+    <text x="0" y="5" text-anchor="middle" font-size="9.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">GROQ</text>
+    <animateMotion dur="14s" begin="-0.0s" repeatCount="indefinite" path="M 280 236 a 170 62 0 1 1 340 0 a 170 62 0 1 1 -340 0" rotate="0"/>
+  </g>
+</g><g>
+  <g>
+    <path d="M 52.0 0.0 L 0.0 20.0 L 0.0 29.0 L 52.0 9.0 Z" fill="#241A38"/><path d="M -52.0 0.0 L 0.0 20.0 L 0.0 29.0 L -52.0 9.0 Z" fill="#1E1730"/><path d="M 0.0 -20.0 L 52.0 0.0 L 0.0 20.0 L -52.0 0.0 Z" fill="#5B21B6" stroke="#E9D5FF" stroke-opacity=".25"/>
+    <text x="0" y="5" text-anchor="middle" font-size="9.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">SELF-HOSTED</text>
+    <animateMotion dur="22s" begin="-7.7s" repeatCount="indefinite" path="M 185 236 a 265 96 0 1 1 530 0 a 265 96 0 1 1 -530 0" rotate="0"/>
+  </g>
+</g>
+<text x="24" y="438" font-size="11" font-family="Courier New,monospace" fill="#9D8AB8">every model reaches the stack through the same guarded core — swap providers, keep the shape</text>
+</svg>
