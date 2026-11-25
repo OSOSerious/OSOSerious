@@ -343,6 +343,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ## ◆ API integrations
 
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/api-switch.svg" width="100%" alt="API integrations as a 3D patch bay — one gateway, six cables, signals moving"/>
+
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Payments+%7C+Communication+%7C+Google+%7C+Social+%7C+CRM+%7C+Developer" alt="APIs" />
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-11.svg" width="100%" alt="api integrations — purple data table"/>

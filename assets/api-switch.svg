@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-label="API integrations as a 3D patch bay">
+<style>svg{filter:saturate(1.7) brightness(1.3) contrast(1.1);}</style>
+<rect width="900" height="460" rx="14" fill="#17121F"/>
+<text x="24" y="34" font-size="14" font-family="Courier New,monospace" fill="#A78BFA">// everything, patched through one bay</text>
+<text x="876" y="34" text-anchor="end" font-size="12" font-family="Courier New,monospace" fill="#6D28D9">6 cables · signals always moving</text>
+<rect x="70" y="56" width="760" height="352" rx="14" fill="#0E0A16" stroke="#2E1065"/>
+<path d="M 290 190 C 384.0 224, 384.0 110, 478 76" fill="none" stroke="#2E1065" stroke-width="6" stroke-linecap="round"/><path d="M 290 190 C 384.0 224, 384.0 110, 478 76" fill="none" stroke="#C4B5FD" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="9 8"/><path d="M 290 206 C 384.0 240, 384.0 172, 478 138" fill="none" stroke="#2E1065" stroke-width="6" stroke-linecap="round"/><path d="M 290 206 C 384.0 240, 384.0 172, 478 138" fill="none" stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="9 8"/><path d="M 290 222 C 384.0 256, 384.0 234, 478 200" fill="none" stroke="#2E1065" stroke-width="6" stroke-linecap="round"/><path d="M 290 222 C 384.0 256, 384.0 234, 478 200" fill="none" stroke="#8B5CF6" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="9 8"/><path d="M 290 238 C 384.0 272, 384.0 296, 478 262" fill="none" stroke="#2E1065" stroke-width="6" stroke-linecap="round"/><path d="M 290 238 C 384.0 272, 384.0 296, 478 262" fill="none" stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="9 8"/><path d="M 290 254 C 384.0 288, 384.0 358, 478 324" fill="none" stroke="#2E1065" stroke-width="6" stroke-linecap="round"/><path d="M 290 254 C 384.0 288, 384.0 358, 478 324" fill="none" stroke="#C4B5FD" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="9 8"/><path d="M 290 270 C 384.0 304, 384.0 420, 478 386" fill="none" stroke="#2E1065" stroke-width="6" stroke-linecap="round"/><path d="M 290 270 C 384.0 304, 384.0 420, 478 386" fill="none" stroke="#8B5CF6" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="9 8"/>
+<g>
+<path d="M 286 164 L 286 296 L 312 283 L 312 151 Z" fill="#241A38"/><path d="M 94 164 L 286 164 L 312 151 L 120 151 Z" fill="#4C1D95"/><path d="M 94 164 L 286 164 L 286 296 L 94 296 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".3"/>
+<text x="190" y="216" text-anchor="middle" font-size="14" font-weight="700" font-family="Courier New,monospace" fill="#17121F" letter-spacing="3">OSO</text>
+<text x="190" y="238" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#17121F">one gateway</text>
+<text x="190" y="260" text-anchor="middle" font-size="9" font-family="Courier New,monospace" fill="#F3EDFF">auth · quota · audit</text>
+</g>
+<g>
+<path d="M 638 52 L 638 100 L 654 92 L 654 44 Z" fill="#241A38"/><path d="M 482 52 L 638 52 L 654 44 L 498 44 Z" fill="#4C1D95"/><path d="M 482 52 L 638 52 L 638 100 L 482 100 Z" fill="#6D28D9" stroke="#E9D5FF" stroke-opacity=".3"/>
+<text x="560" y="80" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">PAY</text>
+<text x="656" y="80" font-size="10" font-family="Courier New,monospace" fill="#A78BFA">stripe</text>
+</g><g>
+<path d="M 638 114 L 638 162 L 654 154 L 654 106 Z" fill="#241A38"/><path d="M 482 114 L 638 114 L 654 106 L 498 106 Z" fill="#4C1D95"/><path d="M 482 114 L 638 114 L 638 162 L 482 162 Z" fill="#5B21B6" stroke="#E9D5FF" stroke-opacity=".3"/>
+<text x="560" y="142" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">MSG</text>
+<text x="656" y="142" font-size="10" font-family="Courier New,monospace" fill="#A78BFA">slack · twilio</text>
+</g><g>
+<path d="M 638 176 L 638 224 L 654 216 L 654 168 Z" fill="#241A38"/><path d="M 482 176 L 638 176 L 654 168 L 498 168 Z" fill="#4C1D95"/><path d="M 482 176 L 638 176 L 638 224 L 482 224 Z" fill="#4C1D95" stroke="#E9D5FF" stroke-opacity=".3"/>
+<text x="560" y="204" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">GOOG</text>
+<text x="656" y="204" font-size="10" font-family="Courier New,monospace" fill="#A78BFA">workspace</text>
+</g><g>
+<path d="M 638 238 L 638 286 L 654 278 L 654 230 Z" fill="#241A38"/><path d="M 482 238 L 638 238 L 654 230 L 498 230 Z" fill="#4C1D95"/><path d="M 482 238 L 638 238 L 638 286 L 482 286 Z" fill="#6D28D9" stroke="#E9D5FF" stroke-opacity=".3"/>
+<text x="560" y="266" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">SOC</text>
+<text x="656" y="266" font-size="10" font-family="Courier New,monospace" fill="#A78BFA">x · li · meta</text>
+</g><g>
+<path d="M 638 300 L 638 348 L 654 340 L 654 292 Z" fill="#241A38"/><path d="M 482 300 L 638 300 L 654 292 L 498 292 Z" fill="#4C1D95"/><path d="M 482 300 L 638 300 L 638 348 L 482 348 Z" fill="#5B21B6" stroke="#E9D5FF" stroke-opacity=".3"/>
+<text x="560" y="328" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">CRM</text>
+<text x="656" y="328" font-size="10" font-family="Courier New,monospace" fill="#A78BFA">hubspot · notion</text>
+</g><g>
+<path d="M 638 362 L 638 410 L 654 402 L 654 354 Z" fill="#241A38"/><path d="M 482 362 L 638 362 L 654 354 L 498 354 Z" fill="#4C1D95"/><path d="M 482 362 L 638 362 L 638 410 L 482 410 Z" fill="#4C1D95" stroke="#E9D5FF" stroke-opacity=".3"/>
+<text x="560" y="390" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">DEV</text>
+<text x="656" y="390" font-size="10" font-family="Courier New,monospace" fill="#A78BFA">github api</text>
+</g>
+<circle r="5" fill="#E9D5FF" style="filter:drop-shadow(0 0 5px #C4B5FD)"><animateMotion dur="2.7s" begin="0.00s" repeatCount="indefinite" path="M 290 190 C 384.0 224, 384.0 110, 478 76"/></circle><circle r="5" fill="#E9D5FF" style="filter:drop-shadow(0 0 5px #C4B5FD)"><animateMotion dur="2.7s" begin="-0.45s" repeatCount="indefinite" path="M 290 206 C 384.0 240, 384.0 172, 478 138"/></circle><circle r="5" fill="#E9D5FF" style="filter:drop-shadow(0 0 5px #C4B5FD)"><animateMotion dur="2.7s" begin="-0.90s" repeatCount="indefinite" path="M 290 222 C 384.0 256, 384.0 234, 478 200"/></circle><circle r="5" fill="#E9D5FF" style="filter:drop-shadow(0 0 5px #C4B5FD)"><animateMotion dur="2.7s" begin="-1.35s" repeatCount="indefinite" path="M 290 238 C 384.0 272, 384.0 296, 478 262"/></circle><circle r="5" fill="#E9D5FF" style="filter:drop-shadow(0 0 5px #C4B5FD)"><animateMotion dur="2.7s" begin="-1.80s" repeatCount="indefinite" path="M 290 254 C 384.0 288, 384.0 358, 478 324"/></circle><circle r="5" fill="#E9D5FF" style="filter:drop-shadow(0 0 5px #C4B5FD)"><animateMotion dur="2.7s" begin="-2.25s" repeatCount="indefinite" path="M 290 270 C 384.0 304, 384.0 420, 478 386"/></circle>
+<text x="24" y="440" font-size="11" font-family="Courier New,monospace" fill="#9D8AB8">rate-limited, logged, revocable — pull one cable and nothing else notices</text>
+</svg>
