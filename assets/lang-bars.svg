@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" role="img" aria-label="languages by depth — Elixir first">
+  <style>svg{filter:saturate(1.7) brightness(1.3) contrast(1.1);}@keyframes pulse{0%,100%{opacity:.85}50%{opacity:1}}</style>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4C1D95"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+    <linearGradient id="gTop" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6D28D9"/><stop offset=".6" stop-color="#A78BFA"/><stop offset="1" stop-color="#E9D5FF"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2E1065"/><stop offset="1" stop-color="#6D28D9"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#241A38"/><stop offset="1" stop-color="#4C1D95"/></linearGradient>
+  </defs>
+  <rect width="880" height="420" rx="14" fill="#17121F"/>
+  <text x="26" y="34" font-size="14" font-family="Courier New,monospace" fill="#A78BFA">// languages by depth</text>
+  <text x="854" y="34" text-anchor="end" font-size="14" font-family="Courier New,monospace" fill="#6D28D9">elixir leads — always</text>
+
+  <!-- bars: y, label, width, gradient, tag, growth delay -->
+  <g font-family="Courier New,monospace" font-size="13">
+    <!-- ELIXIR — top, longest, breathing -->
+    <text x="26" y="78" fill="#E9D5FF" font-weight="700">Elixir</text>
+    <rect x="120" y="62" width="0" height="22" rx="6" fill="url(#gTop)">
+      <animate attributeName="width" values="0;720" dur="1.6s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>
+    </rect>
+    <rect x="120" y="62" width="720" height="22" rx="6" fill="none" stroke="#E9D5FF" stroke-width="1" opacity=".7" style="animation:pulse 2.6s ease-in-out infinite"/>
+    <text x="846" y="78" text-anchor="end" fill="#E9D5FF" font-size="11">PRIMARY · OTP</text>
+
+    <text x="26" y="116" fill="#C4B5FD">Python</text>
+    <rect x="120" y="102" width="0" height="18" rx="5" fill="url(#g1)">
+      <animate attributeName="width" values="0;640" dur="1.6s" begin="0.15s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>
+    </rect>
+    <text x="846" y="116" text-anchor="end" fill="#9D8AB8" font-size="11">EXPERT</text>
+
+    <text x="26" y="150" fill="#C4B5FD">TypeScript</text>
+    <rect x="120" y="136" width="0" height="18" rx="5" fill="url(#g1)">
+      <animate attributeName="width" values="0;610" dur="1.6s" begin="0.3s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>
+    </rect>
+    <text x="846" y="150" text-anchor="end" fill="#9D8AB8" font-size="11">EXPERT</text>
+
+    <text x="26" y="184" fill="#C4B5FD">JavaScript</text>
+    <rect x="120" y="170" width="0" height="18" rx="5" fill="url(#g1)">
+      <animate attributeName="width" values="0;580" dur="1.6s" begin="0.45s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>
+    </rect>
+    <text x="846" y="184" text-anchor="end" fill="#9D8AB8" font-size="11">EXPERT</text>
+
+    <text x="26" y="218" fill="#A78BFA">SQL</text>
+    <rect x="120" y="204" width="0" height="18" rx="5" fill="url(#g1)">
+      <animate attributeName="width" values="0;570" dur="1.6s" begin="0.6s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>
+    </rect>
+    <text x="846" y="218" text-anchor="end" fill="#9D8AB8" font-size="11">EXPERT</text>
+
+    <text x="26" y="252" fill="#A78BFA">GraphQL</text>
+    <rect x="120" y="238" width="0" height="18" rx="5" fill="url(#g2)">
+      <animate attributeName="width" values="0;520" dur="1.6s" begin="0.75s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>
+    </rect>
+    <text x="846" y="252" text-anchor="end" fill="#9D8AB8" font-size="11">ADVANCED</text>
+
+    <text x="26" y="286" fill="#A78BFA">Bash</text>
+    <rect x="120" y="272" width="0" height="18" rx="5" fill="url(#g1)">
+      <animate attributeName="width" values="0;560" dur="1.6s" begin="0.9s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>
+    </rect>
+    <text x="846" y="286" text-anchor="end" fill="#9D8AB8" font-size="11">EXPERT</text>
+
+    <text x="26" y="320" fill="#A78BFA">Go</text>
+    <rect x="120" y="306" width="0" height="18" rx="5" fill="url(#g2)">
+      <animate attributeName="width" values="0;470" dur="1.6s" begin="1.05s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>
+    </rect>
+    <text x="846" y="320" text-anchor="end" fill="#9D8AB8" font-size="11">ADVANCED</text>
+
+    <text x="26" y="354" fill="#A78BFA">Svelte</text>
+    <rect x="120" y="340" width="0" height="18" rx="5" fill="url(#g2)">
+      <animate attributeName="width" values="0;450" dur="1.6s" begin="1.2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>
+    </rect>
+    <text x="846" y="354" text-anchor="end" fill="#9D8AB8" font-size="11">ADVANCED</text>
+
+    <text x="26" y="388" fill="#9D8AB8">Rust</text>
+    <rect x="120" y="374" width="0" height="18" rx="5" fill="url(#g3)">
+      <animate attributeName="width" values="0;330" dur="1.6s" begin="1.35s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>
+    </rect>
+    <text x="846" y="388" text-anchor="end" fill="#9D8AB8" font-size="11">INTERMEDIATE</text>
+  </g>
+</svg>

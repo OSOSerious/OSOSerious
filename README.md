@@ -223,9 +223,13 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
+
 ## ◆ languages — Elixir first
 
 <img src="https://img.shields.io/badge/Elixir-8B5CF6?style=flat-square" alt="Elixir"/> <img src="https://img.shields.io/badge/GraphQL-8B5CF6?style=flat-square" alt="GraphQL"/> <img src="https://img.shields.io/badge/Python-6D28D9?style=flat-square" alt="Python"/> <img src="https://img.shields.io/badge/TypeScript-6D28D9?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Go-6D28D9?style=flat-square" alt="Go"/> <img src="https://img.shields.io/badge/Rust-4C1D95?style=flat-square" alt="Rust"/>
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lang-bars.svg" width="100%" alt="languages by depth — Elixir leads"/>
 
 | Language | Proficiency | Use Cases |
 |:---------|:------------|:----------|
@@ -242,8 +246,9 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-## ◆ frameworks — Phoenix first
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
 
+## ◆ frameworks — Phoenix first
 
 | Framework | Experience |
 |:----------|:-----------|
@@ -289,6 +294,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
+
 ## ◆ models & providers
 
 | Provider | Models & Experience |
@@ -303,6 +310,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 | ▲ **Self-Hosted** | Ollama (local LLM deployment), vLLM (high-throughput serving, prefix-cache economics), LiteLLM (unified API with cost tracking), NVIDIA Triton Inference Server, Text Generation Inference (TGI), llama.cpp (CPU/GPU inference). |
 
 ---
+
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
 
 ## ◆ databases & vector stores
 
@@ -323,6 +332,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
+
 ## ◆ message queues & events
 
 | Technology | Experience |
@@ -336,6 +347,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 | **AWS SQS** | Managed message queue, FIFO queues, dead letter queues, Lambda integration |
 
 ---
+
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
 
 ## ◆ automation & orchestration
 
@@ -351,8 +364,9 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-## ◆ cloud & devops
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
 
+## ◆ cloud & devops
 
 | Technology | Experience |
 |:-----------|:-----------|
@@ -367,8 +381,9 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
-## ◆ observability, monitoring & security
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
 
+## ◆ observability, monitoring & security
 
 | Technology | Experience |
 |:-----------|:-----------|
@@ -388,6 +403,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
+
 ## ◆ API integrations
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Payments+%7C+Communication+%7C+Google+%7C+Social+%7C+CRM+%7C+Developer" alt="APIs" />
@@ -402,6 +419,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 | ▣ **Developer** | GitHub API (repository automation, webhooks, Actions) |
 
 ---
+
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
 
 ## ◆ featured projects — award-winning · open source · production-ready
 
@@ -460,6 +479,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ---
 
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
+
 ## ◆ what I deliver — production systems designed for agencies to deploy to clients
 
 | ◈ AI Agents | ◈ Automation | ◈ Integration |
@@ -481,6 +502,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 | Performance benchmarking | GDPR/HIPAA considerations | Ongoing support options |
 
 ---
+
+<p align="center"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rule-sweep.svg" width="100%" alt=""/></p>
 
 ## ◆ github stats
 
