@@ -1,0 +1,17 @@
+name: year-city
+# manual only — no cron, no schedule (I launch it when I say)
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  city:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          USERNAME: OSOSerious
+      - uses: actions/upload-artifact@v7
+        with:
+          name: city
+          path: profile-3d-contrib/
