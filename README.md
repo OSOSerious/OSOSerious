@@ -313,6 +313,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ## ◆ automation & orchestration
 
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/switchyard.svg" width="100%" alt="automation switchyard — a job cube changing tracks at a glowing junction"/>
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-08.svg" width="100%" alt="automation — purple data table"/>
 
 ---
