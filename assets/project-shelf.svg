@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-label="featured projects as a 3D cartridge shelf">
+<style>svg{filter:saturate(1.7) brightness(1.3) contrast(1.1);}</style>
+<rect width="900" height="500" rx="14" fill="#17121F"/>
+<text x="24" y="34" font-size="14" font-family="Courier New,monospace" fill="#A78BFA">// pinned, on the shelf</text>
+<text x="876" y="34" text-anchor="end" font-size="12" font-family="Courier New,monospace" fill="#6D28D9">6 cartridges · two planks</text>
+<rect x="0" y="0" width="90" height="500" fill="#E9D5FF" opacity=".05">
+  <animate attributeName="x" values="-100;920" dur="5.5s" repeatCount="indefinite"/>
+</rect>
+<path d="M 100 208 L 584 208 L 614 224 L 130 224 Z" fill="#4C1D95" opacity=".9"/><path d="M 130 224 L 614 224 L 614 234 L 130 234 Z" fill="#241A38"/><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.00s" dur=".14s" fill="freeze"/>
+  <path d="M 258 208 L 258 58 L 280 47 L 280 197 Z" fill="#2E1065"/><path d="M 140 58 L 258 58 L 280 47 L 162 47 Z" fill="#4C1D95"/>
+  <path d="M 140 208 L 258 208 L 258 58 L 140 58 Z" fill="#1E1730" stroke="#8B5CF6" stroke-width="1.5"/>
+  <path d="M 152 74 L 246 74 L 246 122 L 152 122 Z" fill="#E9D5FF" opacity=".16"/>
+  <rect x="150" y="194" width="98" height="5" rx="2" fill="#E9D5FF" opacity=".9"/>
+  <text x="199.0" y="148" text-anchor="middle" font-size="9" font-family="Courier New,monospace" fill="#A78BFA">PYTHON</text>
+  <text x="199.0" y="170" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#6D28D9">★ pinned</text>
+  <text x="199.0" y="92" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">oso</text><text x="199.0" y="105" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">obliterated</text><text x="199.0" y="118" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">models</text>
+</g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.12s" dur=".14s" fill="freeze"/>
+  <path d="M 402 208 L 402 58 L 424 47 L 424 197 Z" fill="#2E1065"/><path d="M 284 58 L 402 58 L 424 47 L 306 47 Z" fill="#4C1D95"/>
+  <path d="M 284 208 L 402 208 L 402 58 L 284 58 Z" fill="#1E1730" stroke="#8B5CF6" stroke-width="1.5"/>
+  <path d="M 296 74 L 390 74 L 390 122 L 296 122 Z" fill="#8B5CF6" opacity=".16"/>
+  <rect x="294" y="194" width="98" height="5" rx="2" fill="#8B5CF6" opacity=".9"/>
+  <text x="343.0" y="148" text-anchor="middle" font-size="9" font-family="Courier New,monospace" fill="#A78BFA">PYTHON</text>
+  <text x="343.0" y="170" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#6D28D9">★ pinned</text>
+  <text x="343.0" y="92" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">discord bot</text>
+</g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.24s" dur=".14s" fill="freeze"/>
+  <path d="M 546 208 L 546 58 L 568 47 L 568 197 Z" fill="#2E1065"/><path d="M 428 58 L 546 58 L 568 47 L 450 47 Z" fill="#4C1D95"/>
+  <path d="M 428 208 L 546 208 L 546 58 L 428 58 Z" fill="#1E1730" stroke="#8B5CF6" stroke-width="1.5"/>
+  <path d="M 440 74 L 534 74 L 534 122 L 440 122 Z" fill="#C4B5FD" opacity=".16"/>
+  <rect x="438" y="194" width="98" height="5" rx="2" fill="#C4B5FD" opacity=".9"/>
+  <text x="487.0" y="148" text-anchor="middle" font-size="9" font-family="Courier New,monospace" fill="#A78BFA">ELIXIR</text>
+  <text x="487.0" y="170" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#6D28D9">★ pinned</text>
+  <text x="487.0" y="92" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">discord</text><text x="487.0" y="105" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">translation</text><text x="487.0" y="118" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">bot</text>
+</g><path d="M 100 388 L 584 388 L 614 404 L 130 404 Z" fill="#4C1D95" opacity=".9"/><path d="M 130 404 L 614 404 L 614 414 L 130 414 Z" fill="#241A38"/><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.36s" dur=".14s" fill="freeze"/>
+  <path d="M 258 388 L 258 238 L 280 227 L 280 377 Z" fill="#2E1065"/><path d="M 140 238 L 258 238 L 280 227 L 162 227 Z" fill="#4C1D95"/>
+  <path d="M 140 388 L 258 388 L 258 238 L 140 238 Z" fill="#1E1730" stroke="#8B5CF6" stroke-width="1.5"/>
+  <path d="M 152 254 L 246 254 L 246 302 L 152 302 Z" fill="#8B5CF6" opacity=".16"/>
+  <rect x="150" y="374" width="98" height="5" rx="2" fill="#8B5CF6" opacity=".9"/>
+  <text x="199.0" y="328" text-anchor="middle" font-size="9" font-family="Courier New,monospace" fill="#A78BFA">PYTHON</text>
+  <text x="199.0" y="350" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#6D28D9">★ pinned</text>
+  <text x="199.0" y="272" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">oso sec</text>
+</g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.48s" dur=".14s" fill="freeze"/>
+  <path d="M 402 388 L 402 238 L 424 227 L 424 377 Z" fill="#2E1065"/><path d="M 284 238 L 402 238 L 424 227 L 306 227 Z" fill="#4C1D95"/>
+  <path d="M 284 388 L 402 388 L 402 238 L 284 238 Z" fill="#1E1730" stroke="#8B5CF6" stroke-width="1.5"/>
+  <path d="M 296 254 L 390 254 L 390 302 L 296 302 Z" fill="#A78BFA" opacity=".16"/>
+  <rect x="294" y="374" width="98" height="5" rx="2" fill="#A78BFA" opacity=".9"/>
+  <text x="343.0" y="328" text-anchor="middle" font-size="9" font-family="Courier New,monospace" fill="#A78BFA">JS</text>
+  <text x="343.0" y="350" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#6D28D9">★ pinned</text>
+  <text x="343.0" y="272" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">content</text><text x="343.0" y="285" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">curation</text><text x="343.0" y="298" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">agent</text>
+</g><g opacity="0"><animate attributeName="opacity" values="0;1" begin="0.60s" dur=".14s" fill="freeze"/>
+  <path d="M 546 388 L 546 238 L 568 227 L 568 377 Z" fill="#2E1065"/><path d="M 428 238 L 546 238 L 568 227 L 450 227 Z" fill="#4C1D95"/>
+  <path d="M 428 388 L 546 388 L 546 238 L 428 238 Z" fill="#1E1730" stroke="#8B5CF6" stroke-width="1.5"/>
+  <path d="M 440 254 L 534 254 L 534 302 L 440 302 Z" fill="#C4B5FD" opacity=".16"/>
+  <rect x="438" y="374" width="98" height="5" rx="2" fill="#C4B5FD" opacity=".9"/>
+  <text x="487.0" y="328" text-anchor="middle" font-size="9" font-family="Courier New,monospace" fill="#A78BFA">TS · LANGGRAPH</text>
+  <text x="487.0" y="350" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#6D28D9">★ pinned</text>
+  <text x="487.0" y="272" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">Enhance SOP</text><text x="487.0" y="285" text-anchor="middle" font-size="9.5" font-family="Courier New,monospace" fill="#F3EDFF">of Prompts</text>
+</g>
+<text x="24" y="480" font-size="11" font-family="Courier New,monospace" fill="#9D8AB8">pull any one — the shelf is the shortlist, not the archive</text>
+</svg>

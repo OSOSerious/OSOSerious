@@ -349,6 +349,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ## ◆ featured projects — award-winning · open source · production-ready
 
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/project-shelf.svg" width="100%" alt="featured projects as a 3D cartridge shelf — 6 extruded cartridges on two planks, light sweeping"/>
+
 <div align="center">
 
 [![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=oso-obliterated-models-&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=E9D5FF&text_color=E9D5FF)](https://github.com/OSOSerious/oso-obliterated-models-)
