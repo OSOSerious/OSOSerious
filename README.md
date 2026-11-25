@@ -48,6 +48,10 @@
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/iso-map.svg" width="100%" alt="the README as a 3D isometric map — ten extruded tiles, signal walking the path"/>
 
+**And the mark itself, in blocks:** OSO rebuilt from **47 extruded cubes** — front/top/right faces, painter-sorted so depth reads true — popping in column by column, straight into the shadow beneath.
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/oso-voxel.svg" width="100%" alt="OSO built from 47 extruded 3D cubes, popping in"/>
+
 **And the product itself, stacked:** five isometric layers — `DATA ▸ STATE ▸ AGENTS ▸ TOOLS ▸ SURFACE` — floating as one tower, each plate only touching the one below, with energy pulses climbing bottom to top. The architecture, as an object you could pick up.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/stack-tower.svg" width="100%" alt="the stack as a five-layer isometric tower with energy climbing"/>
