@@ -70,7 +70,7 @@
 
 # ◆ THE WORK, ANIMATED — all of it
 
-Every graphic below is **my own pure-SVG animation** living in this repo's `assets/` — no screenshots, no stock art, no external images for the animation layer. Each one is labeled with what it actually shows.
+Every graphic below is **my own pure-SVG animation** living in this repo's `assets/` — no screenshots, no stock art, no external images for the animation layer. Each one is labeled with what it actually shows — and what it *teaches*.
 
 ### ▸ RESEARCH — the Abliterator (published)
 
@@ -170,6 +170,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rorschach.svg?v=2" width="100%" alt="Rorschach palindrome"/>
 
+**The test of a mark:** inkblots show you what you bring — this one shows the same thing both ways up. If a symbol survives being mirrored, flipped, and shrunk, it stops being a logo and becomes a stamp.
+
 **The palindrome, literal.** Your graph mirrored into an inkblot that breathes and flips through 180° — indistinguishable upside-down, because that IS the brand.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/morse-beacon.svg?v=2" width="100%" alt="Morse beacon"/>
@@ -197,6 +199,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 **The tempo.** 72 BPM, <i>consistency &gt; intensity</i> — how the shipping actually works: parallel threads, one steady beat.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rolling-ritual.svg?v=2" width="100%" alt="Convergence ritual"/>
+
+**The feedback loop:** pips fill, count rolls, bar sweeps — converge, report, repeat. The lesson: a ritual you can *see* (4/5, then 5/5) turns vague progress into a signal both you and your partner trust.
 
 **The convergence tick.** Your report ritual as HUD: pips fill, `[4] → [5]`, bar sweeps. Converge · report · repeat.
 
@@ -308,11 +312,15 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/city-night.svg?v=2" width="100%" alt="My contribution graph as a 3D isometric city, violet edition"/>
 
+**The year, honestly:** every building is a real day — no filler, no vanity grid. The teaching: your activity *is* your architecture; build where you want the skyline to grow.
+
 **What it shows:** *my actual* contribution graph — regenerated from **my own account** (`year-city` workflow, run on demand): every building is a day of my real work, towers rise on load, radar sweeps the blocks. Violet depth ramp, zero green.
 
 **The ribbon** below counts the same year for real: **1,162 contributions · 157 active days · 53 weeks**, violet heat `1 ▸ 3 ▸ 6 ▸ 10+`, today's cell pulses, light band sweeps every 6s.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/ship-ribbon.svg?v=2" width="100%" alt="Full-year contribution ribbon"/>
+
+**Read the ribbon like a ledger:** heat = effort, gaps = honest rest. 1,162 contributions over 53 weeks isn't a streak flex — it's proof that systems compound when the loop stays unbroken.
 
 ---
 
