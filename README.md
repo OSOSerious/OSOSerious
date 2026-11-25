@@ -100,7 +100,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ### ▸ IDENTITY — proofs of the mark
 
-src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/blueprint-mark.svg" width="100%" alt="Self-drawing blueprint"
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/blueprint-mark.svg" width="100%" alt="Self-drawing blueprint"/>
 
 **Self-drawing blueprint.** A plotter draws OSO with construction circles, then stamps the dimensions: `180° palindrome · favicon 16px · NO GRADIENT · DWG OSO-001 REV 5`.
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/kaleidoscope.svg" width="100%" alt="Kaleidoscope"/>
@@ -130,7 +130,7 @@ src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/bluepri
 
 ### ▸ MACHINES — the physics of the pipeline
 
-src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pinball.svg" width="100%" alt="Pinball failover"
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pinball.svg" width="100%" alt="Pinball failover"/>
 
 **Failover as pinball.** The SHIP ball ricochets bumpers (`mcp · memory · harness`), flippers fire as retries, drain is **▼DEADLINE▼** — the ball never dies, it reroutes.
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pachinko-router.svg" width="100%" alt="Pachinko router"/>
@@ -167,7 +167,7 @@ src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pinball
 
 ### ▸ GENERATIVE — running on their own rules
 
-src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lava-plasma.svg" width="100%" alt="Lava plasma"
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lava-plasma.svg" width="100%" alt="Lava plasma"/>
 
 **Goo-filter metaballs.** `feGaussianBlur → feColorMatrix` makes five violet blobs — your five languages — fuse and split into one organism. Zero JS.
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/game-of-life.svg" width="100%" alt="Game of Life"/>
@@ -188,7 +188,7 @@ src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lava-pl
 
 **Swarm with no single point.** Scouts fly a real waggle-dance figure-8, hex cells fill with `[[TOKENS]]`, the queen cell pulses as orchestrator.
 
-src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/contribution-koi.svg" width="100%" alt="Contribution koi"
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/contribution-koi.svg" width="100%" alt="Contribution koi"/>
 
 **The koi, rebuilt.** A fish whose body IS your contribution squares, iso-shaded like the city — tail flicks, ripples. Your data, alive.
 
