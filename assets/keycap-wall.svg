@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-label="agent frameworks as a 3D keycap wall">
+<style>svg{filter:saturate(1.7) brightness(1.3) contrast(1.1);}</style>
+<rect width="900" height="440" rx="14" fill="#17121F"/>
+<text x="24" y="34" font-size="14" font-family="Courier New,monospace" fill="#A78BFA">// the keycaps</text>
+<text x="876" y="34" text-anchor="end" font-size="12" font-family="Courier New,monospace" fill="#6D28D9">twelve keys · something is always being pressed</text>
+<rect x="30" y="50" width="840" height="356" rx="16" fill="#0B0716" stroke="#2E1065"/>
+<g>
+  <path d="M 174.0 64 L 190.0 56 L 190.0 130 L 174.0 138 Z" fill="#241A38"/><path d="M 46.0 64 L 174.0 64 L 190.0 56 L 62.0 56 Z" fill="#C4B5FD" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 46.0 64 L 174.0 64 L 174.0 138 L 46.0 138 Z" fill="#5B21B6" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="118.0" y="88.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">LangGraph</text>
+  <text x="118.0" y="108.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">01</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.000;0.030;0.100;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="118.0" cy="146.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.000;0.040;0.300" dur="8.4s" repeatCount="indefinite"/></ellipse><g>
+  <path d="M 384.0 64 L 400.0 56 L 400.0 130 L 384.0 138 Z" fill="#241A38"/><path d="M 256.0 64 L 384.0 64 L 400.0 56 L 272.0 56 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 256.0 64 L 384.0 64 L 384.0 138 L 256.0 138 Z" fill="#3B1580" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="328.0" y="88.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">CrewAI</text>
+  <text x="328.0" y="108.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">02</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.050;0.080;0.150;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="328.0" cy="146.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.050;0.090;0.350" dur="8.4s" repeatCount="indefinite"/></ellipse><g>
+  <path d="M 594.0 64 L 610.0 56 L 610.0 130 L 594.0 138 Z" fill="#241A38"/><path d="M 466.0 64 L 594.0 64 L 610.0 56 L 482.0 56 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 466.0 64 L 594.0 64 L 594.0 138 L 466.0 138 Z" fill="#3B1580" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="538.0" y="88.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">OpenAI SDK</text>
+  <text x="538.0" y="108.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">03</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.100;0.130;0.200;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="538.0" cy="146.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.100;0.140;0.400" dur="8.4s" repeatCount="indefinite"/></ellipse><g>
+  <path d="M 804.0 64 L 820.0 56 L 820.0 130 L 804.0 138 Z" fill="#241A38"/><path d="M 676.0 64 L 804.0 64 L 820.0 56 L 692.0 56 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 676.0 64 L 804.0 64 L 804.0 138 L 676.0 138 Z" fill="#3B1580" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="748.0" y="88.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">AutoGen</text>
+  <text x="748.0" y="108.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">04</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.150;0.180;0.250;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="748.0" cy="146.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.150;0.190;0.450" dur="8.4s" repeatCount="indefinite"/></ellipse><g>
+  <path d="M 174.0 182 L 190.0 174 L 190.0 248 L 174.0 256 Z" fill="#241A38"/><path d="M 46.0 182 L 174.0 182 L 190.0 174 L 62.0 174 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 46.0 182 L 174.0 182 L 174.0 256 L 46.0 256 Z" fill="#3B1580" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="118.0" y="206.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">Google ADK</text>
+  <text x="118.0" y="226.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">05</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.200;0.230;0.300;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="118.0" cy="264.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.200;0.240;0.500" dur="8.4s" repeatCount="indefinite"/></ellipse><g>
+  <path d="M 384.0 182 L 400.0 174 L 400.0 248 L 384.0 256 Z" fill="#241A38"/><path d="M 256.0 182 L 384.0 182 L 400.0 174 L 272.0 174 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 256.0 182 L 384.0 182 L 384.0 256 L 256.0 256 Z" fill="#3B1580" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="328.0" y="206.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">MCP</text>
+  <text x="328.0" y="226.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">06</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.250;0.280;0.350;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="328.0" cy="264.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.250;0.290;0.550" dur="8.4s" repeatCount="indefinite"/></ellipse><g>
+  <path d="M 594.0 182 L 610.0 174 L 610.0 248 L 594.0 256 Z" fill="#241A38"/><path d="M 466.0 182 L 594.0 182 L 610.0 174 L 482.0 174 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 466.0 182 L 594.0 182 L 594.0 256 L 466.0 256 Z" fill="#3B1580" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="538.0" y="206.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">LangChain</text>
+  <text x="538.0" y="226.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">07</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.300;0.330;0.400;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="538.0" cy="264.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.300;0.340;0.600" dur="8.4s" repeatCount="indefinite"/></ellipse><g>
+  <path d="M 804.0 182 L 820.0 174 L 820.0 248 L 804.0 256 Z" fill="#241A38"/><path d="M 676.0 182 L 804.0 182 L 820.0 174 L 692.0 174 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 676.0 182 L 804.0 182 L 804.0 256 L 676.0 256 Z" fill="#3B1580" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="748.0" y="206.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">LlamaIndex</text>
+  <text x="748.0" y="226.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">08</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.350;0.380;0.450;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="748.0" cy="264.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.350;0.390;0.650" dur="8.4s" repeatCount="indefinite"/></ellipse><g>
+  <path d="M 174.0 300 L 190.0 292 L 190.0 366 L 174.0 374 Z" fill="#241A38"/><path d="M 46.0 300 L 174.0 300 L 190.0 292 L 62.0 292 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 46.0 300 L 174.0 300 L 174.0 374 L 46.0 374 Z" fill="#3B1580" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="118.0" y="324.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">Swarm</text>
+  <text x="118.0" y="344.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">09</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.400;0.430;0.500;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="118.0" cy="382.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.400;0.440;0.700" dur="8.4s" repeatCount="indefinite"/></ellipse><g>
+  <path d="M 384.0 300 L 400.0 292 L 400.0 366 L 384.0 374 Z" fill="#241A38"/><path d="M 256.0 300 L 384.0 300 L 400.0 292 L 272.0 292 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 256.0 300 L 384.0 300 L 384.0 374 L 256.0 374 Z" fill="#3B1580" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="328.0" y="324.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">Flowise</text>
+  <text x="328.0" y="344.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">10</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.450;0.480;0.550;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="328.0" cy="382.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.450;0.490;0.750" dur="8.4s" repeatCount="indefinite"/></ellipse><g>
+  <path d="M 594.0 300 L 610.0 292 L 610.0 366 L 594.0 374 Z" fill="#241A38"/><path d="M 466.0 300 L 594.0 300 L 610.0 292 L 482.0 292 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 466.0 300 L 594.0 300 L 594.0 374 L 466.0 374 Z" fill="#3B1580" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="538.0" y="324.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">Claude Code</text>
+  <text x="538.0" y="344.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">11</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.500;0.530;0.600;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="538.0" cy="382.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.500;0.540;0.800" dur="8.4s" repeatCount="indefinite"/></ellipse><g>
+  <path d="M 804.0 300 L 820.0 292 L 820.0 366 L 804.0 374 Z" fill="#241A38"/><path d="M 676.0 300 L 804.0 300 L 820.0 292 L 692.0 292 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".45"/>
+  <path d="M 676.0 300 L 804.0 300 L 804.0 374 L 676.0 374 Z" fill="#3B1580" stroke="#17121F" stroke-opacity=".6"/>
+  <text x="748.0" y="324.0" text-anchor="middle" font-size="11.5" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF">HARNESSES</text>
+  <text x="748.0" y="344.0" text-anchor="middle" font-size="8.5" font-family="Courier New,monospace" fill="#C4B5FD">12</text>
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;0 9;0 9;0 0"
+    keyTimes="0;0.550;0.580;0.650;1"
+    dur="8.4s" repeatCount="indefinite"/>
+</g><ellipse cx="748.0" cy="382.0" rx="64.0" ry="12" fill="none" stroke="#C4B5FD"><animate attributeName="opacity" values="0;0;.85;0" keyTimes="0;0.550;0.590;0.850" dur="8.4s" repeatCount="indefinite"/></ellipse>
+<text x="24" y="422" font-size="11" font-family="Courier New,monospace" fill="#9D8AB8">every framework is a key — the harness is the hand that plays them</text>
+</svg>

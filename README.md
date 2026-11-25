@@ -260,6 +260,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ### agent frameworks
 
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/keycap-wall.svg" width="100%" alt="agent frameworks as a 3D keycap wall — twelve extruded keys, one pressing every cycle"/>
+
 <img src="https://img.shields.io/badge/LangGraph_1.0-8B5CF6?style=flat-square" alt="LangGraph"/>
 <img src="https://img.shields.io/badge/CrewAI-8B5CF6?style=flat-square" alt="CrewAI"/>
 <img src="https://img.shields.io/badge/OpenAI_Agents_SDK-8B5CF6?style=flat-square" alt="OpenAI Agents SDK"/>
