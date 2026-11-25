@@ -38,6 +38,20 @@
 
 ---
 
+# ◆ EVERYTHING, AS ONE OBJECT — 3D
+
+**The stack, as a solid thing:** six faces — *elixir · agents · data · infra · sec · ship* — rotating in real 3D (true orthographic projection, depth-shaded violet faces, backfaces culled frame-by-frame, shadow breathing underneath). 36 keyframes per face, pure SVG — no JS, no canvas.
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/cube-stack.svg" width="100%" alt="rotating 3D cube — the stack as an object"/>
+
+**And the whole README as one map:** every section below is an extruded isometric tile, numbered in reading order — a light signal walks the path from `01 RESEARCH` through `10 DELIVER`, each tile flaring as it arrives. This page, modeled as a place.
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/iso-map.svg" width="100%" alt="the README as a 3D isometric map — ten extruded tiles, signal walking the path"/>
+
+---
+
+
+
 # ◆ THE WORK, ANIMATED — all of it
 
 Every graphic below is **my own pure-SVG animation** living in this repo's `assets/` — no screenshots, no stock art, no external images for the animation layer. Each one is labeled with what it actually shows.
