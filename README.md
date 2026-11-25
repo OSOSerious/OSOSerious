@@ -260,7 +260,11 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ### agent frameworks
 
+**The story:** no single framework wins. *Graph* orchestration (LangGraph) for stateful, checkpointed work; *role* orchestration (CrewAI) for teams of specialists; *handoffs* (Swarm, OpenAI SDK) for lightweight routing; *conversation* (AutoGen) for debating agents; MCP as the universal plug so any of them reach the same tools. The frame below is the desk I play them from.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/keycap-wall.svg" width="100%" alt="agent frameworks as a 3D keycap wall — twelve extruded keys, one pressing every cycle"/>
+
+**How to read it:** a key pressing = that framework taking the job *this cycle*. The rule I teach: **pick the lightest key that can do the work** — Swarm for a two-step handoff, LangGraph when the job must survive a crash mid-workflow, custom harness when neither fits and it has to be exactly right. Twelve tools, one hand.
 
 <img src="https://img.shields.io/badge/LangGraph_1.0-8B5CF6?style=flat-square" alt="LangGraph"/>
 <img src="https://img.shields.io/badge/CrewAI-8B5CF6?style=flat-square" alt="CrewAI"/>
