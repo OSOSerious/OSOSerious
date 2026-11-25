@@ -441,11 +441,11 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-10.svg" width="100%" alt="observability — purple data table"/>
 
-**Security:** OAuth 2.0 · JWT · HashiCorp Vault · SSL/TLS · API Keys
+**The security shelf:** OAuth 2.0 · JWT · HashiCorp Vault · SSL/TLS · API Keys — *the lesson: secrets are infrastructure, not strings in a config. Vault exists so the config can be public and still be safe.*
 
-**Testing:** Pytest · Jest · Vitest · Playwright · Cypress · k6
+**The testing shelf:** Pytest · Jest · Vitest · Playwright · Cypress · k6 — *three speeds: unit fast, browser honest, k6 loud. Green in all three is the only deploy signal I trust.*
 
-**AI/ML infra:** Hugging Face · NVIDIA Triton · vLLM · ONNX · scikit-learn · TensorFlow · PyTorch
+**The AI/ML shelf:** Hugging Face · NVIDIA Triton · vLLM · ONNX · scikit-learn · TensorFlow · PyTorch — *the lesson: serve it yourself when the data matters. vLLM on your own metal beats anyone's metered API for the 24/7 workloads.*
 
 ---
 
@@ -484,13 +484,19 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ### ◈ AI Agent & Automation Projects
 
+*Where the theories got tested: orchestrators, swarms, and the research pipeline — every row shipped somewhere real.*
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-12.svg" width="100%" alt="ai agent projects — purple data table"/>
 
 ### ◈ Full-Stack & Backend Projects
 
+*The unglamorous half of the craft: APIs, scrapers, integrations — the plumbing that makes the agents look smart.*
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-13.svg" width="100%" alt="fullstack projects — purple data table"/>
 
 ### ◈ Frontend & Developer Resources
+
+*Interfaces and reference: what people see, and the paper trail I read when a claim needs checking.*
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-14.svg" width="100%" alt="frontend resources — purple data table"/>
 
@@ -536,6 +542,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Available+for+consulting+%26+projects;Let's+build+production+systems+together" alt="Contact"/>
 </div>
+
+**The collaboration story:** bring the messy stack — the bridge, the gate, the wall were built for exactly that. Project or retainer, one rule: *you own what we build when we leave.*
 
 <br/>
 
