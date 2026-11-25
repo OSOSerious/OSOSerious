@@ -1,4 +1,4 @@
-<svg width="540" height="230" viewBox="0 0 540 230" font-family="Courier New,monospace"><style>@keyframes vectorProj { 0%{transform:translate(0,0)} 45%{transform:translate(0,0)} 55%{transform:translate(-26px,10px)} 95%{transform:translate(-26px,10px)} 100%{transform:translate(0,0)} }
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="230" viewBox="0 0 540 230" font-family="Courier New,monospace"><style>@keyframes vectorProj { 0%{transform:translate(0,0)} 45%{transform:translate(0,0)} 55%{transform:translate(-26px,10px)} 95%{transform:translate(-26px,10px)} 100%{transform:translate(0,0)} }
 @keyframes fadeOutX { 0%,40%{opacity:1} 55%,95%{opacity:.06} 100%{opacity:1} }
 @keyframes countTick { 0%{opacity:.3} 8%{opacity:1} 90%{opacity:1} 100%{opacity:.3} }
 @keyframes edgeDash { to { stroke-dashoffset:-40; } }
