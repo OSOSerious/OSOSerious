@@ -291,6 +291,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ## ◆ databases & vector stores
 
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/data-vault.svg" width="100%" alt="databases as a 3D vault — three extruded drums, signals arcing between them"/>
+
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=A78BFA&center=true&vCenter=true&width=500&lines=Qdrant+%7C+Pinecone+%7C+ChromaDB+%7C+pgvector+%7C+FAISS+%7C+Elasticsearch" alt="Vector DBs" />
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-06.svg" width="100%" alt="databases — purple data table"/>
