@@ -319,6 +319,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ## ◆ cloud & devops
 
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/iac-lego.svg" width="100%" alt="infrastructure as code — extruded bricks drop into a stack and rebuild on loop"/>
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-09.svg" width="100%" alt="cloud devops — purple data table"/>
 
 ---
