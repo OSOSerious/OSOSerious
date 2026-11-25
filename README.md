@@ -215,7 +215,9 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/city-night.svg?v=2" width="100%" alt="My contribution graph as a 3D isometric city, violet edition"/>
 
-**What it shows:** my real graph as an **isometric city** — every building is a day, towers rise on load, the radar sweeps the blocks. Violet depth ramp, zero green.
+**What it shows:** *my actual* contribution graph — regenerated from **my own account** (`year-city` workflow, run on demand): every building is a day of my real work, towers rise on load, radar sweeps the blocks. Violet depth ramp, zero green.
+
+**The ribbon** below counts the same year for real: **1,162 contributions · 157 active days · 53 weeks**, violet heat `1 ▸ 3 ▸ 6 ▸ 10+`, today's cell pulses, light band sweeps every 6s.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/ship-ribbon.svg?v=2" width="100%" alt="Full-year contribution ribbon"/>
 
