@@ -1,9 +1,9 @@
 <!-- profile readme v5 @ full purple — all 44 SVG assets, all sections open, nothing from v3 dropped -->
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/aurora-header.svg" width="100%" alt="OSO — aurora header"/>
+  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/aurora-header.svg?v=2" width="100%" alt="OSO — aurora header"/>
 
-  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/oso-flip.svg" width="360" alt="OSO — reads the same upside down"/>
+  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/oso-flip.svg?v=2" width="360" alt="OSO — reads the same upside down"/>
 
 ### *own your systems, don't rent them.*
 **Infrastructure you control, audit, and scale.**
@@ -16,7 +16,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/terminal-sig.svg" width="560" alt="oso@local:~$ own --your-systems → control · audit · scale. never rent."/>
+  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/terminal-sig.svg?v=2" width="560" alt="oso@local:~$ own --your-systems → control · audit · scale. never rent."/>
 </p>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=900&lines=I+help+businesses+move+from+duct-taped+SaaS+stacks+to+custom-owned+infrastructure" alt="Description"/>
@@ -42,163 +42,163 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ### ▸ RESEARCH — the Abliterator (published)
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/abliterator.svg" width="100%" alt="Abliterator: layer planes, refusal vector, PCA basis at s=1.0"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/abliterator.svg?v=2" width="100%" alt="Abliterator: layer planes, refusal vector, PCA basis at s=1.0"/>
 
 **What it shows:** five layer planes of Qwen2.5-1.5B, the bright **Δ(refusal)** vector, and the dashed **PCA basis (k=5) projecting it out at s=1.0** — HUD: **82%→5% refusal · 95% true compliance · 0% degeneration · ppl 13.18 · jailbreaks 82%→11%**. The real finding: *refusal lives in a ~5-dim subspace per layer* — [oso-obliterated-models](https://github.com/OSOSerious/oso-obliterated-models-) · [OSO-AI on Hugging Face](https://huggingface.co/OSO-AI). 15+ experiments, 4 negative results logged honestly.
 
 ### ▸ HOW THE SYSTEMS EXECUTE
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/dag-dispatch.svg" width="100%" alt="DAG dispatch"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/dag-dispatch.svg?v=2" width="100%" alt="DAG dispatch"/>
 
 **Plan-as-DAG, one mutation per node.** Nodes fire in dependency order, packets stream the edges, `write` sits behind a ✓ verify gate — nothing downstream runs until the gate passes.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/memory-graph.svg" width="100%" alt="Memory graph"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/memory-graph.svg?v=2" width="100%" alt="Memory graph"/>
 
 **Findings survive, context doesn't.** Left: context compacted to ~10%. Right: findings lit with provenance (`ex:97`, `cli.py:412`) — bug → root-cause → fix-plan wired together.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/mcp-handshake.svg" width="100%" alt="MCP handshake"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/mcp-handshake.svg?v=2" width="100%" alt="MCP handshake"/>
 
 **The only way data leaves.** `tools/call` out, `result [[LEAD]]` back, everything crosses the **anonymize gate at egress** — names become tokens before the server. The model never writes the sent text.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/xray-scanner.svg" width="100%" alt="X-ray scanner"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/xray-scanner.svg?v=2" width="100%" alt="X-ray scanner"/>
 
 **Inventory by truth, not by claim.** A box rides the belt through XR-1; the screen reveals its skeleton — `db:5432`, `q:rabbit` — and stamps **SAFE ✓**.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/own-ifier.svg" width="100%" alt="Own-ifier factory"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/own-ifier.svg?v=2" width="100%" alt="Own-ifier factory"/>
 
 **The thesis, as a factory line.** Duct-tape SaaS goes in, the OWN-IFIER press slams, identical owned modules come out stacked: db ✓ auth ✓ agents ✓ audit ✓.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rube-goldberg.svg" width="100%" alt="Rube Goldberg"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rube-goldberg.svg?v=2" width="100%" alt="Rube Goldberg"/>
 
 **One intent, chain of steps.** Ball → teeter-totter → hammer → dominoes → bell → **SHIP ✓**. Your execution philosophy told as physical comedy, 7s loop.
 
 ### ▸ BUILT FROM THE PRODUCTS
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/goldclaw-machine.svg" width="100%" alt="Goldclaw claw machine"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/goldclaw-machine.svg?v=2" width="100%" alt="Goldclaw claw machine"/>
 
 **Goldclaw.ai as an arcade claw.** Cable drops, jaws grab a `[[TOKEN]]` off the lead belt, hauls it to the **SHIP** chute. Flagship loop: grab → process → ship.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/newsroom-ticker.svg" width="100%" alt="Newsroom ticker"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/newsroom-ticker.svg?v=2" width="100%" alt="Newsroom ticker"/>
 
 **NewsTerminal / AutomateMedia press line.** Split-flap flips `BREAKING ▸ ANGLE ▸ SHIPPED (2:58 < 3:00)`, wire marquee runs the real content rules, REC dot pulses.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/voiceprint.svg" width="100%" alt="Voiceprint lock"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/voiceprint.svg?v=2" width="100%" alt="Voiceprint lock"/>
 
 **Voiceprints.ai.** 22 breathing waveform bars, scan line sweeps, shackle clicks open on **MATCH ✓** — your voice is the key.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/the-rack.svg" width="100%" alt="Server rack"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/the-rack.svg?v=2" width="100%" alt="Server rack"/>
 
 **Data never leaves your infrastructure.** Fans spin, drive LEDs blink in I/O rhythm, packets pulse down patch cables, LCD reads `gdpr: audit ON`.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/router-mixer.svg" width="100%" alt="Model routing mixer"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/router-mixer.svg?v=2" width="100%" alt="Model routing mixer"/>
 
 **ROUTER-9000 — hybrid routing as a DJ desk.** Faders for GPT-5/CLAUDE/LOCAL ride themselves on SLA, VU meters bounce, cache LED reads **−90%**, master gauge: `0.31 → 0.04 $/1k tok`.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/coffee-machine.svg" width="100%" alt="Coffee machine"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/coffee-machine.svg?v=2" width="100%" alt="Coffee machine"/>
 
 **Espresso pulls = pushes.** Press, portafilter fills, stream pulls into a cup labeled `main`, "shots today" ticks. Every deploy starts the same way.
 
 ### ▸ IDENTITY — proofs of the mark
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/blueprint-mark.svg" width="100%" alt="Self-drawing blueprint"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/blueprint-mark.svg?v=2" width="100%" alt="Self-drawing blueprint"/>
 
 **Self-drawing blueprint.** A plotter draws OSO with construction circles, then stamps the dimensions: `180° palindrome · favicon 16px · NO GRADIENT · DWG OSO-001 REV 5`.
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/kaleidoscope.svg" width="100%" alt="Kaleidoscope"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/kaleidoscope.svg?v=2" width="100%" alt="Kaleidoscope"/>
 
 **Symmetry generated, not drawn.** Three mirror wedges rotate against a seed of your real contribution squares — infinite violet symmetry from finite work.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rorschach.svg" width="100%" alt="Rorschach palindrome"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rorschach.svg?v=2" width="100%" alt="Rorschach palindrome"/>
 
 **The palindrome, literal.** Your graph mirrored into an inkblot that breathes and flips through 180° — indistinguishable upside-down, because that IS the brand.
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/morse-beacon.svg" width="100%" alt="Morse beacon"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/morse-beacon.svg?v=2" width="100%" alt="Morse beacon"/>
 
 **The beacon.** OSO in Morse — `—··· ··· —···` — symmetric in that alphabet too. The palindrome holds everywhere.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/wax-seal.svg" width="100%" alt="Wax seal"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/wax-seal.svg?v=2" width="100%" alt="Wax seal"/>
 
 **The seal.** A stamp presses OSO into violet wax over `signed-off-by` — provenance you can feel, same rule as the findings graph.
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/holo-identity.svg" width="100%" alt="Hologram"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/holo-identity.svg?v=2" width="100%" alt="Hologram"/>
 
 **The projection.** The mark as a flickering hologram — identity that only exists while the system is powered.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/metronome.svg" width="100%" alt="Metronome"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/metronome.svg?v=2" width="100%" alt="Metronome"/>
 
 **The tempo.** 72 BPM, <i>consistency &gt; intensity</i> — how the shipping actually works: parallel threads, one steady beat.
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rolling-ritual.svg" width="100%" alt="Convergence ritual"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rolling-ritual.svg?v=2" width="100%" alt="Convergence ritual"/>
 
 **The convergence tick.** Your report ritual as HUD: pips fill, `[4] → [5]`, bar sweeps. Converge · report · repeat.
 
 ### ▸ MACHINES — the physics of the pipeline
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pinball.svg" width="100%" alt="Pinball failover"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pinball.svg?v=2" width="100%" alt="Pinball failover"/>
 
 **Failover as pinball.** The SHIP ball ricochets bumpers (`mcp · memory · harness`), flippers fire as retries, drain is **▼DEADLINE▼** — the ball never dies, it reroutes.
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pachinko-router.svg" width="100%" alt="Pachinko router"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pachinko-router.svg?v=2" width="100%" alt="Pachinko router"/>
 
 **Probability as hardware.** A token drops through SLA pins into `LOCAL / BALANCED / FRONTIER` buckets; cost meter flips `0.31 → 0.04`.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/domino-plan.svg" width="100%" alt="Domino plan"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/domino-plan.svg?v=2" width="100%" alt="Domino plan"/>
 
 **One push, full cascade.** probe → plan → mutate → test → lint → build fall in sequence, last reveal **SHIP ✓**. "Deps = gravity."
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/marble-run.svg" width="100%" alt="Marble run"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/marble-run.svg?v=2" width="100%" alt="Marble run"/>
 
 **Merge discipline.** The marble waits at gates that only swing when `test ✓` and `review ✓` pass, then rolls into the **merged** bin.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lighthouse.svg" width="100%" alt="Lighthouse"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lighthouse.svg?v=2" width="100%" alt="Lighthouse"/>
 
 **Observability as weather.** The beam sweeps 360° through fog; your fleet's ships flip green → amber → green as light passes. `uptime 99.97`.
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/launch-countdown.svg" width="100%" alt="Launch countdown"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/launch-countdown.svg?v=2" width="100%" alt="Launch countdown"/>
 
 **Deploy ritual.** Split-flap digits 10…3…2, **LIFTOFF**, rocket rises past the checklist: `✓ 3252/3252 ✓ rollback staged ▸ canary 5%`.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/slot-ship.svg" width="100%" alt="Slot SHIP"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/slot-ship.svg?v=2" width="100%" alt="Slot SHIP"/>
 
 **Jackpot logic.** Reels snap S·H·I·P, bell flashes, counters read `3,252 tests ✓ 0f` and commits ticking 240 → 242. Retro chrome, one Signal lever.
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/agent-elevator.svg" width="100%" alt="Agent elevator"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/agent-elevator.svg?v=2" width="100%" alt="Agent elevator"/>
 
 **The execution loop, as a building.** Car rides `PLAN → ACT → VERIFY → REMEMBER → SHIP`, doors hold at VERIFY — one floor per gate.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/maze-runner.svg" width="100%" alt="Maze runner"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/maze-runner.svg?v=2" width="100%" alt="Maze runner"/>
 
 **Discovery through search.** Wrong turns dim, dead-ends re-route, the winning path locks in violet behind the token. Recon instinct, tiny game.
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/disk-vacuum.svg" width="100%" alt="Disk vacuum"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/disk-vacuum.svg?v=2" width="100%" alt="Disk vacuum"/>
 
 **The real session.** Vacuum eats the cache piles (lima · mix · go · brew), free-space gauge climbs `57GB → 128GB`, log reads: **no rm. moved. logged.**
 
 ### ▸ GENERATIVE — running on their own rules
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lava-plasma.svg" width="100%" alt="Lava plasma"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lava-plasma.svg?v=2" width="100%" alt="Lava plasma"/>
 
 **Goo-filter metaballs.** `feGaussianBlur → feColorMatrix` makes five violet blobs — your five languages — fuse and split into one organism. Zero JS.
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/game-of-life.svg" width="100%" alt="Game of Life"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/game-of-life.svg?v=2" width="100%" alt="Game of Life"/>
 
 **Conway B3/S23 on your squares.** A glider crosses, a blinker rotates, a pulsar breathes — emergence from simple rules, your agent thesis in motion.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/dna-helix.svg" width="100%" alt="DNA helix"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/dna-helix.svg?v=2" width="100%" alt="DNA helix"/>
 
 **The genome of shipping.** Two strands path-morphing through each other, base-pair rungs lighting in sequence, codon scanner sweeping. Code as life.
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/ship-oscope.svg" width="100%" alt="Ship oscilloscope"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/ship-oscope.svg?v=2" width="100%" alt="Ship oscilloscope"/>
 
 **Your cadence as test equipment.** CRT waveform morphs calm → burst → spike (push days), glowing scan dot on the graticule: `TRIG ▸ AUTO · SIG: prod`.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/repo-orbitals.svg" width="100%" alt="Repo orbitals"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/repo-orbitals.svg?v=2" width="100%" alt="Repo orbitals"/>
 
 **The constellation.** Repos on elliptical SMIL orbits around the OSO core — `harness · memory · mcp-tools · abliterate · erp · agents` — periods staggered so it never repeats the same way twice.
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/the-hive.svg" width="100%" alt="The hive"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/the-hive.svg?v=2" width="100%" alt="The hive"/>
 
 **Swarm with no single point.** Scouts fly a real waggle-dance figure-8, hex cells fill with `[[TOKENS]]`, the queen cell pulses as orchestrator.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/contribution-koi.svg" width="100%" alt="Contribution koi"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/contribution-koi.svg?v=2" width="100%" alt="Contribution koi"/>
 
 **The koi, rebuilt.** A fish whose body IS your contribution squares, iso-shaded like the city — tail flicks, ripples. Your data, alive.
 
 ### ▸ THE YEAR
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/city-night.svg" width="100%" alt="My contribution graph as a 3D isometric city, violet edition"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/city-night.svg?v=2" width="100%" alt="My contribution graph as a 3D isometric city, violet edition"/>
 
 **What it shows:** my real graph as an **isometric city** — every building is a day, towers rise on load, the radar sweeps the blocks. Violet depth ramp, zero green.
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/ship-ribbon.svg" width="100%" alt="Full-year contribution ribbon"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/ship-ribbon.svg?v=2" width="100%" alt="Full-year contribution ribbon"/>
 
 ---
 
@@ -514,13 +514,13 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/output/github-snake-dark.svg">
   </picture>
   <br/>
-  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/snake-footer.svg" width="100%" alt="violet snake on my contribution squares"/>
+  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/snake-footer.svg?v=2" width="100%" alt="violet snake on my contribution squares"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/oso-flip.svg" width="200" alt="OSO"/>
+  <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/oso-flip.svg?v=2" width="200" alt="OSO"/>
 
 *I don't build demos — I build production systems.*
 
