@@ -331,6 +331,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ## ◆ observability, monitoring & security
 
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/monitor-wall.svg" width="100%" alt="observability as a 3D wall of four live monitors — latency, traces, spans, alerts"/>
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-10.svg" width="100%" alt="observability — purple data table"/>
 
 **Security:** OAuth 2.0 · JWT · HashiCorp Vault · SSL/TLS · API Keys

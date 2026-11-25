@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-label="observability — a 3D wall of live monitors">
+<style>svg{filter:saturate(1.7) brightness(1.3) contrast(1.1);}</style>
+<rect width="900" height="470" rx="14" fill="#17121F"/>
+<text x="24" y="34" font-size="14" font-family="Courier New,monospace" fill="#A78BFA">// the wall</text>
+<text x="876" y="34" text-anchor="end" font-size="12" font-family="Courier New,monospace" fill="#6D28D9">four screens · all live</text>
+<g>
+  <g>
+  <path d="M 446 64 L 446 174 L 464 165 L 464 55 Z" fill="#241A38"/><path d="M 56 64 L 446 64 L 464 55 L 74 55 Z" fill="#4C1D95"/>
+  <path d="M 56 64 L 446 64 L 446 174 L 56 174 Z" fill="#0B0716" stroke="#6D28D9" stroke-width="2"/>
+  <rect x="64" y="72" width="374" height="22" rx="4" fill="#17121F"/>
+  <text x="72" y="87" font-size="11" font-family="Courier New,monospace" fill="#A78BFA">LATENCY</text>
+  <g transform="translate(46,150)">
+  <line x1="0" y1="0" x2="330" y2="0" stroke="#2E1065"/>
+  <line x1="0" y1="-46" x2="330" y2="-46" stroke="#2E1065" stroke-dasharray="4 6"/>
+  <path fill="none" stroke="#E9D5FF" stroke-width="2.5" d="M0 0 L40 -8 L80 -4 L120 -14 L160 -6 L200 -18 L240 -8 L280 -12 L330 -6">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite"
+      values="M0 0 L40 -8 L80 -4 L120 -14 L160 -6 L200 -18 L240 -8 L280 -12 L330 -6;
+              M0 -6 L40 -30 L80 -12 L120 -40 L160 -10 L200 -44 L240 -6 L280 -34 L330 -10;
+              M0 -10 L40 -14 L80 -34 L120 -8 L160 -38 L200 -12 L240 -42 L280 -6 L330 -20;
+              M0 0 L40 -8 L80 -4 L120 -14 L160 -6 L200 -18 L240 -8 L280 -12 L330 -6"/>
+  </path>
+  <circle r="4" fill="#E9D5FF"><animate attributeName="cy" values="-6;-10;-6" dur="5s" repeatCount="indefinite"/></circle>
+  <text x="0" y="22" font-size="9.5" font-family="Courier New,monospace" fill="#9D8AB8">p95 latency · live</text>
+</g>
+</g>
+  <g>
+  <path d="M 860 64 L 860 174 L 878 165 L 878 55 Z" fill="#241A38"/><path d="M 470 64 L 860 64 L 878 55 L 488 55 Z" fill="#4C1D95"/>
+  <path d="M 470 64 L 860 64 L 860 174 L 470 174 Z" fill="#0B0716" stroke="#6D28D9" stroke-width="2"/>
+  <rect x="478" y="72" width="374" height="22" rx="4" fill="#17121F"/>
+  <text x="486" y="87" font-size="11" font-family="Courier New,monospace" fill="#A78BFA">TRACES</text>
+  <g transform="translate(46,86)"><rect x="6" y="6" width="120" height="10" rx="3" fill="#8B5CF6"><animate attributeName="width" values="120;72;120" dur="2.0s" repeatCount="indefinite"/></rect><rect x="36" y="21" width="90" height="10" rx="3" fill="#6D28D9"><animate attributeName="width" values="90;54;90" dur="2.4s" repeatCount="indefinite"/></rect><rect x="76" y="36" width="140" height="10" rx="3" fill="#A78BFA"><animate attributeName="width" values="140;84;140" dur="2.8s" repeatCount="indefinite"/></rect><rect x="116" y="51" width="60" height="10" rx="3" fill="#4C1D95"><animate attributeName="width" values="60;36;60" dur="3.2s" repeatCount="indefinite"/></rect><rect x="146" y="66" width="100" height="10" rx="3" fill="#C4B5FD"><animate attributeName="width" values="100;60;100" dur="3.6s" repeatCount="indefinite"/></rect><text x="6" y="102" font-size="9.5" font-family="Courier New,monospace" fill="#9D8AB8">otel trace · 1 span red</text></g>
+</g>
+  <g>
+  <path d="M 446 210 L 446 320 L 464 311 L 464 201 Z" fill="#241A38"/><path d="M 56 210 L 446 210 L 464 201 L 74 201 Z" fill="#4C1D95"/>
+  <path d="M 56 210 L 446 210 L 446 320 L 56 320 Z" fill="#0B0716" stroke="#6D28D9" stroke-width="2"/>
+  <rect x="64" y="218" width="374" height="22" rx="4" fill="#17121F"/>
+  <text x="72" y="233" font-size="11" font-family="Courier New,monospace" fill="#A78BFA">SPANS</text>
+  <g transform="translate(46,130)"><line x1="0" y1="64" x2="272" y2="64" stroke="#2E1065"/><rect x="8" y="46" width="18" height="18" rx="3" fill="#C4B5FD"><animate attributeName="height" values="18;9;18" dur="1.40s" repeatCount="indefinite"/><animate attributeName="y" values="46;55;46" dur="1.40s" repeatCount="indefinite"/></rect><rect x="38" y="30" width="18" height="34" rx="3" fill="#8B5CF6"><animate attributeName="height" values="34;17;34" dur="1.57s" repeatCount="indefinite"/><animate attributeName="y" values="30;47;30" dur="1.57s" repeatCount="indefinite"/></rect><rect x="68" y="38" width="18" height="26" rx="3" fill="#8B5CF6"><animate attributeName="height" values="26;13;26" dur="1.74s" repeatCount="indefinite"/><animate attributeName="y" values="38;51;38" dur="1.74s" repeatCount="indefinite"/></rect><rect x="98" y="18" width="18" height="46" rx="3" fill="#C4B5FD"><animate attributeName="height" values="46;23;46" dur="1.91s" repeatCount="indefinite"/><animate attributeName="y" values="18;41;18" dur="1.91s" repeatCount="indefinite"/></rect><rect x="128" y="34" width="18" height="30" rx="3" fill="#8B5CF6"><animate attributeName="height" values="30;15;30" dur="2.08s" repeatCount="indefinite"/><animate attributeName="y" values="34;49;34" dur="2.08s" repeatCount="indefinite"/></rect><rect x="158" y="12" width="18" height="52" rx="3" fill="#8B5CF6"><animate attributeName="height" values="52;26;52" dur="2.25s" repeatCount="indefinite"/><animate attributeName="y" values="12;38;12" dur="2.25s" repeatCount="indefinite"/></rect><rect x="188" y="40" width="18" height="24" rx="3" fill="#C4B5FD"><animate attributeName="height" values="24;12;24" dur="2.42s" repeatCount="indefinite"/><animate attributeName="y" values="40;52;40" dur="2.42s" repeatCount="indefinite"/></rect><rect x="218" y="24" width="18" height="40" rx="3" fill="#8B5CF6"><animate attributeName="height" values="40;20;40" dur="2.59s" repeatCount="indefinite"/><animate attributeName="y" values="24;44;24" dur="2.59s" repeatCount="indefinite"/></rect><rect x="248" y="28" width="18" height="36" rx="3" fill="#8B5CF6"><animate attributeName="height" values="36;18;36" dur="2.76s" repeatCount="indefinite"/><animate attributeName="y" values="28;46;28" dur="2.76s" repeatCount="indefinite"/></rect><text x="0" y="84" font-size="9.5" font-family="Courier New,monospace" fill="#9D8AB8">langsmith spans / min</text></g>
+</g>
+  <g>
+  <path d="M 860 210 L 860 320 L 878 311 L 878 201 Z" fill="#241A38"/><path d="M 470 210 L 860 210 L 878 201 L 488 201 Z" fill="#4C1D95"/>
+  <path d="M 470 210 L 860 210 L 860 320 L 470 320 Z" fill="#0B0716" stroke="#6D28D9" stroke-width="2"/>
+  <rect x="478" y="218" width="374" height="22" rx="4" fill="#17121F"/>
+  <text x="486" y="233" font-size="11" font-family="Courier New,monospace" fill="#A78BFA">ALERTS</text>
+  <g transform="translate(46,64)">
+  <rect x="6" y="6" width="300" height="34" rx="6" fill="#17121F" stroke="#4C1D95"/>
+  <circle cx="24" cy="23" r="7" fill="#8B5CF6"><animate attributeName="opacity" values="1;.15;1" dur="1.2s" repeatCount="indefinite"/></circle>
+  <text x="42" y="27" font-size="11" font-family="Courier New,monospace" fill="#E9D5FF">all green · breaker armed · 99.97</text>
+</g>
+</g>
+</g>
+<rect x="56" y="356" width="804" height="46" rx="8" fill="#0E0A16" stroke="#2E1065"/>
+<g font-family="Courier New,monospace" font-size="11" fill="#A78BFA">
+  <text x="76" y="376">langsmith ▸ langfuse ▸ prometheus ▸ grafana</text>
+  <text x="76" y="394" fill="#6D28D9">sentry · datadog · opentelemetry — every screen shares one spine</text>
+  <g transform="translate(770,366)"><circle r="6" fill="#8B5CF6"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="24" r="6" fill="#6D28D9"><animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="48" r="6" fill="#C4B5FD"><animate attributeName="opacity" values="1;.4;1" dur="3s" repeatCount="indefinite"/></circle></g>
+</g>
+<text x="24" y="450" font-size="11" font-family="Courier New,monospace" fill="#9D8AB8">if it isn't on the wall, it didn't happen</text>
+</svg>
