@@ -1,4 +1,4 @@
-<!-- profile readme v5 @ full purple — all 44 SVG assets, all sections open, nothing from v3 dropped -->
+<!-- profile readme v6 @ purple era + 3D — 64 assets, every figure teaches, all sections open -->
 <div align="center">
 
   
