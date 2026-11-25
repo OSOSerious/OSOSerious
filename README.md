@@ -406,6 +406,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ## ◆ github stats
 
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/stats-podium.svg" width="100%" alt="github stats as a 3D winners podium — 1.6k stars, 91 repos, 95 followers, stars orbiting"/>
+
 <div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=OSOSerious&show_icons=true&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=A78BFA&text_color=E9D5FF" height="180" alt="OSOSerious stats"/>
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=OSOSerious&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&text_color=E9D5FF" height="180" alt="top languages"/>
