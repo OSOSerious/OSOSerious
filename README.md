@@ -44,17 +44,25 @@
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/cube-stack.svg" width="100%" alt="rotating 3D cube — the stack as an object"/>
 
+**Why a cube:** six faces, one object — the stack is only '3D' when every side holds: elixir, agents, data, infra, security, ship. Rotating it is how I check none of the faces is missing.
+
 **And the whole README as one map:** every section below is an extruded isometric tile, numbered in reading order — a light signal walks the path from `01 RESEARCH` through `10 DELIVER`, each tile flaring as it arrives. This page, modeled as a place.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/iso-map.svg" width="100%" alt="the README as a 3D isometric map — ten extruded tiles, signal walking the path"/>
+
+**The map lesson:** a README is a *place*. Numbered tiles, one path, a signal that walks it — because systems should be walkable. If you can't trace the route, you don't own the system yet.
 
 **And the mark itself, in blocks:** OSO rebuilt from **47 extruded cubes** — front/top/right faces, painter-sorted so depth reads true — popping in column by column, straight into the shadow beneath.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/oso-voxel.svg" width="100%" alt="OSO built from 47 extruded 3D cubes, popping in"/>
 
+**OSO in blocks:** the palindrome rebuilt from 47 cubes — same from either direction because every block is placed twice as strong. Small honest units, stacked, read as a whole.
+
 **And the product itself, stacked:** five isometric layers — `DATA ▸ STATE ▸ AGENTS ▸ TOOLS ▸ SURFACE` — floating as one tower, each plate only touching the one below, with energy pulses climbing bottom to top. The architecture, as an object you could pick up.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/stack-tower.svg" width="100%" alt="the stack as a five-layer isometric tower with energy climbing"/>
+
+**The layer rule:** each plate only touches the one below — data → state → agents → tools → surface. Skip a layer and the tower wobbles; that's how platforms rot. Energy climbs, dependencies don't.
 
 ---
 
@@ -248,6 +256,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lang-bars-3d.svg" width="100%" alt="languages, extruded — Elixir is the tallest tower"/>
 
+**The lesson in the heights:** depth isn't hype — Elixir leads because it's the language of systems that *don't fall over* (OTP supervision trees, let-it-crash, billions of messages). Python is the muscle for AI/ML, TypeScript the connective tissue. When I architect, Elixir holds the core and the rest plugs in.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-02.svg" width="100%" alt="languages — purple data table"/>
 
 ---
@@ -289,6 +299,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/provider-orbit.svg" width="100%" alt="providers in orbit around the guarded routing core — 8 extruded chips on 3 tilted rings"/>
 
+**The story:** every provider here is a commodity — they orbit *my* core, not the other way around. Routing means: cheap model for the easy 80%, frontier for the hard 20%, local when data can't leave the building. Swap a star without moving the system.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-05.svg" width="100%" alt="models providers — purple data table"/>
 
 ---
@@ -298,6 +310,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 ## ◆ databases & vector stores
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/data-vault.svg" width="100%" alt="databases as a 3D vault — three extruded drums, signals arcing between them"/>
+
+**How the vault works:** Postgres is home (CTEs, JSONB, pgvector — one database that can think), Redis is short-term memory (cache, streams, pub/sub between agents), vector stores give the machines recall. The teaching rule: *data goes in one drum, reads fan out* — never let a second truth exist.
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=A78BFA&center=true&vCenter=true&width=500&lines=Qdrant+%7C+Pinecone+%7C+ChromaDB+%7C+pgvector+%7C+FAISS+%7C+Elasticsearch" alt="Vector DBs" />
 
@@ -311,6 +325,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/pipeline-3d.svg" width="100%" alt="events pipeline — four extruded stations, glowing packets riding the rail"/>
 
+**The story of a message:** something arrives (RSS, API, webhook), waits its turn in the queue, gets worked exactly once, leaves an audit row, ships. Queues are why nothing in my systems is lost when a worker dies mid-job — the packet just finds the next train.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-07.svg" width="100%" alt="queues — purple data table"/>
 
 ---
@@ -320,6 +336,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 ## ◆ automation & orchestration
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/switchyard.svg" width="100%" alt="automation switchyard — a job cube changing tracks at a glowing junction"/>
+
+**The lesson:** workflows aren't lines, they're *railways*. A job leaves the main line, hits a junction, and the switch decides — retry A, schedule B — but the ticket (the workflow state) rides with it the whole way. If the locomotive dies, a new one picks up the same rail.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-08.svg" width="100%" alt="automation — purple data table"/>
 
@@ -331,6 +349,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/iac-lego.svg" width="100%" alt="infrastructure as code — extruded bricks drop into a stack and rebuild on loop"/>
 
+**The teaching:** pets vs cattle — servers you hand-fix are pets; bricks you drop from code are cattle. Six lines of Terraform rebuild the whole stack anywhere.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-09.svg" width="100%" alt="cloud devops — purple data table"/>
 
 ---
@@ -340,6 +360,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 ## ◆ observability, monitoring & security
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/monitor-wall.svg" width="100%" alt="observability as a 3D wall of four live monitors — latency, traces, spans, alerts"/>
+
+**The story I tell every team:** you don't fix what you can't see. Latency, traces, spans, alerts — four screens, one spine, and a standing rule: *if it isn't on the wall, it didn't happen*. A 3am page becomes a 3am fix instead of a 3am guess.
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-10.svg" width="100%" alt="observability — purple data table"/>
 
@@ -357,6 +379,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/api-switch.svg" width="100%" alt="API integrations as a 3D patch bay — one gateway, six cables, signals moving"/>
 
+**The lesson in the bay:** integrations rot when they're special-cased. One gateway = one place for auth, quota, and audit — pull a cable and nothing else notices. Six categories through the same spine is how you add the seventh vendor in an afternoon.
+
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Payments+%7C+Communication+%7C+Google+%7C+Social+%7C+CRM+%7C+Developer" alt="APIs" />
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-11.svg" width="100%" alt="api integrations — purple data table"/>
@@ -368,6 +392,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 ## ◆ featured projects — award-winning · open source · production-ready
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/project-shelf.svg" width="100%" alt="featured projects as a 3D cartridge shelf — 6 extruded cartridges on two planks, light sweeping"/>
+
+**Reading the shelf:** the shelf is the shortlist, not the archive. Abliteration proved what *breaks* before it proved what works; the bots run Elixir/Python in production; the SOP system placed in a hackathon. Pull any cartridge — each is a shippable lesson.
 
 <div align="center">
 
@@ -400,6 +426,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/handoff-bridge.svg" width="100%" alt="delivery bridge — the mess to production you own, crates crossing three lanes"/>
 
+**The whole pitch, as one scene:** rented SaaS is a tangle you can't audit — the bridge carries it to code, data, and deploys you own, in three lanes (agents, automation, integration). The bridge *is* the product.
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-15.svg" width="100%" alt="deliver ai automation — purple data table"/>
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-16.svg" width="100%" alt="deliver optimization — purple data table"/>
@@ -411,6 +439,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 ## ◆ github stats
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/stats-podium.svg" width="100%" alt="github stats as a 3D winners podium — 1.6k stars, 91 repos, 95 followers, stars orbiting"/>
+
+**The honest podium:** stars are other builders deciding your work was useful; repos are attempts; followers are people waiting on the next one. The cards below redraw on every push — no vanity, just receipts.
 
 <div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=OSOSerious&show_icons=true&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=A78BFA&text_color=E9D5FF" height="180" alt="OSOSerious stats"/>
