@@ -191,7 +191,6 @@ src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lava-pl
 src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/contribution-koi.svg" width="100%" alt="Contribution koi"
 
 **The koi, rebuilt.** A fish whose body IS your contribution squares, iso-shaded like the city — tail flicks, ripples. Your data, alive.
-<td width="50%"><img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/rube-goldberg.svg" width="100%" alt="one more" hidden></td>
 
 ### ▸ THE YEAR
 
