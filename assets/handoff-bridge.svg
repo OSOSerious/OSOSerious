@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-label="delivery bridge — from the mess to production you own">
+<style>svg{filter:saturate(1.7) brightness(1.3) contrast(1.1);}</style>
+<rect width="900" height="470" rx="14" fill="#17121F"/>
+<text x="24" y="34" font-size="14" font-family="Courier New,monospace" fill="#A78BFA">// the handoff</text>
+<text x="876" y="34" text-anchor="end" font-size="12" font-family="Courier New,monospace" fill="#6D28D9">mess ▸ bridge ▸ production</text>
+<g>
+  <path d="M 250 300 L 224 282 L 224 392 L 250 410 Z" fill="#241A38"/><path d="M 60 300 L 250 300 L 250 410 L 60 410 Z" fill="#1E1730" stroke="#2E1065"/>
+  <path d="M 60 300 L 250 300 L 224 282 L 34 282 Z" fill="#3B1580" stroke="#E9D5FF" stroke-opacity=".25"/>
+  <text x="155.0" y="334" text-anchor="middle" font-size="13" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF" letter-spacing="2">THE MESS</text>
+  <text x="155.0" y="354" text-anchor="middle" font-size="10" font-family="Courier New,monospace" fill="#A78BFA">rented · locked · opaque</text>
+</g>
+<g>
+  <path d="M 850 300 L 824 282 L 824 392 L 850 410 Z" fill="#241A38"/><path d="M 660 300 L 850 300 L 850 410 L 660 410 Z" fill="#1E1730" stroke="#2E1065"/>
+  <path d="M 660 300 L 850 300 L 824 282 L 634 282 Z" fill="#6D28D9" stroke="#E9D5FF" stroke-opacity=".25"/>
+  <text x="755.0" y="334" text-anchor="middle" font-size="13" font-weight="700" font-family="Courier New,monospace" fill="#F3EDFF" letter-spacing="2">PRODUCTION</text>
+  <text x="755.0" y="354" text-anchor="middle" font-size="10" font-family="Courier New,monospace" fill="#A78BFA">owned · audited · free</text>
+</g>
+<rect x="250" y="236" width="400" height="22" rx="4" fill="#4C1D95"/><rect x="250" y="258" width="400" height="10" fill="#241A38"/>
+<line x1="266" y1="236" x2="266" y2="130" stroke="#8B5CF6" stroke-width="5"/><line x1="634" y1="236" x2="634" y2="130" stroke="#8B5CF6" stroke-width="5"/><path d="M266 130 Q450 260 634 130" fill="none" stroke="#6D28D9" stroke-width="3" stroke-dasharray="7 6"/>
+<text x="270" y="290" font-size="10.5" font-family="Courier New,monospace" fill="#A78BFA">AGENTS</text><text x="400" y="290" font-size="10.5" font-family="Courier New,monospace" fill="#A78BFA">AUTOMATION</text><text x="530" y="290" font-size="10.5" font-family="Courier New,monospace" fill="#A78BFA">INTEGRATION</text>
+<g transform="translate(70,168)">
+  <rect x="0" y="0" width="120" height="54" rx="6" fill="#1E1730" stroke="#4C1D95"/>
+  <path d="M12 40 q18 -30 36 -8 q18 22 34 -6 q14 -22 26 4" fill="none" stroke="#A78BFA" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="opacity" values=".9;.4;.9" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <text x="60" y="72" text-anchor="middle" font-size="10" font-family="Courier New,monospace" fill="#9D8AB8">duct-taped saas</text>
+</g>
+<g><path d="M 764 210 L 764 250 L 782 241 L 782 201 Z" fill="#241A38"/><path d="M 700 210 L 764 210 L 782 201 L 718 201 Z" fill="#C4B5FD" opacity=".8"/><path d="M 700 210 L 764 210 L 764 250 L 700 250 Z" fill="#6D28D9" stroke="#E9D5FF" stroke-opacity=".4"/><text x="732" y="235" text-anchor="middle" font-size="9" font-family="Courier New,monospace" fill="#17121F">code you own</text></g><g><path d="M 830 166 L 830 206 L 848 197 L 848 157 Z" fill="#241A38"/><path d="M 766 166 L 830 166 L 848 157 L 784 157 Z" fill="#C4B5FD" opacity=".8"/><path d="M 766 166 L 830 166 L 830 206 L 766 206 Z" fill="#8B5CF6" stroke="#E9D5FF" stroke-opacity=".4"/><text x="798" y="191" text-anchor="middle" font-size="9" font-family="Courier New,monospace" fill="#17121F">data you own</text></g><g><path d="M 764 122 L 764 162 L 782 153 L 782 113 Z" fill="#241A38"/><path d="M 700 122 L 764 122 L 782 113 L 718 113 Z" fill="#C4B5FD" opacity=".8"/><path d="M 700 122 L 764 122 L 764 162 L 700 162 Z" fill="#A78BFA" stroke="#E9D5FF" stroke-opacity=".4"/><text x="732" y="147" text-anchor="middle" font-size="9" font-family="Courier New,monospace" fill="#17121F">deploy you own</text></g>
+<g>
+  <rect x="-14" y="-12" width="28" height="24" rx="3" fill="#E9D5FF" stroke="#8B5CF6" stroke-width="2"/>
+  <animateMotion dur="6s" begin="0s" repeatCount="indefinite" path="M 300 226 L 600 226"/>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.06;.9;1" dur="6s" begin="0s" repeatCount="indefinite"/>
+</g><g>
+  <rect x="-14" y="-12" width="28" height="24" rx="3" fill="#E9D5FF" stroke="#8B5CF6" stroke-width="2"/>
+  <animateMotion dur="6s" begin="-2s" repeatCount="indefinite" path="M 300 226 L 600 226"/>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.06;.9;1" dur="6s" begin="-2s" repeatCount="indefinite"/>
+</g><g>
+  <rect x="-14" y="-12" width="28" height="24" rx="3" fill="#E9D5FF" stroke="#8B5CF6" stroke-width="2"/>
+  <animateMotion dur="6s" begin="-4s" repeatCount="indefinite" path="M 300 226 L 600 226"/>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.06;.9;1" dur="6s" begin="-4s" repeatCount="indefinite"/>
+</g>
+<ellipse cx="450" cy="320" rx="300" ry="26" fill="#0E0A16" stroke="#2E1065"/>
+<text x="24" y="450" font-size="11" font-family="Courier New,monospace" fill="#9D8AB8">agencies deploy this to clients — the bridge is the product</text>
+</svg>

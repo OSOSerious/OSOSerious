@@ -392,6 +392,8 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 ## ◆ what I deliver — production systems designed for agencies to deploy to clients
 
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/handoff-bridge.svg" width="100%" alt="delivery bridge — the mess to production you own, crates crossing three lanes"/>
+
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-15.svg" width="100%" alt="deliver ai automation — purple data table"/>
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-16.svg" width="100%" alt="deliver optimization — purple data table"/>
