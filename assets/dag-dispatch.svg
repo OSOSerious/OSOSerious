@@ -1,0 +1,41 @@
+<svg width="560" height="230" viewBox="0 0 560 230" font-family="Courier New,monospace"><style>@keyframes vectorProj { 0%{transform:translate(0,0)} 45%{transform:translate(0,0)} 55%{transform:translate(-26px,10px)} 95%{transform:translate(-26px,10px)} 100%{transform:translate(0,0)} }
+@keyframes fadeOutX { 0%,40%{opacity:1} 55%,95%{opacity:.06} 100%{opacity:1} }
+@keyframes countTick { 0%{opacity:.3} 8%{opacity:1} 90%{opacity:1} 100%{opacity:.3} }
+@keyframes edgeDash { to { stroke-dashoffset:-40; } }
+@keyframes ringOut { 0%{transform:scale(.4);opacity:.9} 100%{transform:scale(2.6);opacity:0} }
+@keyframes shiver { 0%,100%{transform:translate(0,0)} 25%{transform:translate(.6px,-.6px)} 75%{transform:translate(-.6px,.6px)} }
+@keyframes sweepBand { 0%{transform:translateX(-40%)} 100%{transform:translateX(640%)} }
+@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes swim { 0%{transform:translateX(-14%) rotate(-3deg)} 50%{transform:translateX(14%) rotate(3deg)} 100%{transform:translateX(-14%) rotate(-3deg)} }
+@keyframes tailflick { 0%,100%{transform:skewX(0)} 50%{transform:skewX(14deg)} }</style>
+        <defs><marker id="ar" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><polygon points="0 0 7 3.5 0 7" fill="#6D28D9"/></marker></defs>
+        <g stroke="#4C1D95" stroke-width="2" fill="none">
+          <path d="M96 60 C150 60 160 110 214 112" marker-end="url(#ar)"/>
+          <path d="M96 60 C150 60 160 30 214 34" marker-end="url(#ar)"/>
+          <path d="M96 176 C150 176 160 112 214 112" marker-end="url(#ar)"/>
+          <path d="M330 34 C380 34 390 60 440 62" marker-end="url(#ar)"/>
+          <path d="M330 112 C380 112 390 62 440 62" marker-end="url(#ar)"/>
+          <path d="M330 112 C380 112 390 176 440 176" marker-end="url(#ar)"/>
+        </g>
+        <g stroke="#8B5CF6" stroke-width="2.5" fill="none" stroke-dasharray="8 34" style="animation:edgeDash 1.6s linear infinite">
+          <path d="M96 60 C150 60 160 110 214 112"/><path d="M96 60 C150 60 160 30 214 34"/>
+          <path d="M96 176 C150 176 160 112 214 112"/>
+          <path d="M330 34 C380 34 390 60 440 62" style="animation-delay:.4s"/>
+          <path d="M330 112 C380 112 390 62 440 62" style="animation-delay:.7s"/>
+          <path d="M330 112 C380 112 390 176 440 176" style="animation-delay:1s"/>
+        </g>
+        <g font-size="10">
+          <g><circle cx="70" cy="60" r="22" fill="#2E1065" stroke="#8B5CF6" stroke-width="2"/><text x="70" y="63" text-anchor="middle" fill="#E9D5FF">plan</text></g>
+          <g><circle cx="70" cy="176" r="22" fill="#2E1065" stroke="#8B5CF6" stroke-width="2"/><text x="70" y="179" text-anchor="middle" fill="#E9D5FF">probe</text></g>
+          <g><circle cx="272" cy="34" r="26" fill="#4C1D95" stroke="#A78BFA" stroke-width="2" style="animation:shiver 2.4s infinite"><circle cx="272" cy="34" r="34" fill="none" stroke="#8B5CF6" style="animation:ringOut 2.4s ease-out infinite" transform-origin="272 34"/></g>
+          <text x="272" y="37" text-anchor="middle" fill="#E9D5FF">mutate</text>
+          <g><circle cx="272" cy="112" r="26" fill="#6D28D9" stroke="#C4B5FD" stroke-width="2"/><text x="272" y="115" text-anchor="middle" fill="#E9D5FF">write</text>
+            <text x="272" y="152" text-anchor="middle" class="hud" fill="#A78BFA">✓ verify gate</text></g>
+          <g><circle cx="470" cy="62" r="24" fill="#2E1065" stroke="#8B5CF6" stroke-width="2"/><text x="470" y="65" text-anchor="middle" fill="#E9D5FF">test</text></g>
+          <g><circle cx="470" cy="176" r="24" fill="#1E1730" stroke="#4C1D95" stroke-width="2" stroke-dasharray="4 3"/><text x="470" y="179" text-anchor="middle" fill="#9D8AB8">ship</text></g>
+        </g>
+        <text x="16" y="216" class="hud">deps gate the dispatch · one mutation per node</text>
+      </svg>

@@ -1,0 +1,42 @@
+<svg width="540" height="200" viewBox="0 0 540 200" font-family="Courier New,monospace"><style>@keyframes vectorProj { 0%{transform:translate(0,0)} 45%{transform:translate(0,0)} 55%{transform:translate(-26px,10px)} 95%{transform:translate(-26px,10px)} 100%{transform:translate(0,0)} }
+@keyframes fadeOutX { 0%,40%{opacity:1} 55%,95%{opacity:.06} 100%{opacity:1} }
+@keyframes countTick { 0%{opacity:.3} 8%{opacity:1} 90%{opacity:1} 100%{opacity:.3} }
+@keyframes edgeDash { to { stroke-dashoffset:-40; } }
+@keyframes ringOut { 0%{transform:scale(.4);opacity:.9} 100%{transform:scale(2.6);opacity:0} }
+@keyframes shiver { 0%,100%{transform:translate(0,0)} 25%{transform:translate(.6px,-.6px)} 75%{transform:translate(-.6px,.6px)} }
+@keyframes sweepBand { 0%{transform:translateX(-40%)} 100%{transform:translateX(640%)} }
+@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes swim { 0%{transform:translateX(-14%) rotate(-3deg)} 50%{transform:translateX(14%) rotate(3deg)} 100%{transform:translateX(-14%) rotate(-3deg)} }
+@keyframes tailflick { 0%,100%{transform:skewX(0)} 50%{transform:skewX(14deg)} }</style>
+        <g>
+          <rect x="30" y="60" width="110" height="80" rx="12" fill="#2E1065" stroke="#8B5CF6" stroke-width="2"/>
+          <text x="85" y="96" text-anchor="middle" fill="#E9D5FF" font-size="13">LLM</text>
+          <text x="85" y="116" text-anchor="middle" class="hud">agent</text>
+          <rect x="400" y="60" width="110" height="80" rx="12" fill="#4C1D95" stroke="#C4B5FD" stroke-width="2"/>
+          <text x="455" y="96" text-anchor="middle" fill="#E9D5FF" font-size="13">TOOL</text>
+          <text x="455" y="116" text-anchor="middle" class="hud">mcp server</text>
+        </g>
+        <line x1="140" y1="86" x2="400" y2="86" stroke="#4C1D95" stroke-width="2"/>
+        <line x1="140" y1="114" x2="400" y2="114" stroke="#4C1D95" stroke-width="2" stroke-dasharray="5 4"/>
+        <g>
+          <rect x="0" y="77" width="64" height="18" rx="4" fill="#8B5CF6">
+            <animate attributeName="x" values="140;336" dur="2.4s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" repeatCount="indefinite"/>
+          </rect>
+          <text font-size="9" fill="#17121F" y="90"><animate attributeName="x" values="144;340" dur="2.4s" repeatCount="indefinite"/>tools/call</text>
+          <rect x="0" y="105" width="76" height="18" rx="4" fill="#A78BFA">
+            <animate attributeName="x" values="336;140" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+          </rect>
+          <text font-size="9" fill="#17121F" y="118"><animate attributeName="x" values="340;144" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>result [[LEAD]]</text>
+        </g>
+        <g transform="translate(255,44)">
+          <rect x="0" y="0" width="70" height="16" rx="4" fill="#17121F" stroke="#6D28D9"/>
+          <text x="35" y="12" text-anchor="middle" font-size="9" fill="#A78BFA" font-family="Courier New">anonymize</text>
+          <line x1="35" y1="16" x2="35" y2="70" stroke="#6D28D9" stroke-dasharray="3 3"/>
+        </g>
+        <text x="140" y="176" class="hud" fill="#A78BFA">egress gate: names → [[TOKENS]] · model never writes sent text</text>
+      </svg>

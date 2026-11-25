@@ -1,0 +1,40 @@
+<svg width="440" height="240" viewBox="0 0 440 240" class="mono"><style></style>
+        <!-- body -->
+        <polygon points="220,24 300,216 140,216" fill="#17121F" stroke="#8B5CF6" stroke-width="3"/>
+        <polygon points="220,40 286,208 154,208" fill="none" stroke="#2E1065" stroke-width="2"/>
+        <!-- scale marks -->
+        <g stroke="#4C1D95" stroke-width="2">
+          <line x1="204" y1="70" x2="236" y2="70"/><line x1="194" y1="110" x2="246" y2="110"/>
+          <line x1="184" y1="150" x2="256" y2="150"/><line x1="174" y1="190" x2="266" y2="190"/>
+        </g>
+        <text x="262" y="74" font-size="9" fill="#6D28D9">fast</text>
+        <text x="176" y="194" font-size="9" fill="#6D28D9" text-anchor="end">slow</text>
+        <!-- rod + weight -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="-26 220 210;26 220 210;-26 220 210" dur="1.66s" repeatCount="indefinite"/>
+          <line x1="220" y1="212" x2="220" y2="44" stroke="#C4B5FD" stroke-width="5"/>
+          <rect x="206" y="96" width="28" height="20" rx="4" fill="#8B5CF6" stroke="#E9D5FF" stroke-width="2"/>
+          <circle cx="220" cy="50" r="7" fill="#E9D5FF"/>
+        </g>
+        <!-- base -->
+        <rect x="136" y="214" width="168" height="14" rx="6" fill="#2E1065" stroke="#6D28D9"/>
+        <!-- beat light -->
+        <circle cx="220" cy="222" r="5" fill="#A78BFA">
+          <animate attributeName="opacity" values="1;.2;1" dur=".83s" repeatCount="indefinite"/>
+        </circle>
+        <!-- readout -->
+        <g transform="translate(330,60)">
+          <rect width="94" height="96" rx="8" fill="#17121F" stroke="#4C1D95"/>
+          <text x="12" y="26" font-size="11" fill="#9D8AB8">tempo</text>
+          <text x="12" y="54" font-size="24" font-weight="900" fill="#E9D5FF">72</text>
+          <text x="56" y="54" font-size="11" fill="#A78BFA">BPM</text>
+          <text x="12" y="80" font-size="10" fill="#6D28D9">beats:</text>
+          <text x="52" y="80" font-size="12" fill="#C4B5FD">
+            <animate attributeName="textContent" values="1;2;3;4;5;6;7;8" dur="6.6s" calcMode="discrete" repeatCount="indefinite"/>
+          </text>
+        </g>
+        <rect x="330" y="172" width="94" height="40" rx="8" fill="#2E1065" stroke="#A78BFA"/>
+        <text x="377" y="189" text-anchor="middle" font-size="10" fill="#E9D5FF">consistency</text>
+        <text x="377" y="203" text-anchor="middle" font-size="10" fill="#A78BFA">&gt; intensity</text>
+        <text x="24" y="40" font-size="11" fill="#A78BFA">// steady is a feature</text>
+      </svg>

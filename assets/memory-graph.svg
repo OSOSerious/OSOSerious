@@ -1,0 +1,45 @@
+<svg width="540" height="230" viewBox="0 0 540 230" font-family="Courier New,monospace"><style>@keyframes vectorProj { 0%{transform:translate(0,0)} 45%{transform:translate(0,0)} 55%{transform:translate(-26px,10px)} 95%{transform:translate(-26px,10px)} 100%{transform:translate(0,0)} }
+@keyframes fadeOutX { 0%,40%{opacity:1} 55%,95%{opacity:.06} 100%{opacity:1} }
+@keyframes countTick { 0%{opacity:.3} 8%{opacity:1} 90%{opacity:1} 100%{opacity:.3} }
+@keyframes edgeDash { to { stroke-dashoffset:-40; } }
+@keyframes ringOut { 0%{transform:scale(.4);opacity:.9} 100%{transform:scale(2.6);opacity:0} }
+@keyframes shiver { 0%,100%{transform:translate(0,0)} 25%{transform:translate(.6px,-.6px)} 75%{transform:translate(-.6px,.6px)} }
+@keyframes sweepBand { 0%{transform:translateX(-40%)} 100%{transform:translateX(640%)} }
+@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes swim { 0%{transform:translateX(-14%) rotate(-3deg)} 50%{transform:translateX(14%) rotate(3deg)} 100%{transform:translateX(-14%) rotate(-3deg)} }
+@keyframes tailflick { 0%,100%{transform:skewX(0)} 50%{transform:skewX(14deg)} }</style>
+        <g opacity=".12">
+          <circle cx="60" cy="50" r="4" fill="#9D8AB8"/><circle cx="95" cy="90" r="4" fill="#9D8AB8"/>
+          <circle cx="50" cy="140" r="4" fill="#9D8AB8"/><circle cx="110" cy="180" r="4" fill="#9D8AB8"/>
+          <circle cx="150" cy="60" r="4" fill="#9D8AB8"/><circle cx="170" cy="140" r="4" fill="#9D8AB8"/>
+          <line x1="60" y1="50" x2="95" y2="90" stroke="#9D8AB8" stroke-width="1"/>
+          <line x1="60" y1="50" x2="150" y2="60" stroke="#9D8AB8"/>
+          <line x1="50" y1="140" x2="110" y2="180" stroke="#9D8AB8"/>
+          <line x1="95" y1="90" x2="170" y2="140" stroke="#9D8AB8"/>
+        </g>
+        <text x="16" y="28" class="hud" fill="#6D28D9">context: compacted →</text>
+        <g stroke="#6D28D9" stroke-width="1.6" fill="none" stroke-dasharray="6 5">
+          <path d="M240 60 C310 50 330 90 400 84"/>
+          <path d="M240 130 C310 140 330 92 400 84"/>
+          <path d="M240 130 C310 150 340 176 404 172"/>
+          <path d="M400 84 C440 84 450 130 404 172"/>
+        </g>
+        <g font-size="10">
+          <g><rect x="180" y="44" width="62" height="30" rx="7" fill="#4C1D95" stroke="#A78BFA"/>
+             <text x="211" y="63" text-anchor="middle" fill="#E9D5FF">finding</text>
+             <text x="211" y="88" text-anchor="middle" class="hud" fill="#A78BFA">ex:97</text></g>
+          <g><rect x="176" y="114" width="66" height="30" rx="7" fill="#6D28D9" stroke="#C4B5FD"/>
+             <text x="209" y="133" text-anchor="middle" fill="#E9D5FF">root-cause</text>
+             <text x="209" y="158" text-anchor="middle" class="hud" fill="#A78BFA">cli.py:412</text></g>
+          <g><rect x="398" y="68" width="70" height="32" rx="7" fill="#8B5CF6" stroke="#E9D5FF"/>
+             <text x="433" y="88" text-anchor="middle" fill="#17121F" font-weight="700">bug · P0</text></g>
+          <g><rect x="398" y="156" width="70" height="32" rx="7" fill="#2E1065" stroke="#8B5CF6"/>
+             <text x="433" y="176" text-anchor="middle" fill="#E9D5FF">fix-plan</text></g>
+        </g>
+        <circle r="4" fill="#E9D5FF"><animateMotion dur="3s" repeatCount="indefinite" path="M240 60 C310 50 330 90 400 84"/></circle>
+        <circle r="4" fill="#A78BFA"><animateMotion dur="3s" begin="1.2s" repeatCount="indefinite" path="M400 84 C440 84 450 130 404 172"/></circle>
+        <text x="316" y="216" class="hud" fill="#A78BFA">findings survive · context doesn't</text>
+      </svg>

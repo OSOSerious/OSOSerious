@@ -1,0 +1,64 @@
+<svg width="640" height="300" viewBox="0 0 640 300" class="mono"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }
+@keyframes dr { 0%{stroke-dashoffset:1400} 45%,80%{stroke-dashoffset:0} 100%{stroke-dashoffset:-1400} }
+@keyframes stamp { 0%,55%{opacity:0} 65%,85%{opacity:1} 100%{opacity:0} }</style>
+        <!-- marquee -->
+        <rect x="90" y="8" width="460" height="34" rx="8" fill="#17121F" stroke="#8B5CF6" stroke-width="2"/>
+        <text x="320" y="32" text-anchor="middle" font-size="19" font-weight="900" fill="#E9D5FF" letter-spacing="7">GOLDCLAW</text>
+        <g fill="#8B5CF6">
+          <circle cx="106" cy="25" r="3"><animate attributeName="opacity" values="1;.15;1" dur="1s" repeatCount="indefinite"/></circle>
+          <circle cx="130" cy="25" r="3"><animate attributeName="opacity" values="1;.15;1" dur="1s" begin=".2s" repeatCount="indefinite"/></circle>
+          <circle cx="510" cy="25" r="3"><animate attributeName="opacity" values="1;.15;1" dur="1s" begin=".4s" repeatCount="indefinite"/></circle>
+          <circle cx="534" cy="25" r="3"><animate attributeName="opacity" values="1;.15;1" dur="1s" begin=".6s" repeatCount="indefinite"/></circle>
+        </g>
+        <!-- cabinet glass -->
+        <rect x="90" y="48" width="460" height="244" rx="10" fill="none" stroke="#4C1D95" stroke-width="2"/>
+        <polygon points="100,58 220,58 140,282 100,282" fill="#8B5CF6" opacity=".05"/>
+        <!-- trolley + cable + claw group: descends 6s loop -->
+        <g>
+          <g>
+            <!-- cable -->
+            <line x1="320" y1="58" x2="320" y2="120" stroke="#9D8AB8" stroke-width="3">
+              <animate attributeName="y2" values="120;200;200;120" keyTimes="0;.3;.55;.9" dur="6s" repeatCount="indefinite"/>
+            </line>
+            <!-- claw -->
+            <g>
+              <animateTransform attributeName="transform" type="translate" values="0 0;0 80;0 80;0 0" keyTimes="0;.3;.55;.9" dur="6s" repeatCount="indefinite"/>
+              <rect x="306" y="114" width="28" height="18" rx="5" fill="#6D28D9" stroke="#C4B5FD"/>
+              <!-- jaws -->
+              <path d="M310 130 q-14 18 -10 34" fill="none" stroke="#A78BFA" stroke-width="7" stroke-linecap="round">
+                <animate attributeName="d" values="M310 130 q-14 18 -10 34;M310 130 q-4 20 2 32;M310 130 q-4 20 2 32;M310 130 q-14 18 -10 34" keyTimes="0;.3;.55;.9" dur="6s" repeatCount="indefinite"/>
+              </path>
+              <path d="M330 130 q14 18 10 34" fill="none" stroke="#A78BFA" stroke-width="7" stroke-linecap="round">
+                <animate attributeName="d" values="M330 130 q14 18 10 34;M330 130 q4 20 -2 32;M330 130 q4 20 -2 32;M330 130 q14 18 10 34" keyTimes="0;.3;.55;.9" dur="6s" repeatCount="indefinite"/>
+              </path>
+              <!-- grabbed token rides up with claw -->
+              <g>
+                <rect x="-30" y="-14" width="60" height="26" rx="7" fill="#E9D5FF" stroke="#8B5CF6" stroke-width="2"/>
+                <text x="0" y="5" text-anchor="middle" font-size="12" fill="#17121F" font-weight="700">[[TOK]]</text>
+                <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.29;.32;.85;.9" dur="6s" repeatCount="indefinite"/>
+                <animateTransform attributeName="transform" type="translate" values="320 204;320 204;320 210;320 140" keyTimes="0;.3;.55;.9" dur="6s" repeatCount="indefinite"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <!-- belt of tokens -->
+        <g>
+          <line x1="110" y1="270" x2="530" y2="270" stroke="#4C1D95" stroke-width="4"/>
+          <g font-size="10">
+            <g><rect x="140" y="252" width="52" height="20" rx="6" fill="#4C1D95"/><text x="166" y="266" text-anchor="middle" fill="#E9D5FF">lead</text>
+              <animateTransform attributeName="transform" type="translate" values="0 0;60 0;60 0;0 0" keyTimes="0;.3;.55;.9" dur="6s" repeatCount="indefinite"/></g>
+            <g><rect x="240" y="252" width="52" height="20" rx="6" fill="#3B1580"/><text x="266" y="266" text-anchor="middle" fill="#E9D5FF">reply</text>
+              <animateTransform attributeName="transform" type="translate" values="0 0;60 0;60 0;0 0" keyTimes="0;.3;.55;.9" dur="6s" repeatCount="indefinite"/></g>
+            <rect x="420" y="252" width="52" height="20" rx="6" fill="#2E1065"/><text x="446" y="266" text-anchor="middle" fill="#9D8AB8">inbox</text>
+          </g>
+        </g>
+        <!-- prize chute + signal wink -->
+        <rect x="470" y="180" width="64" height="60" rx="6" fill="#0E0A16" stroke="#E85D26" stroke-width="2" stroke-dasharray="6 4"/>
+        <text x="502" y="215" text-anchor="middle" font-size="10" fill="#E85D26">SHIP</text>
+        <!-- glass glare -->
+        <polygon points="500,58 540,58 460,282 430,282" fill="#E9D5FF" opacity=".03"/>
+      </svg>

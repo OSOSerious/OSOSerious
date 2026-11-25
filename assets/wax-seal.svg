@@ -1,0 +1,43 @@
+<svg width="500" height="240" viewBox="0 0 500 240" class="mono"><style></style>
+        <!-- envelope/paper -->
+        <rect x="90" y="150" width="320" height="66" rx="6" fill="#1E1730" stroke="#4C1D95" stroke-width="2"/>
+        <g font-size="10" fill="#6D28D9">
+          <text x="108" y="174">commit 9f4c2e1…a7b</text>
+          <text x="108" y="192">signed-off-by: OSO (system of record)</text>
+        </g>
+        <!-- wax blob (already stamped part) -->
+        <g transform="translate(330,150)">
+          <path d="M-34 8 q-8 -20 12 -30 q10 -16 30 -8 q20 -10 32 8 q18 8 10 30 q4 18 -16 24 q-12 12 -30 4 q-20 8 -32 -6 q-14 -6 -6 -22 z"
+                fill="#5B21B6" stroke="#8B5CF6" stroke-width="2" opacity="0">
+            <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.42;.5;.9;.97" dur="5s" repeatCount="indefinite"/>
+          </path>
+          <text x="0" y="6" text-anchor="middle" font-size="20" font-weight="900" fill="#E9D5FF" opacity="0">
+            OSO
+            <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.44;.52;.9;.97" dur="5s" repeatCount="indefinite"/>
+          </text>
+        </g>
+        <!-- stamp tool -->
+        <g>
+          <g>
+            <animateTransform attributeName="transform" type="translate" values="0 -80;0 0;0 0;0 -80" keyTimes="0;.4;.75;.95" dur="5s" repeatCount="indefinite"/>
+            <g transform="translate(330,74)">
+              <rect x="-14" y="-54" width="28" height="40" rx="8" fill="#4C1D95" stroke="#A78BFA" stroke-width="2"/>
+              <rect x="-30" y="-16" width="60" height="24" rx="6" fill="#6D28D9" stroke="#C4B5FD" stroke-width="2"/>
+              <rect x="-34" y="8" width="68" height="14" rx="5" fill="#8B5CF6" stroke="#E9D5FF" stroke-width="2"/>
+              <text x="0" y="-30" text-anchor="middle" font-size="11" fill="#E9D5FF">PRESS</text>
+            </g>
+          </g>
+          <!-- impact ring -->
+          <circle cx="330" cy="150" r="20" fill="none" stroke="#A78BFA" stroke-width="3" opacity="0">
+            <animate attributeName="r" values="20;56" keyTimes="0;.4;.6" dur="5s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0;.8;0" keyTimes="0;.4;.6" dur="5s" repeatCount="indefinite"/>
+          </circle>
+        </g>
+        <!-- heat shimmer under wax -->
+        <g fill="#C4B5FD" opacity=".5">
+          <circle cx="316" cy="132" r="2"><animate attributeName="cy" values="132;116" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="2s" repeatCount="indefinite"/></circle>
+          <circle cx="344" cy="130" r="1.6"><animate attributeName="cy" values="130;112" dur="2.4s" begin=".7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0" dur="2.4s" begin=".7s" repeatCount="indefinite"/></circle>
+        </g>
+        <text x="96" y="52" font-size="11" fill="#A78BFA">// provenance you can feel</text>
+        <text x="96" y="70" font-size="11" fill="#6D28D9">violet wax · one press · final</text>
+      </svg>

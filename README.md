@@ -1,4 +1,4 @@
-<!-- profile readme v4 @ purple era — assets/ ships with this file -->
+<!-- profile readme v4.1 @ purple era — everything from v3 kept, animations added WITH context, details all open -->
 <div align="center">
 
   <img src="assets/aurora-header.svg" width="100%" alt="OSO — aurora header"/>
@@ -8,10 +8,10 @@
 ### *own your systems, don't rent them.*
 **Infrastructure you control, audit, and scale.**
 
-<img src="https://img.shields.io/badge/elixir-first-8B5CF6?style=for-the-badge&labelColor=1E1B2E" alt="Elixir first">
+<img src="https://img.shields.io/badge/elixir_first-8B5CF6?style=for-the-badge&labelColor=1E1B2E" alt="Elixir first">
 <img src="https://img.shields.io/badge/AI_Agent_Architect-6D28D9?style=for-the-badge&labelColor=1E1B2E" alt="">
 <img src="https://img.shields.io/badge/MCP_Platforms-4C1D95?style=for-the-badge&labelColor=1E1B2E" alt="">
-<img src="https://img.shields.io/badge/status-shipping-E9D5FF?style=for-the-badge&labelColor=1E1B2E&color=c4b5fd" alt="">
+<img src="https://img.shields.io/badge/Web3_%26_Backend-E9D5FF?style=for-the-badge&labelColor=1E1B2E&color=c4b5fd" alt="">
 
 </div>
 
@@ -19,16 +19,11 @@
   <img src="assets/terminal-sig.svg" width="560" alt="oso@local:~$ own --your-systems → control · audit · scale. never rent."/>
 </p>
 
-<p align="center">
-I help businesses move from <b>duct-taped SaaS stacks</b> to <b>custom-owned infrastructure</b> —<br/>
-<b>Production systems, not demos.</b> Private AI stacks that never leave your infrastructure.
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=9D8AB8&center=true&vCenter=true&width=900&lines=I+help+businesses+move+from+duct-taped+SaaS+stacks+to+custom-owned+infrastructure" alt="Description"/>
 
----
+<br/>
 
 <div align="center">
-
-### ⚙ what I build
 
 | | |
 |:--:|:--|
@@ -41,50 +36,114 @@ I help businesses move from <b>duct-taped SaaS stacks</b> to <b>custom-owned inf
 
 ---
 
-<!-- ─────────── research hero ─────────── -->
-<div align="center">
+## ◆ THE WORK, ANIMATED
 
-### ◆ published research — the Abliterator
+Everything below is drawn from **my own research and my own systems** — pure SVG that runs inside this README, no screenshots, no stock art. Each one is labeled with what it actually shows.
 
-<img src="assets/abliterator.svg" width="660" alt="refusal lives in a ~5-dim subspace per layer — 82%→5% refusal, 95% true compliance"/>
+### ▸ The Abliterator — my published research
 
-**refusal lives in a ~5-dim subspace per layer** · PCA projection at s=1.0 → **5% refusal / 0% degeneration / 95% true compliance @ ppl 13.18** · jailbreak attack refusal **82%→11%** · 15+ experiments incl. 4 negative results
+<img src="assets/abliterator.svg" width="100%" alt="Abliterator: layered planes, the refusal vector projected out by the PCA basis at s=1.0"/>
 
-[oso-obliterated-models](https://github.com/OSOSerious/oso-obliterated-models-) · [OSO-AI on Hugging Face](https://huggingface.co/OSO-AI)
+**What you're looking at:** five stacked layer planes from Qwen2.5-1.5B. The bright vector is the *refusal direction*; the dashed plane is the **PCA basis (k=5)** swinging in and **projecting it out at s=1.0**. The HUD tracks the result: **refusal 82% → 5% · 95% true compliance · 0% degeneration · ppl 13.18 · jailbreak attacks 82% → 11%**. This is the actual finding — *refusal lives in a ~5-dim subspace per layer* — from [oso-obliterated-models](https://github.com/OSOSerious/oso-obliterated-models-) (15+ experiments, 4 negative results logged honestly) and [OSO-AI on Hugging Face](https://huggingface.co/OSO-AI).
 
-</div>
+### ▸ The harness — how I actually execute
+
+<img src="assets/dag-dispatch.svg" width="100%" alt="DAG dispatch: plan and probe nodes feeding mutate and write nodes behind a verify gate, ending in test and ship"/>
+
+**What you're looking at:** the execution model of the agent runtimes I build — **plan-as-DAG, one mutation per node**. Nodes fire in dependency order (dashed packets stream along the edges), `write` sits behind a **✓ verify gate**, and nothing downstream runs until the gate passes. This is the architecture, not a metaphor for it.
+
+### ▸ Memory — what the harness remembers
+
+<img src="assets/memory-graph.svg" width="100%" alt="Memory graph: faded context nodes on the left, findings with file:line provenance staying lit on the right"/>
+
+**What you're looking at:** my persistent-memory model. The dim nodes on the left are **context that gets compacted away**; the lit cards are **findings that survive**, each tagged with its provenance (`ex:97`, `cli.py:412`) — bug, root-cause, fix-plan wired together. The rule I build to: *findings survive, context doesn't.*
+
+### ▸ The gateway — the only way data leaves
+
+<img src="assets/mcp-handshake.svg" width="100%" alt="MCP handshake: LLM and TOOL exchanging packets through an anonymize gate at egress"/>
+
+**What you're looking at:** my model gateway. `tools/call` goes out, `result [[LEAD]]` comes back, and everything crosses an **anonymize gate at egress** — names, emails, phones become `[[TOKENS]]` *before anything leaves the server*. The model never writes the sent text; every decision leaves an auditable row. This is the real design from the GTM platform I'm building.
+
+### ▸ Goldclaw — the flagship
+
+<img src="assets/goldclaw-machine.svg" width="100%" alt="Goldclaw claw machine: claw descends, grabs a [[TOKEN]], prize chute stamped SHIP"/>
+
+**What you're looking at:** [Goldclaw.ai](https://goldclaw.ai) as an arcade claw — the claw drops, grabs a `[[TOKEN]]` off the lead belt, and hauls it to the **SHIP** chute. Agent + business ERP harness: the work is grab → process → ship, looped.
+
+### ▸ Identity — three small proofs
+
+<table align="center">
+<tr>
+<td align="center" width="50%">
+<img src="assets/morse-beacon.svg" width="100%" alt="Morse beacon blinking O S O"/>
+<br/><sub><b>The beacon.</b> OSO in Morse — <code>—··· ··· —···</code> — symmetric in that alphabet too. The palindrome holds everywhere.</sub>
+</td>
+<td align="center" width="50%">
+<img src="assets/wax-seal.svg" width="100%" alt="Wax seal pressing OSO into violet wax over a commit line"/>
+<br/><sub><b>The seal.</b> A stamp pressing OSO into violet wax over <code>signed-off-by</code> — provenance you can feel, same rule as the findings graph.</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<img src="assets/holo-identity.svg" width="100%" alt="Hologram OSO projected from a plinth"/>
+<br/><sub><b>The projection.</b> The mark as a flickering hologram — identity that only exists while the system is powered. Static frames still read at favicon size.</sub>
+</td>
+<td align="center" width="50%">
+<img src="assets/metronome.svg" width="100%" alt="Metronome swinging at 72 BPM"/>
+<br/><sub><b>The tempo.</b> 72 BPM, <i>consistency &gt; intensity</i>. How the shipping actually works — parallel threads, one steady beat.</sub>
+</td>
+</tr>
+</table>
+
+### ▸ The year, as a skyline
+
+<img src="assets/city-night.svg" width="100%" alt="My contribution graph rendered as a 3D isometric city, violet edition"/>
+
+**What you're looking at:** my real contribution graph as a **3D isometric city** — every building is a day of work, towers rise from the ground on load, the radar sweeps the blocks. Violet depth ramp, no green anywhere.
+
+<p align="center"><img src="assets/ship-ribbon.svg" width="100%" alt="Full-year contribution ribbon"/></p>
 
 ---
 
-<!-- ─────────── languages — ELIXIR FIRST ─────────── -->
-<div align="center">
+## ▸ languages — Elixir first
 
-### ▸ languages — Elixir first
-
-<img src="https://skillicons.dev/icons?i=elixir,graphql,python,typescript,go,rust&theme=dark" />
-
-</div>
+<img src="https://skillicons.dev/icons?i=elixir,graphql,python,typescript,go,rust&theme=dark" alt="elixir graphql python typescript go rust" />
 
 | Language | Proficiency | Use Cases |
 |:---------|:------------|:----------|
 | **Elixir** | <img src="https://img.shields.io/badge/primary-8B5CF6?style=flat-square" alt="primary" /> | **The first language.** Distributed systems, Phoenix LiveView, fault-tolerant architectures, event-driven backends, OTP supervision — the shape of everything else I build |
-| **Python** | <img src="https://img.shields.io/badge/Expert-6D28D9?style=flat-square" alt="expert" /> | AI/ML, FastAPI/Django/Flask, automation, TensorFlow/PyTorch, Celery, data processing |
-| **TypeScript** | <img src="https://img.shields.io/badge/Expert-6D28D9?style=flat-square" alt="expert" /> | Full-stack web dev, Node.js backends, React/Next.js, enterprise applications |
-| **JavaScript** | <img src="https://img.shields.io/badge/Expert-6D28D9?style=flat-square" alt="expert" /> | Frontend development, Node.js, browser automation, scripting |
-| **GraphQL** | <img src="https://img.shields.io/badge/Advanced-4C1D95?style=flat-square" alt="advanced" /> | Schema design, resolvers, subscriptions, Apollo Server/Client, Hasura |
-| **SQL** | <img src="https://img.shields.io/badge/Expert-6D28D9?style=flat-square" alt="expert" /> | PostgreSQL (CTEs, window functions, JSONB), MySQL, query optimization, schema design |
-| **Bash** | <img src="https://img.shields.io/badge/Expert-6D28D9?style=flat-square" alt="expert" /> | Scripting, automation, DevOps pipelines, CI/CD workflows |
-| **Go** | <img src="https://img.shields.io/badge/Advanced-4C1D95?style=flat-square" alt="advanced" /> | High-performance backends, CLI tools, microservices. Projects: deep-wiki, osa-main |
-| **Svelte** | <img src="https://img.shields.io/badge/Advanced-4C1D95?style=flat-square" alt="advanced" /> | Frontend apps, SvelteKit. Projects: cyber_agents, svelte-map |
-| **Rust** | <img src="https://img.shields.io/badge/Intermediate-3B1580?style=flat-square" alt="intermediate" /> | Systems programming, performance-critical components, WebAssembly |
+| **Python** | <img src="https://img.shields.io/badge/Expert-6D28D9?style=flat-square" alt="Expert" /> | AI/ML, FastAPI/Django/Flask, automation, TensorFlow/PyTorch, Celery, data processing |
+| **TypeScript** | <img src="https://img.shields.io/badge/Expert-6D28D9?style=flat-square" alt="Expert" /> | Full-stack web dev, Node.js backends, React/Next.js, enterprise applications |
+| **JavaScript** | <img src="https://img.shields.io/badge/Expert-6D28D9?style=flat-square" alt="Expert" /> | Frontend development, Node.js, browser automation, scripting |
+| **GraphQL** | <img src="https://img.shields.io/badge/Advanced-4C1D95?style=flat-square" alt="Advanced" /> | Schema design, resolvers, subscriptions, Apollo Server/Client, Hasura |
+| **SQL** | <img src="https://img.shields.io/badge/Expert-6D28D9?style=flat-square" alt="Expert" /> | PostgreSQL (CTEs, window functions, JSONB), MySQL, query optimization, schema design |
+| **Bash** | <img src="https://img.shields.io/badge/Expert-6D28D9?style=flat-square" alt="Expert" /> | Scripting, automation, DevOps pipelines, CI/CD workflows |
+| **Go** | <img src="https://img.shields.io/badge/Advanced-4C1D95?style=flat-square" alt="Advanced" /> | High-performance backends, CLI tools, microservices. Projects: deep-wiki, osa-main |
+| **Svelte** | <img src="https://img.shields.io/badge/Advanced-4C1D95?style=flat-square" alt="Advanced" /> | Frontend apps, SvelteKit. Projects: cyber_agents, svelte-map |
+| **Rust** | <img src="https://img.shields.io/badge/Intermediate-3B1580?style=flat-square" alt="Intermediate" /> | Systems programming, performance-critical components, WebAssembly |
 
 ---
 
-<div align="center">
+## ▸ frameworks — Phoenix first
 
-### ▸ frameworks
+<img src="https://skillicons.dev/icons?i=elixir,fastapi,django,flask,express,nextjs,nestjs&theme=dark" alt="backend icons"/>
 
-<img src="https://img.shields.io/badge/Phoenix_(Elixir)-8B5CF6?style=flat-square" alt="Phoenix"/>
+<img src="https://skillicons.dev/icons?i=svelte,react,tailwind&theme=dark" alt="frontend icons"/>
+
+| Framework | Experience |
+|:----------|:-----------|
+| **Phoenix (Elixir)** | LiveView real-time UI, Channels for WebSockets, Ecto ORM, fault-tolerant architecture — my default for systems that must not fall over |
+| **FastAPI** | High-performance Python APIs, async/await, OpenAPI docs, Pydantic validation, WebSocket support |
+| **Django** | Full-stack Python, Django REST Framework, ORM optimization, admin panel, Celery integration |
+| **Flask** | Lightweight REST APIs, Blueprint modularization, Flask-SQLAlchemy |
+| **Express.js** | Node.js API framework, middleware patterns, Passport authentication |
+| **Next.js** | Full-stack React, API routes, SSR/SSG/ISR, App Router, Server Components, Vercel deployment |
+| **NestJS** | Enterprise Node.js, TypeScript-first, modular architecture, dependency injection, GraphQL |
+| **SvelteKit** | Full-stack Svelte apps, server routes, form actions, adapter-based deployment |
+| **gRPC** | Protocol Buffers, service definition, bidirectional streaming, service mesh integration |
+
+### agent frameworks
+
 <img src="https://img.shields.io/badge/LangGraph_1.0-8B5CF6?style=flat-square" alt="LangGraph"/>
 <img src="https://img.shields.io/badge/CrewAI-8B5CF6?style=flat-square" alt="CrewAI"/>
 <img src="https://img.shields.io/badge/OpenAI_Agents_SDK-8B5CF6?style=flat-square" alt="OpenAI Agents SDK"/>
@@ -98,170 +157,280 @@ I help businesses move from <b>duct-taped SaaS stacks</b> to <b>custom-owned inf
 <img src="https://img.shields.io/badge/Claude_Code-4C1D95?style=flat-square" alt="Claude Code"/>
 <img src="https://img.shields.io/badge/Custom_Agent_Harnesses-E9D5FF?style=flat-square&labelColor=1E1B2E" alt="Custom agent harnesses"/>
 
-</div>
-
-<details>
-<summary><b>▸ detailed experience — frameworks & backend</b></summary>
-
 | Framework | Detailed Experience |
 |:----------|:--------------------|
-| 🔷 **Phoenix (Elixir)** | LiveView real-time UI, Channels for WebSockets, Ecto ORM, fault-tolerant architecture — my default for systems that must not fall over |
 | 🔷 **LangGraph 1.0** | Graph-based agent orchestration with state management, checkpointing for long-running workflows, LangGraph Studio for visual debugging, human-in-the-loop interrupts, conditional branching, parallel execution, production deployment patterns. |
 | 🔷 **CrewAI** | Role-based multi-agent team orchestration with hierarchical process management, custom tool integration, agent delegation patterns, memory sharing between agents, production deployment of collaborative agent systems. |
 | 🔷 **OpenAI Agents SDK** | Agent handoffs, built-in guardrails, native tool calling with structured outputs, tracing and observability, conversation management, GPT-5/o3/o4 model integration. |
 | 🔷 **AutoGen / AG2** | Microsoft's multi-agent conversation framework (AutoGen 2.0/AG2), Semantic Kernel integration, conversational agents with code execution, group chat orchestration, enterprise deployment patterns. |
 | 🔷 **Google ADK** | Google Agent Development Kit, Vertex AI Agent Engine integration, GCP-native deployment, BigQuery and Cloud Storage tool access, enterprise-scale agent systems. |
 | 🔷 **MCP Protocol** | Model Context Protocol server development, custom tool integration, resource management, A2A interoperability, MCP server for Browserbase, production MCP deployments. |
-| 🔷 **LangChain** | Chains, agents, memory systems, document loaders, retrievers, LangSmith observability, LCEL expression language. |
-| 🔷 **LlamaIndex** | RAG-first framework: query engines, data connectors, index optimization, enterprise retrieval, hybrid search. |
-| 🔷 **Swarm (OpenAI)** | Lightweight multi-agent handoffs, context variable passing, function-based agent transitions. |
-| 🔷 **Flowise / Dify** | Low-code LLM flow builders, custom node development, API deployment, rapid prototyping. |
-| 🔷 **Claude Code** | AI-powered development, MCP server development, agent automation, codebase analysis, multi-file code generation. |
+| 🔷 **LangChain** | Chains, agents, memory systems (ConversationBufferMemory, VectorStoreMemory), document loaders (PDF, DOCX, HTML, CSV), retrievers, LangSmith observability, LCEL expression language. |
+| 🔷 **LlamaIndex** | RAG-first agent framework with query engines, data connectors, index optimization, enterprise retrieval patterns, structured output parsing, hybrid search implementations. |
+| 🔷 **Swarm (OpenAI)** | Lightweight agent orchestration for simple multi-agent handoffs, context variable passing, function-based agent transitions. |
+| 🔷 **Flowise / Dify** | Low-code LLM flow builders for visual agent design, custom node development, API deployment, rapid prototyping of agent workflows. |
+| 🔷 **Claude Code** | AI-powered development with Claude, MCP server development, agent automation, codebase analysis, multi-file code generation. |
 | 🔷 **Custom Agent Harnesses** | Built agent runtimes from scratch — event-driven loops, multi-provider routing, plan-as-DAG execution (one mutation per node), persistent memory with confidence decay, checkpoint/restore, and embedded object storage. |
-| 🔷 **FastAPI / Django / Flask** | High-performance Python APIs, async/await, OpenAPI, Pydantic; Django REST + Celery; lightweight Blueprints. |
-| 🔷 **Express / Next.js / NestJS** | Node.js APIs and middleware; full-stack React with App Router/Server Components; enterprise DI + GraphQL. |
-| 🔷 **SvelteKit / gRPC** | Server routes, form actions, adapter deployment; protobuf service definition, bidirectional streaming. |
 
-</details>
+---
 
-<details>
-<summary><b>▸ models & providers</b></summary>
+## ▸ models & providers
 
 | Provider | Models & Experience |
 |:---------|:--------------------|
-| ⚡ **OpenAI** | GPT-5 flagship, GPT-4o multimodal, o3-pro/o4-mini reasoning, Agents SDK, Assistants API, Codex, embeddings (text-embedding-3-large), Whisper, DALL-E 3 |
-| ⚡ **Anthropic** | Claude 4.5 (Opus/Sonnet), extended thinking, tool use, prompt caching (90% cost ↓), batch processing, MCP server development |
-| ⚡ **Google** | Gemini 2.5 Pro/Flash, Vertex AI Agent Engine, AI Studio, grounding with Google Search |
-| ⚡ **DeepSeek** | DeepSeek-V3.1 (671B MoE), R1 reasoning (MIT license), R1-Distill variants |
-| ⚡ **Alibaba (Qwen)** | Qwen 3 (235B MoE), Qwen 2.5 Coder 32B, Qwen-Math, Qwen-VL |
-| ⚡ **Zhipu (GLM)** | GLM-5.x family for agentic coding — flash/full tier routing, cost/performance tuning |
-| ⚡ **Groq** | LPU-accelerated inference, ultra-fast token generation, consistent low latency |
-| ⚡ **Self-Hosted** | Ollama, vLLM (prefix-cache economics), LiteLLM, NVIDIA Triton, TGI, llama.cpp — data never leaves your infra |
-
-</details>
+| ⚡ **OpenAI** | GPT-5 (latest flagship), GPT-4o (multimodal), o3-pro and o4-mini (reasoning), OpenAI Agents SDK, Assistants API with retrieval and code interpreter, Codex, Embeddings API (text-embedding-3-large), Whisper, DALL-E 3. |
+| ⚡ **Anthropic** | Claude 4.5 (Opus/Sonnet), extended thinking, tool use, prompt caching (90% cost ↓), batch processing, MCP server development. |
+| ⚡ **Google** | Gemini 2.5 Pro/Flash, Vertex AI Agent Engine, AI Studio, grounding with Google Search, Gemini Code Assist. |
+| ⚡ **DeepSeek** | DeepSeek-V3.1 (671B parameters, MoE architecture), DeepSeek-R1 reasoning model (MIT license), R1-Distill variants for efficient deployment, open-weight with commercial use. |
+| ⚡ **Alibaba (Qwen)** | Qwen 3 (235B MoE, flagship), Qwen 2.5 Coder 32B (code-specialized), Qwen-Math, Qwen-VL, open-weight Apache 2.0 license. |
+| ⚡ **Zhipu (GLM)** | GLM-5.x family for agentic coding — provider routing between flash and full tiers, OpenAI/Anthropic-compatible endpoint integration, cost/performance tuning for daily agent workloads. |
+| ⚡ **Groq** | LPU (Language Processing Unit) accelerated inference, ultra-fast token generation, Llama and Mixtral hosting, production API with consistent low latency. |
+| ⚡ **Self-Hosted** | Ollama (local LLM deployment), vLLM (high-throughput serving, prefix-cache economics), LiteLLM (unified API with cost tracking), NVIDIA Triton Inference Server, Text Generation Inference (TGI), llama.cpp (CPU/GPU inference). |
 
 ---
 
-### <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=8B5CF6&center=true&vCenter=true&width=300&lines=Backend+Frameworks" alt="Backend"/>
+## ▸ databases & vector stores
 
-<img src="https://skillicons.dev/icons?i=fastapi,django,flask,express,nextjs,nestjs&theme=dark" />
-<br><br>
-<img src="https://skillicons.dev/icons?i=svelte,react,tailwind&theme=dark" />
+<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,mysql,supabase&theme=dark" alt="databases"/>
 
----
-
-### <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=6D28D9&center=true&vCenter=true&width=350&lines=Databases+%26+Vector+Stores" alt="Databases"/>
-
-<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,mysql,supabase&theme=dark" />
-
-<details>
-<summary><b>▸ databases & vector stores</b></summary>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=12&pause=1000&color=A78BFA&center=true&vCenter=true&width=500&lines=Qdrant+%7C+Pinecone+%7C+ChromaDB+%7C+pgvector+%7C+FAISS+%7C+Elasticsearch" alt="Vector DBs" />
 
 | Database | Experience |
 |:---------|:-----------|
 | **PostgreSQL** | Primary DB, CTEs, window functions, JSONB, full-text search, pgvector for embeddings, replication |
 | **Redis** | In-memory store, caching, pub/sub messaging, streams, session storage, rate limiting |
 | **MongoDB** | Document database, aggregation pipelines, Atlas cloud deployment |
-| **Supabase** | Postgres + Auth + Storage + Realtime, Row Level Security, edge functions |
-| **Neon** | Serverless Postgres, branching, autoscaling |
-| **Qdrant / Pinecone** | Vector databases for semantic search, hybrid search, production RAG |
-| **ChromaDB / FAISS** | Local vector stores; billion-scale similarity search |
-| **Elasticsearch** | Full-text search, analytics, log aggregation, vector search |
-
-</details>
-
----
-
-### <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=A78BFA&center=true&vCenter=true&width=350&lines=Message+Queues+%26+Events" alt="Queues"/>
-
-<details>
-<summary><b>▸ queues, automation, cloud, observability</b></summary>
-
-**Queues & events:** Redis Pub/Sub (inter-agent communication at The Swarms Corporation) · Redis Streams (consumer groups, exactly-once) · Apache Kafka · RabbitMQ · Celery/Celery Beat · BullMQ · AWS SQS (FIFO, DLQ)
-
-**Automation & orchestration:** n8n production workflows + custom TypeScript nodes · Temporal durable workflows, sagas · Apache Airflow DAGs · Playwright / Puppeteer browser automation · Browserbase MCP server
-
-**Cloud & DevOps:** Docker multi-stage · Kubernetes/Helm · Terraform IaC · AWS (EC2, S3, Lambda, ECS, RDS, SQS, API Gateway, CloudFront, IAM) · GCP (Cloud Run, BigQuery, Vertex AI) · Vercel Edge · Cloudflare (Workers, R2, D1) · GitHub Actions CI/CD
-
-**Observability:** LangSmith · Langfuse self-hosted · Prometheus · Grafana/Loki · Datadog · Sentry · OpenTelemetry
-
-</details>
+| **Supabase** | Postgres + Auth + Storage + Realtime subscriptions, Row Level Security, edge functions |
+| **Neon** | Serverless Postgres, branching for development, autoscaling, Vercel integration |
+| **Qdrant** | Vector database for semantic search, embeddings storage, filtering, hybrid search, production RAG |
+| **Pinecone** | Managed vector database, similarity search, metadata filtering, serverless deployment |
+| **ChromaDB** | Local vector database, Python-native, rapid prototyping |
+| **FAISS** | Facebook AI Similarity Search, high-performance vector indexing, billion-scale search |
+| **Elasticsearch** | Full-text search, analytics, log aggregation, vector search capabilities |
 
 ---
 
-<details>
-<summary><b>▸ AI/ML infra · security · testing</b></summary>
+## ▸ message queues & events
 
-**AI/ML:** Hugging Face · NVIDIA Triton · vLLM · ONNX · scikit-learn · TensorFlow · PyTorch
+| Technology | Experience |
+|:-----------|:-----------|
+| **Redis Pub/Sub** | Real-time messaging, event distribution, inter-agent communication at The Swarms Corporation |
+| **Redis Streams** | Persistent message queues, consumer groups, exactly-once processing |
+| **Apache Kafka** | Event streaming platform, high-throughput ingestion, topic partitioning, log compaction |
+| **RabbitMQ** | AMQP message broker, queue management, exchange patterns (direct, topic, fanout) |
+| **Celery** | Python distributed task queue, periodic tasks with Celery Beat, canvas workflows |
+| **BullMQ** | Node.js job queue, Redis-backed, delayed jobs, rate limiting, job prioritization |
+| **AWS SQS** | Managed message queue, FIFO queues, dead letter queues, Lambda integration |
 
-**Security:** OAuth 2.0 · JWT · HashiCorp Vault · SSL/TLS · API keys
+---
+
+## ▸ automation & orchestration
+
+| Technology | Experience |
+|:-----------|:-----------|
+| **n8n** | Production workflows, custom node development, LangChain nodes, Claude integration, webhook orchestration, self-hosted deployment |
+| **Custom n8n Nodes** | TypeScript node development, credential handling, pagination, error handling, testing |
+| **Temporal** | Durable workflow execution, long-running processes, saga patterns, workflow versioning |
+| **Apache Airflow** | Data pipeline orchestration, DAG authoring, scheduling, monitoring, XComs |
+| **Playwright** | Browser automation, E2E testing, web scraping (google-shopping-playwright-scraper), cross-browser |
+| **Puppeteer** | Chrome automation, PDF generation, screenshot capture, web scraping |
+| **Browserbase** | Cloud browser infrastructure, MCP server integration (mcp-server-browserbase) |
+
+---
+
+## ▸ cloud & devops
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,aws,gcp,vercel,cloudflare,githubactions&theme=dark" alt="cloud"/>
+
+| Technology | Experience |
+|:-----------|:-----------|
+| **Docker** | Containerization, multi-stage builds, Docker Compose, image optimization |
+| **Kubernetes** | Container orchestration, deployments, services, ingress, ConfigMaps, Helm charts |
+| **Terraform** | Infrastructure as Code, provider management, state management, modules |
+| **AWS** | EC2, S3, Lambda, ECS, RDS, SQS, SNS, API Gateway, CloudFront, IAM, CloudWatch |
+| **Google Cloud** | Compute Engine, Cloud Run, Cloud Functions, BigQuery, Vertex AI |
+| **Vercel** | Frontend deployment, serverless functions, Edge Runtime, Next.js optimization |
+| **Cloudflare** | CDN, Workers (serverless), R2 storage, D1 database, DNS management, DDoS protection |
+| **GitHub Actions** | CI/CD pipelines, automated testing, deployment workflows, matrix builds |
+
+---
+
+## ▸ observability, monitoring & security
+
+<img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" alt="observability"/>
+
+| Technology | Experience |
+|:-----------|:-----------|
+| **LangSmith** | LLM observability, trace visualization, prompt debugging, cost tracking, evaluation datasets |
+| **Langfuse** | Self-hosted LLM tracing, open-source observability, prompt management |
+| **Prometheus** | Metrics collection, time-series database, alerting rules, PromQL queries |
+| **Grafana** | Dashboards, visualization, alerting, data source integration, Loki for logs |
+| **Datadog** | APM, logging, infrastructure monitoring, distributed tracing |
+| **Sentry** | Error tracking, performance monitoring, release tracking |
+| **OpenTelemetry** | Distributed tracing, metrics, logs, vendor-agnostic instrumentation |
+
+**Security:** OAuth 2.0 · JWT · HashiCorp Vault · SSL/TLS · API Keys
 
 **Testing:** Pytest · Jest · Vitest · Playwright · Cypress · k6
 
-</details>
+**AI/ML infra:** Hugging Face · NVIDIA Triton · vLLM · ONNX · scikit-learn · TensorFlow · PyTorch
 
 ---
 
-### <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=C4B5FD&center=true&vCenter=true&width=350&lines=API+Integrations" alt="APIs"/>
+## ▸ API integrations
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Payments+%7C+Communication+%7C+Google+%7C+Social+%7C+CRM+%7C+Developer" alt="APIs"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Payments+%7C+Communication+%7C+Google+%7C+Social+%7C+CRM+%7C+Developer" alt="APIs" />
+
+| Category | Integrations |
+|:---------|:-------------|
+| 💳 **Payments** | Stripe (subscriptions, webhooks, Connect, Checkout, Payment Intents) |
+| 💬 **Communication** | Slack API, Discord API, Twilio (SMS, Voice, WhatsApp), SendGrid, Mailgun |
+| 📊 **Google** | Calendar, Docs, Sheets, Gmail, Drive |
+| 🌐 **Social** | Twitter/X API, Facebook Graph API, LinkedIn API |
+| 🏢 **CRM** | HubSpot API, Salesforce API, Notion API, Airtable API |
+| 👨‍💻 **Developer** | GitHub API (repository automation, webhooks, Actions) |
 
 ---
 
-### <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&color=9D8AB8&center=true&vCenter=true&width=450&lines=Integration+%26+Operations" alt="Operations"/>
+## ▸ featured projects — award-winning · open source · production-ready
 
-<details>
-<summary><b>▸ integration & operations</b></summary>
+<div align="center">
 
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=oso-obliterated-models-&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=E9D5FF&text_color=E9D5FF)](https://github.com/OSOSerious/oso-obliterated-models-)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=discord-bot&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=E9D5FF&text_color=E9D5FF)](https://github.com/OSOSerious/discord-bot)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=discord-translation-bot&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=E9D5FF&text_color=E9D5FF)](https://github.com/OSOSerious/discord-translation-bot)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=oso-sec&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=E9D5FF&text_color=E9D5FF)](https://github.com/OSOSerious/oso-sec)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=content-curation-agent&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=E9D5FF&text_color=E9D5FF)](https://github.com/OSOSerious/content-curation-agent)
+[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=Enhance-SOP-of-Prompts&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=E9D5FF&text_color=E9D5FF)](https://github.com/OSOSerious/Enhance-SOP-of-Prompts)
+
+</div>
+
+### 🤖 AI Agent & Automation Projects
+
+| Project | Tech | Description |
+|:--------|:-----|:------------|
+| [discord-bot (NEXUS-PRIME)](https://github.com/OSOSerious/discord-bot) | `Python` `Red-DiscordBot` | Multi-agent research orchestrator — 4-stage pipeline (Scout → Analyst → Validator → Synthesizer), fan-out/fan-in concurrency, semantic caching, per-command USD budget caps |
+| [oso-obliterated-models-](https://github.com/OSOSerious/oso-obliterated-models-) | `Python` `Transformers` | Refusal-direction abliteration pipeline (Arditi et al.) — matched-pair extraction, inference-time projection removal, honest evals: Qwen2.5-1.5B 97.5%→0% refusal, 0% false-refusal, +57% ppl |
+| [discord-translation-bot](https://github.com/OSOSerious/discord-translation-bot) | `Elixir` | English↔Spanish Discord bot — slash commands + per-channel auto-translate, ETS-cached, pluggable backends (DeepL/LibreTranslate), .txt file translation |
+| [oso-sec](https://github.com/OSOSerious/oso-sec) | `Python` | Security toolkit — passive audit SDK for owned assets + loopback-only exploit lab with validated detection engineering |
+| [Enhance-SOP-of-Prompts](https://github.com/OSOSerious/Enhance-SOP-of-Prompts) | `TypeScript` `LangGraph` | 🏆 **Hackathon 2nd Place** — Self-optimizing SOP system with continuous improvement loops |
+| [Real-Estate-Optimizer-swarm](https://github.com/OSOSerious/Real-Estate-Optimizer-swarm) | `Python` `Swarm` | Multi-agent swarm for real estate optimization |
+| [Google-ADK-Agents](https://github.com/OSOSerious/Google-ADK-Agents) | `Python` `Google ADK` | Google Agent Development Kit implementations |
+| [agent-template-groq](https://github.com/OSOSerious/agent-template-groq-) | `Python` `Groq LPU` | Ultra-fast inference agent template |
+| [content-curation-agent](https://github.com/OSOSerious/content-curation-agent) | `JavaScript` | Content curation & aggregation — automated newsletter updates, central topic feeds |
+| [ClaudeBlogAutomation](https://github.com/OSOSerious/ClaudeBlogAutomation) | `Svelte` | AI-assisted blog + social content generation |
+| [cyber_agents](https://github.com/OSOSerious/cyber_agents) | `Svelte` | Cyber agents management interface |
+| [Agents](https://github.com/OSOSerious/Agents) | `Multi-Framework` | Collection of agent implementations |
+| [everything-n8n](https://github.com/OSOSerious/everything-n8n) | `Node.js` `n8n` | Comprehensive n8n resources + Claude integration |
+| [awesome-n8n](https://github.com/OSOSerious/awesome-n8n) | `n8n` | Curated n8n workflows and resources |
+
+### 🔧 Full-Stack & Backend Projects
+
+| Project | Tech | Description |
+|:--------|:-----|:------------|
+| [Basic-chat-ui-for-llms-with-tool-use](https://github.com/OSOSerious/Basic-chat-ui-for-llms-with-tool-use) | `TypeScript` | Chat UI with LLM tool-use rendering |
+| [google-shopping-scraper](https://github.com/OSOSerious/google-shopping-playwright-scraper) | `Python` `Playwright` | E-commerce data extraction |
+| [ai-and-google-doc](https://github.com/OSOSerious/ai-and-google-doc) | `TypeScript` | Google Docs + AI integration |
+| [emil-chatbot](https://github.com/OSOSerious/emil-chatbot) | `TypeScript` | Custom chatbot implementation |
+| [deep-wiki](https://github.com/OSOSerious/deep-wiki) | `Go` | Knowledge management system |
+| [miosa-insight-forge](https://github.com/OSOSerious/miosa-insight-forge) | `TypeScript` | Insight generation platform |
+| [vercel-neon-postgres](https://github.com/OSOSerious/vercel-with-neon-postgres) | `TypeScript` | Vercel + Neon Postgres template |
+| [fullstack-app-generator-bolt](https://github.com/OSOSerious/fullstack-app-generator-bolt) | `TypeScript` | Full-stack app generator |
+
+### 🎨 Frontend & Developer Resources
+
+| Project | Tech | Description |
+|:--------|:-----|:------------|
+| [ai-pyramid-visualization](https://github.com/OSOSerious/ai-pyramid-visualization) | `JavaScript` `Three.js` | 3D AI evolution visualization (ANI → AGI → ASI) |
+| [svelte-map](https://github.com/OSOSerious/svelte-map) | `Svelte` | Mapping application |
+| [card-animation](https://github.com/OSOSerious/card-animation) | `TypeScript` | Card animation component library |
+| [Awesome-Context-Engineering](https://github.com/OSOSerious/Awesome-Context-Engineering) | `Research` | Hundreds of context engineering papers |
+| [awesome-chatgpt-prompts](https://github.com/OSOSerious/awesome-chatgpt-prompts) | `JavaScript` | Curated ChatGPT prompts |
+
+---
+
+## ▸ what I deliver — production systems designed for agencies to deploy to clients
+
+| 🤖 AI Agents | ⚙️ Automation | 🔌 Integration |
+|:-------------|:--------------|:---------------|
 | Multi-agent systems (LangGraph/CrewAI) | n8n workflows + LLM integrations | API design & documentation |
-|:--|:--|:--|
 | Tool calling with structured outputs | Custom n8n node development | Webhooks & event handling |
 | MCP Protocol integration | API orchestration and chaining | Data synchronization patterns |
 | Persistent memory (Qdrant, Pinecone) | Event-driven architecture | Stripe, Google, Slack, CRMs |
 | Human-in-the-loop approval | Background job processing | Migration planning |
 | GPT-5, Claude 4.5, Llama 4 support | Webhook management | Legacy system integration |
-| **Cost-controlled LLM usage** | **Local/VPC (Ollama, vLLM, LiteLLM)** | **Technical documentation** |
-| **Prompt caching (90% cost ↓)** | **Data never leaves your infra** | **Knowledge base creation** |
-| **Hybrid model routing** | **Open source model deployment** | **Onboarding materials** |
-| **Token optimization** | **Compliance-ready architecture** | **Team training sessions** |
-| **LangSmith/Langfuse observability** | **Audit trail logging** | **Video walkthroughs** |
-| **Performance benchmarking** | **GDPR/HIPAA considerations** | **Ongoing support options** |
 
-</details>
+| 🎯 Optimization | 🔒 Privacy | 🎓 Training |
+|:----------------|:------------------------|:-----------------|
+| Cost-controlled LLM usage | Local/VPC (Ollama, vLLM, LiteLLM) | Technical documentation |
+| Prompt caching (90% cost ↓) | Data never leaves your infra | Knowledge base creation |
+| Hybrid model routing | Open source model deployment | Onboarding materials |
+| Token optimization | Compliance-ready architecture | Team training sessions |
+| LangSmith/Langfuse observability | Audit trail logging | Video walkthroughs |
+| Performance benchmarking | GDPR/HIPAA considerations | Ongoing support options |
+
+---
+
+## ▸ github stats
+
+<div align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=OSOSerious&show_icons=true&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=A78BFA&text_color=E9D5FF" height="180" alt="OSOSerious stats"/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=OSOSerious&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&text_color=E9D5FF" height="180" alt="top languages"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=OSOSerious&theme=tokyonight&hide_border=true&background=17121F&stroke=A78BFA&ring=8B5CF6&fire=EC4899&currStreakLabel=E9D5FF" alt="streak"/>
+</div>
+
+<!-- activity graph removed: public instance returning 402 for this account -->
 
 ---
 
 <div align="center">
-
-### ▸ featured work
-
-[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=oso-obliterated-models-&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=E9D5FF&text_color=E9D5FF)](https://github.com/OSOSerious/oso-obliterated-models-)
-[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=discord-bot&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=E9D5FF&text_color=E9D5FF)](https://github.com/OSOSerious/discord-bot)
-[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=discord-translation-bot&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=E9D5FF&text_color=E9D5FF)](https://github.com/OSOSerious/discord-translation-bot)
-[![Readme Card](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=OSOSerious&repo=Agents&theme=tokyonight&hide_border=true&bg_color=17121F&title_color=8B5CF6&icon_color=E9D5FF&text_color=E9D5FF)](https://github.com/OSOSerious/Agents)
-
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Available+for+consulting+%26+projects;Let's+build+production+systems+together" alt="Contact"/>
 </div>
 
----
+<br/>
 
-<!-- ─────────── the year, as a city ─────────── -->
 <div align="center">
-
-### ◆ the year as a skyline
-
-<img src="assets/city-night.svg" width="100%" alt="my contribution graph as a 3D isometric city, purple edition"/>
-
+  <a href="https://github.com/OSOSerious">
+    <img src="https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
 </div>
 
----
+<br/>
 
-<p align="center">
-  <img src="assets/snake-footer.svg" width="100%" alt="snake eating my contribution squares"/>
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=A78BFA&center=true&vCenter=true&width=500&lines=Systems+That+Businesses+Own" alt="Philosophy"/>
+</div>
+
+<div align="center">
+  <i>No more renting disconnected software. I build infrastructure where you own the code and data, you control the deployment, you can audit every workflow, you can extend and customize freely, and you're not locked into vendor pricing.</i>
+</div>
+
+<br/>
+
+<!-- snake — eating the squares -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OSOSerious/OSOSerious/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OSOSerious/OSOSerious/output/github-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/output/github-snake-dark.svg">
+  </picture>
+  <br/>
+  <img src="assets/snake-footer.svg" width="100%" alt="violet snake on my contribution squares"/>
+</div>
+
+<br/>
 
 <div align="center">
   <img src="assets/oso-flip.svg" width="200" alt="OSO"/>
 
 *I don't build demos — I build production systems.*
 
+  <br/>
+
+  <img src="https://komarev.com/ghpvc/?username=OSOSerious&color=8B5CF6&style=for-the-badge&label=PROFILE+VIEWS" alt="profile views"/>
 </div>
