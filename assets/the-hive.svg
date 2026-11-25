@@ -1,0 +1,65 @@
+<svg width="560" height="260" viewBox="0 0 560 260" class="mono"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes holoFlick { 0%,100%{opacity:1} 92%{opacity:1} 93%{opacity:.4} 94%{opacity:1} 96%{opacity:.7} 97%{opacity:1} }
+@keyframes holoShift { 0%,100%{transform:translateX(0)} 49%{transform:translateX(0)} 50%{transform:translateX(-2px)} 51%{transform:translateX(1px)} }
+@keyframes ripple { 0%{transform:scale(.6);opacity:.9} 100%{transform:scale(2.6);opacity:0} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }</style>
+        <!-- hex helper via polygon tiling (approx rows) -->
+        <g fill="#17121F" stroke="#4C1D95" stroke-width="2">
+          <polygon points="70,40 92,27 114,40 114,66 92,79 70,66"/>
+          <polygon points="118,40 140,27 162,40 162,66 140,79 118,66"/>
+          <polygon points="166,40 188,27 210,40 210,66 188,79 166,66"/>
+          <polygon points="94,82 116,69 138,82 138,108 116,121 94,108"/>
+          <polygon points="142,82 164,69 186,82 186,108 164,121 142,108"/>
+          <polygon points="70,124 92,111 114,124 114,150 92,163 70,150"/>
+          <polygon points="118,124 140,111 162,124 162,150 140,163 118,150"/>
+          <polygon points="166,124 188,111 210,124 210,150 188,163 166,150"/>
+        </g>
+        <!-- filling cells (pollen = work) -->
+        <g font-size="8" fill="#E9D5FF" text-anchor="middle">
+          <g><polygon points="70,40 92,27 114,40 114,66 92,79 70,66" fill="#4C1D95" opacity=".85"><animate attributeName="opacity" values=".15;.9;.15" dur="4s" repeatCount="indefinite"/></polygon><text x="92" y="57">[[A]]</text></g>
+          <g><polygon points="142,82 164,69 186,82 186,108 164,121 142,108" fill="#6D28D9" opacity=".85"><animate attributeName="opacity" values=".1;.9;.1" dur="4s" begin="1.3s" repeatCount="indefinite"/></polygon><text x="164" y="99">[[B]]</text></g>
+          <g><polygon points="166,124 188,111 210,124 210,150 188,163 166,150" fill="#8B5CF6" opacity=".9"><animate attributeName="opacity" values=".1;.95;.1" dur="4s" begin="2.6s" repeatCount="indefinite"/></polygon><text x="188" y="141">[[C]]</text></g>
+        </g>
+        <!-- queen/orchestrator -->
+        <g transform="translate(300,60)">
+          <polygon points="0,0 26,-15 52,0 52,30 26,45 0,30" fill="#4C1D95" stroke="#E9D5FF" stroke-width="2">
+            <animate attributeName="stroke" values="#E9D5FF;#8B5CF6;#E9D5FF" dur="2.4s" repeatCount="indefinite"/>
+          </polygon>
+          <text x="26" y="26" text-anchor="middle" font-size="10" fill="#E9D5FF" font-weight="700">orch</text>
+        </g>
+        <text x="300" y="128" font-size="11" fill="#A78BFA">queen cell</text>
+        <!-- waggle dance figure-8 -->
+        <g fill="none" stroke="#A78BFA" stroke-width="2.5" stroke-dasharray="6 5">
+          <path d="M300 170 a26 26 0 1 1 0 0.1 M300 170 a26 26 0 1 0 0 0.1" transform="translate(0,-10)"/>
+          <path d="M300 160 c -30 -30 -60 10 -30 30 c 30 20 60 -20 30 -30 c -30 -20 -60 20 -30 34" />
+        </g>
+        <!-- scout bee -->
+        <g>
+          <ellipse cx="0" cy="0" rx="9" ry="6" fill="#C4B5FD" stroke="#17121F"/>
+          <rect x="-4" y="-5" width="4" height="10" fill="#6D28D9"/>
+          <path d="M-2 -6 q6 -8 12 -2" fill="#E9D5FF" opacity=".8"/>
+          <path d="M2 -6 q6 -8 12 -2" fill="#E9D5FF" opacity=".6"/>
+          <animateMotion dur="4.5s" repeatCount="indefinite"
+            path="M300 160 c -30 -30 -60 10 -30 30 c 30 20 60 -20 30 -30 c -30 -20 -60 20 -30 34"/>
+        </g>
+        <g>
+          <ellipse cx="0" cy="0" rx="8" ry="5.5" fill="#A78BFA" stroke="#17121F"/>
+          <rect x="-3" y="-4.5" width="4" height="9" fill="#4C1D95"/>
+          <path d="M-2 -5 q5 -7 10 -2" fill="#E9D5FF" opacity=".8"/>
+          <animateMotion dur="6s" begin="-2s" repeatCount="indefinite"
+            path="M140 100 c -40 20 -20 70 30 60 c 50 -10 60 -70 10 -80 c -40 -8 -70 40 -40 20"/>
+        </g>
+        <!-- deliverables bin -->
+        <g transform="translate(420,170)">
+          <rect width="110" height="66" rx="8" fill="#17121F" stroke="#8B5CF6" stroke-width="2"/>
+          <text x="12" y="24" font-size="11" fill="#A78BFA">forager returns</text>
+          <text x="12" y="46" font-size="13" fill="#E9D5FF" font-weight="700">
+            <animate attributeName="textContent" values="12;13;14;15" dur="4.5s" calcMode="discrete" repeatCount="indefinite"/>
+          </text>
+          <text x="44" y="46" font-size="11" fill="#9D8AB8">items ✓</text>
+        </g>
+        <text x="420" y="60" font-size="11" fill="#6D28D9">// swarm: no single point</text>
+      </svg>

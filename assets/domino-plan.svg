@@ -1,0 +1,44 @@
+<svg width="560" height="230" viewBox="0 0 560 230" class="mono"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes holoFlick { 0%,100%{opacity:1} 92%{opacity:1} 93%{opacity:.4} 94%{opacity:1} 96%{opacity:.7} 97%{opacity:1} }
+@keyframes holoShift { 0%,100%{transform:translateX(0)} 49%{transform:translateX(0)} 50%{transform:translateX(-2px)} 51%{transform:translateX(1px)} }
+@keyframes ripple { 0%{transform:scale(.6);opacity:.9} 100%{transform:scale(2.6);opacity:0} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }</style>
+        <!-- floor -->
+        <line x1="30" y1="196" x2="530" y2="196" stroke="#4C1D95" stroke-width="3"/>
+        <!-- dominoes -->
+        <g font-size="10">
+          <g><rect x="60" y="126" width="26" height="70" rx="4" fill="#4C1D95" stroke="#A78BFA" transform-origin="73 196">
+              <animateTransform attributeName="transform" type="rotate" values="0 73 196;68 73 196;68 73 196;0 73 196" keyTimes="0;.18;.85;1" dur="7s" repeatCount="indefinite"/>
+            </rect><text x="73" y="166" text-anchor="middle" fill="#E9D5FF" transform="rotate(90 73 166)">probe</text></g>
+          <g><rect x="130" y="126" width="26" height="70" rx="4" fill="#4C1D95" stroke="#A78BFA" transform-origin="143 196">
+              <animateTransform attributeName="transform" type="rotate" values="0 143 196;68 143 196;68 143 196;0 143 196" keyTimes="0;.24;.85;1" dur="7s" repeatCount="indefinite"/>
+            </rect><text x="143" y="166" text-anchor="middle" fill="#E9D5FF" transform="rotate(90 143 166)">plan</text></g>
+          <g><rect x="200" y="126" width="26" height="70" rx="4" fill="#6D28D9" stroke="#C4B5FD" transform-origin="213 196">
+              <animateTransform attributeName="transform" type="rotate" values="0 213 196;68 213 196;68 213 196;0 213 196" keyTimes="0;.3;.85;1" dur="7s" repeatCount="indefinite"/>
+            </rect><text x="213" y="166" text-anchor="middle" fill="#E9D5FF" transform="rotate(90 213 166)">mutate</text></g>
+          <g><rect x="270" y="126" width="26" height="70" rx="4" fill="#6D28D9" stroke="#C4B5FD" transform-origin="283 196">
+              <animateTransform attributeName="transform" type="rotate" values="0 283 196;68 283 196;68 283 196;0 283 196" keyTimes="0;.36;.85;1" dur="7s" repeatCount="indefinite"/>
+            </rect><text x="283" y="166" text-anchor="middle" fill="#E9D5FF" transform="rotate(90 283 166)">test</text></g>
+          <g><rect x="340" y="126" width="26" height="70" rx="4" fill="#6D28D9" stroke="#C4B5FD" transform-origin="353 196">
+              <animateTransform attributeName="transform" type="rotate" values="0 353 196;68 353 196;68 353 196;0 353 196" keyTimes="0;.42;.85;1" dur="7s" repeatCount="indefinite"/>
+            </rect><text x="353" y="166" text-anchor="middle" fill="#E9D5FF" transform="rotate(90 353 166)">lint</text></g>
+          <g><rect x="410" y="126" width="26" height="70" rx="4" fill="#8B5CF6" stroke="#E9D5FF" transform-origin="423 196">
+              <animateTransform attributeName="transform" type="rotate" values="0 423 196;68 423 196;68 423 196;0 423 196" keyTimes="0;.48;.85;1" dur="7s" repeatCount="indefinite"/>
+            </rect><text x="423" y="166" text-anchor="middle" fill="#17121F" transform="rotate(90 423 166)">build</text></g>
+        </g>
+        <!-- final reveal -->
+        <g>
+          <rect x="466" y="150" width="64" height="46" rx="8" fill="#2E1065" stroke="#E9D5FF" stroke-width="2"/>
+          <text x="498" y="178" text-anchor="middle" font-size="13" fill="#E9D5FF" font-weight="700">SHIP ✓</text>
+          <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.55;.6;.9;1" dur="7s" repeatCount="indefinite"/>
+        </g>
+        <!-- pusher finger -->
+        <circle cx="40" cy="150" r="14" fill="#C4B5FD" stroke="#8B5CF6" stroke-width="2">
+          <animate attributeName="cx" values="26;60;26" keyTimes="0;.08;.3" dur="7s" repeatCount="indefinite"/>
+        </circle>
+        <text x="30" y="40" font-size="11" fill="#A78BFA">one push ▸ cascade</text>
+        <text x="30" y="58" font-size="11" fill="#6D28D9">deps = gravity</text>
+      </svg>

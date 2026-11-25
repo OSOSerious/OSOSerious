@@ -1,0 +1,48 @@
+<svg width="560" height="250" viewBox="0 0 560 250" class="mono"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes holoFlick { 0%,100%{opacity:1} 92%{opacity:1} 93%{opacity:.4} 94%{opacity:1} 96%{opacity:.7} 97%{opacity:1} }
+@keyframes holoShift { 0%,100%{transform:translateX(0)} 49%{transform:translateX(0)} 50%{transform:translateX(-2px)} 51%{transform:translateX(1px)} }
+@keyframes ripple { 0%{transform:scale(.6);opacity:.9} 100%{transform:scale(2.6);opacity:0} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }</style>
+        <!-- track -->
+        <path d="M40 50 Q160 60 200 110 T340 150 Q420 170 470 220" fill="none" stroke="#4C1D95" stroke-width="8" stroke-linecap="round"/>
+        <path d="M40 50 Q160 60 200 110 T340 150 Q420 170 470 220" fill="none" stroke="#2E1065" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 8"/>
+        <!-- gates -->
+        <g>
+          <g transform="translate(160,78)">
+            <rect x="-4" y="-24" width="8" height="48" fill="#6D28D9"/>
+            <rect x="-4" y="-24" width="52" height="8" rx="4" fill="#A78BFA">
+              <animateTransform attributeName="transform" type="rotate" values="0 0 -20;0 0 -20;-70 0 -20;-70 0 -20" keyTimes="0;.3;.4;.9" dur="5s" repeatCount="indefinite"/>
+            </rect>
+            <text x="14" y="-32" font-size="10" fill="#E9D5FF">test ✓</text>
+          </g>
+          <g transform="translate(300,138)">
+            <rect x="-4" y="-24" width="8" height="48" fill="#6D28D9"/>
+            <rect x="-4" y="-24" width="52" height="8" rx="4" fill="#A78BFA">
+              <animateTransform attributeName="transform" type="rotate" values="0 0 -20;0 0 -20;-70 0 -20;-70 0 -20" keyTimes="0;.55;.65;.95" dur="5s" repeatCount="indefinite"/>
+            </rect>
+            <text x="14" y="-32" font-size="10" fill="#E9D5FF">review ✓</text>
+          </g>
+        </g>
+        <!-- marble -->
+        <circle r="10" fill="#E9D5FF" stroke="#8B5CF6" stroke-width="2">
+          <animateMotion dur="5s" repeatCount="indefinite"
+            path="M40 50 Q160 60 200 110 T340 150 Q420 170 470 220"/>
+        </circle>
+        <!-- merge bin -->
+        <g transform="translate(430,214)">
+          <path d="M0 0 L80 0 L70 30 L10 30 Z" fill="#17121F" stroke="#8B5CF6" stroke-width="2"/>
+          <text x="40" y="20" text-anchor="middle" font-size="10" fill="#A78BFA">merged</text>
+        </g>
+        <!-- score -->
+        <g transform="translate(40,180)">
+          <rect width="130" height="52" rx="7" fill="#17121F" stroke="#4C1D95"/>
+          <text x="12" y="22" font-size="10" fill="#9D8AB8">PRs this week</text>
+          <text x="12" y="42" font-size="16" fill="#8B5CF6" font-weight="700">
+            <animate attributeName="textContent" values="18;19;20;21" dur="5s" calcMode="discrete" repeatCount="indefinite"/>
+          </text>
+        </g>
+        <text x="240" y="40" font-size="11" fill="#6D28D9">gate logic: red until green</text>
+      </svg>

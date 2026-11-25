@@ -1,0 +1,61 @@
+<svg width="620" height="260" viewBox="0 0 620 260" font-family="Courier New,monospace"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }
+@keyframes swim { 0%{transform:translateX(-14%) rotate(-3deg)} 50%{transform:translateX(14%) rotate(3deg)} 100%{transform:translateX(-14%) rotate(-3deg)} }
+@keyframes tailflick { 0%,100%{transform:skewX(0)} 50%{transform:skewX(14deg)} }
+@keyframes ripple { 0%{transform:scale(.6);opacity:.9} 100%{transform:scale(2.4);opacity:0} }</style>
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur"/>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 26 -12" result="goo"/>
+            <feBlend in="SourceGraphic" in2="goo"/>
+          </filter>
+          <linearGradient id="plasma" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#6D28D9"/><stop offset="1" stop-color="#A78BFA"/>
+          </linearGradient>
+        </defs>
+        <g filter="url(#goo)" fill="url(#plasma)">
+          <circle cx="240" cy="130" r="34">
+            <animate attributeName="cx" values="240;300;210;240" dur="9s" repeatCount="indefinite"/>
+            <animate attributeName="cy" values="130;90;170;130" dur="7s" repeatCount="indefinite"/>
+            <animate attributeName="r" values="34;44;30;34" dur="5s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="330" cy="140" r="30">
+            <animate attributeName="cx" values="330;260;360;330" dur="8s" repeatCount="indefinite"/>
+            <animate attributeName="cy" values="140;180;100;140" dur="6.5s" repeatCount="indefinite"/>
+            <animate attributeName="r" values="30;40;26;30" dur="4.5s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="285" cy="100" r="26">
+            <animate attributeName="cx" values="285;340;250;285" dur="10s" repeatCount="indefinite"/>
+            <animate attributeName="cy" values="100;150;120;100" dur="5.5s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="380" cy="120" r="22">
+            <animate attributeName="cx" values="380;310;400;380" dur="7.5s" repeatCount="indefinite"/>
+            <animate attributeName="cy" values="120;70;160;120" dur="8s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="200" cy="150" r="20">
+            <animate attributeName="cx" values="200;270;230;200" dur="6s" repeatCount="indefinite"/>
+            <animate attributeName="cy" values="150;110;180;150" dur="9s" repeatCount="indefinite"/>
+          </circle>
+        </g>
+        <!-- hologram mark inside -->
+        <g opacity=".95">
+          <text x="310" y="142" text-anchor="middle" font-weight="900" font-size="58" fill="#17121F" letter-spacing="7">OSO</text>
+          <text x="310" y="140" text-anchor="middle" font-weight="900" font-size="58" fill="#E9D5FF" letter-spacing="7" opacity=".92">OSO</text>
+          <g stroke="#E9D5FF" stroke-width=".6" opacity=".35">
+            <line x1="248" y1="112" x2="374" y2="112"/><line x1="244" y1="124" x2="378" y2="124"/>
+            <line x1="242" y1="136" x2="380" y2="136"/><line x1="244" y1="148" x2="378" y2="148"/>
+            <line x1="248" y1="160" x2="374" y2="160"/>
+          </g>
+        </g>
+        <text x="470" y="40" class="hud" fill="#8B5CF6">// plasma.body</text>
+        <text x="470" y="60" class="hud">state: fusing</text>
+        <text x="470" y="80" class="hud" fill="#A78BFA">5→1 systems</text>
+        <!-- language chips orbiting as feed -->
+        <g font-size="10" fill="#C4B5FD" font-family="Courier New">
+          <text x="30" y="50">py</text><text x="66" y="210">ex</text><text x="540" y="200">go</text>
+          <text x="560" y="60">rs</text><text x="40" y="240">sql</text>
+        </g>
+      </svg>

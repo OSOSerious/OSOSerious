@@ -1,0 +1,41 @@
+<svg width="520" height="240" viewBox="0 0 520 240" font-family="Courier New,monospace"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }
+@keyframes swim { 0%{transform:translateX(-14%) rotate(-3deg)} 50%{transform:translateX(14%) rotate(3deg)} 100%{transform:translateX(-14%) rotate(-3deg)} }
+@keyframes tailflick { 0%,100%{transform:skewX(0)} 50%{transform:skewX(14deg)} }
+@keyframes ripple { 0%{transform:scale(.6);opacity:.9} 100%{transform:scale(2.4);opacity:0} }</style>
+        <rect x="10" y="10" width="500" height="220" rx="16" fill="#0B0716" stroke="#4C1D95" stroke-width="2"/>
+        <!-- graticule -->
+        <g stroke="#2E1065" stroke-width="1">
+          <line x1="30" y1="120" x2="490" y2="120"/><line x1="260" y1="30" x2="260" y2="210"/>
+          <line x1="145" y1="30" x2="145" y2="210" stroke-dasharray="3 5"/><line x1="375" y1="30" x2="375" y2="210" stroke-dasharray="3 5"/>
+          <line x1="30" y1="75" x2="490" y2="75" stroke-dasharray="3 5"/><line x1="30" y1="165" x2="490" y2="165" stroke-dasharray="3 5"/>
+        </g>
+        <!-- waveform morph -->
+        <path fill="none" stroke="#E9D5FF" stroke-width="3" stroke-linejoin="round"
+              filter="drop-shadow(0 0 6px #8B5CF6)"
+              d="M30 120 L 90 116 L 150 122 L 210 118 L 270 120 L 330 117 L 390 121 L 450 119 L 490 120">
+          <animate attributeName="d" dur="5s" repeatCount="indefinite"
+            values="M30 120 L 90 116 L 150 122 L 210 118 L 270 120 L 330 117 L 390 121 L 450 119 L 490 120;
+                    M30 120 L 90 60 L 120 180 L 160 90 L 210 150 L 260 50 L 310 170 L 360 80 L 420 140 L 490 110;
+                    M30 120 L 100 118 L 130 40 L 170 200 L 200 30 L 240 190 L 300 110 L 360 130 L 430 100 L 490 120;
+                    M30 120 L 90 116 L 150 122 L 210 118 L 270 120 L 330 117 L 390 121 L 450 119 L 490 120"/>
+        </path>
+        <!-- scanning dot -->
+        <circle r="5" fill="#E9D5FF" style="filter:drop-shadow(0 0 8px #E9D5FF)">
+          <animateMotion dur="5s" repeatCount="indefinite"
+            path="M30 120 L 90 116 L 150 122 L 210 118 L 270 120 L 330 117 L 390 121 L 450 119 L 490 120"/>
+        </circle>
+        <!-- CRT scanlines -->
+        <g stroke="#17121F" stroke-width="2" opacity=".55">
+          <line x1="10" y1="34" x2="510" y2="34"/><line x1="10" y1="58" x2="510" y2="58"/>
+          <line x1="10" y1="82" x2="510" y2="82"/><line x1="10" y1="106" x2="510" y2="106"/>
+          <line x1="10" y1="130" x2="510" y2="130"/><line x1="10" y1="154" x2="510" y2="154"/>
+          <line x1="10" y1="178" x2="510" y2="178"/><line x1="10" y1="202" x2="510" y2="202"/>
+        </g>
+        <text x="30" y="34" font-size="11" fill="#A78BFA">CH1 · push cadence</text>
+        <text x="380" y="34" font-size="11" fill="#8B5CF6">500ms/div</text>
+        <text x="30" y="216" font-size="11" fill="#6D28D9">TRIG ▸ AUTO · SIG: prod</text>
+      </svg>

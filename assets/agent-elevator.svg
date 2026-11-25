@@ -1,0 +1,56 @@
+<svg width="520" height="240" viewBox="0 0 520 240" class="mono"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }
+@keyframes dr { 0%{stroke-dashoffset:1400} 45%,80%{stroke-dashoffset:0} 100%{stroke-dashoffset:-1400} }
+@keyframes stamp { 0%,55%{opacity:0} 65%,85%{opacity:1} 100%{opacity:0} }</style>
+        <!-- shaft -->
+        <rect x="300" y="20" width="120" height="200" fill="#0B0716" stroke="#4C1D95" stroke-width="2"/>
+        <!-- floor labels -->
+        <g font-size="12">
+          <line x1="300" y1="60" x2="420" y2="60" stroke="#2E1065"/><line x1="300" y1="100" x2="420" y2="100" stroke="#2E1065"/>
+          <line x1="300" y1="140" x2="420" y2="140" stroke="#2E1065"/><line x1="300" y1="180" x2="420" y2="180" stroke="#2E1065"/>
+          <text x="428" y="44" fill="#A78BFA">SHIP</text>
+          <text x="428" y="84" fill="#A78BFA">REMEMBER</text>
+          <text x="428" y="124" fill="#E9D5FF">VERIFY</text>
+          <text x="428" y="164" fill="#A78BFA">ACT</text>
+          <text x="428" y="204" fill="#A78BFA">PLAN</text>
+        </g>
+        <!-- car -->
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0 150;0 110;0 110;0 30;0 30;0 150" keyTimes="0;.22;.42;.62;.8;1" dur="8s" repeatCount="indefinite"/>
+          <rect x="312" y="152" width="96" height="34" rx="4" fill="#4C1D95" stroke="#C4B5FD" stroke-width="2"/>
+          <!-- doors gap -->
+          <line x1="360" y1="154" x2="360" y2="184" stroke="#17121F" stroke-width="2"/>
+          <text x="360" y="173" text-anchor="middle" font-size="10" fill="#E9D5FF">▸◂</text>
+        </g>
+        <!-- indicator -->
+        <g transform="translate(60,30)">
+          <rect width="90" height="46" rx="7" fill="#0E0A16" stroke="#4C1D95" stroke-width="2"/>
+          <text x="45" y="30" text-anchor="middle" font-size="20" font-weight="900" fill="#E9D5FF">
+            <animate attributeName="opacity" values="1;1;1;1;1;1" dur="8s" repeatCount="indefinite"/>
+            <tspan><animate attributeName="opacity" values="0" dur="8s" repeatCount="indefinite"/></tspan>
+          </text>
+          <text x="30" y="32" font-size="22" font-weight="900" fill="#8B5CF6" class="dir1">▲</text>
+          <text x="45" y="33" font-size="18" fill="#E9D5FF" text-anchor="middle">
+            <animate attributeName="textContent" values="5;4;4;3;2;1" dur="8s" repeatCount="indefinite" calcMode="discrete"/>
+            <animate attributeName="opacity" values="1" dur="8s" repeatCount="indefinite"/>
+            <animate attributeName="fill" values="#E9D5FF;#E9D5FF;#8B5CF6;#E9D5FF;#E9D5FF;#A78BFA;#E9D5FF" dur="8s" repeatCount="indefinite"/>
+          </text>
+        </g>
+        <!-- hall buttons -->
+        <g transform="translate(60,100)">
+          <rect width="180" height="110" rx="8" fill="#17121F" stroke="#2E1065"/>
+          <g>
+            <circle cx="30" cy="26" r="9" fill="#2E1065" stroke="#6D28D9"><animate attributeName="fill" values="#2E1065;#8B5CF6;#2E1065" dur="4s" repeatCount="indefinite"/></circle>
+            <circle cx="70" cy="26" r="9" fill="#2E1065" stroke="#6D28D9"><animate attributeName="fill" values="#2E1065;#8B5CF6;#2E1065" dur="4s" begin="1s" repeatCount="indefinite"/></circle>
+            <circle cx="110" cy="26" r="9" fill="#2E1065" stroke="#6D28D9"><animate attributeName="fill" values="#2E1065;#E9D5FF;#2E1065" dur="4s" begin="2s" repeatCount="indefinite"/></circle>
+            <circle cx="150" cy="26" r="9" fill="#2E1065" stroke="#6D28D9"><animate attributeName="fill" values="#2E1065;#8B5CF6;#2E1065" dur="4s" begin="3s" repeatCount="indefinite"/></circle>
+          </g>
+          <text x="18" y="62" font-size="11" fill="#9D8AB8">hall calls:</text>
+          <text x="18" y="84" font-size="11" fill="#A78BFA">verify holds doors</text>
+          <text x="18" y="100" font-size="10" fill="#6D28D9">HITL ▸ approve</text>
+        </g>
+        <text x="60" y="232" font-size="11" fill="#4C1D95">// one floor per gate</text>
+      </svg>

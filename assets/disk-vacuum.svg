@@ -1,0 +1,50 @@
+<svg width="540" height="250" viewBox="0 0 540 250" class="mono"><style></style>
+        <!-- disk gauge -->
+        <g transform="translate(30,30)">
+          <path d="M20 120 A100 100 0 0 1 220 120" fill="none" stroke="#241A38" stroke-width="22" stroke-linecap="round"/>
+          <path d="M20 120 A100 100 0 0 1 220 120" fill="none" stroke="#8B5CF6" stroke-width="22" stroke-linecap="round"
+                stroke-dasharray="314" stroke-dashoffset="314">
+            <animate attributeName="stroke-dashoffset" values="314;146" dur="5s" fill="freeze" repeatCount="indefinite"/>
+          </path>
+          <text x="120" y="106" text-anchor="middle" font-size="30" font-weight="900" fill="#E9D5FF">
+            <animate attributeName="textContent" values="57G;84G;112G;128G" dur="5s" calcMode="discrete" repeatCount="indefinite"/>
+          </text>
+          <text x="120" y="132" text-anchor="middle" font-size="12" fill="#9D8AB8">FREE · 926G disk</text>
+        </g>
+        <!-- vacuum + cache piles -->
+        <g transform="translate(300,40)">
+          <!-- piles -->
+          <g font-size="10">
+            <rect x="10" y="150" width="64" height="26" rx="5" fill="#3B1580"/><text x="42" y="167" text-anchor="middle" fill="#E9D5FF">lima 5.0</text>
+            <rect x="84" y="140" width="64" height="36" rx="5" fill="#4C1D95"/><text x="116" y="162" text-anchor="middle" fill="#E9D5FF">mix 3.4</text>
+            <rect x="158" y="146" width="64" height="30" rx="5" fill="#3B1580"/><text x="190" y="165" text-anchor="middle" fill="#E9D5FF">go 2.9</text>
+            <rect x="232" y="152" width="64" height="24" rx="5" fill="#2E1065"/><text x="264" y="168" text-anchor="middle" fill="#C4B5FD">brew 2.3</text>
+            <!-- piles shrink -->
+            <animate attributeName="opacity" values="1;1;0" keyTimes="0;.55;.9" dur="5s" repeatCount="indefinite"/>
+          </g>
+          <!-- vacuum body -->
+          <g>
+            <rect x="120" y="40" width="96" height="58" rx="12" fill="#17121F" stroke="#8B5CF6" stroke-width="3"/>
+            <circle cx="150" cy="70" r="16" fill="none" stroke="#A78BFA" stroke-width="4">
+              <animateTransform attributeName="transform" type="rotate" values="0 150 70;360 150 70" dur=".8s" repeatCount="indefinite"/>
+            </circle>
+            <rect x="176" y="56" width="30" height="28" rx="4" fill="#2E1065" stroke="#6D28D9"/>
+            <text x="191" y="74" text-anchor="middle" font-size="9" fill="#C4B5FD">HEPA</text>
+            <!-- hose -->
+            <path d="M120 92 q-40 30 -70 74" fill="none" stroke="#4C1D95" stroke-width="9" stroke-linecap="round"/>
+            <rect x="36" y="158" width="36" height="14" rx="4" fill="#A78BFA"/>
+            <!-- suction particles -->
+            <g fill="#C4B5FD">
+              <circle cx="60" cy="160" r="3"><animate attributeName="cx" values="60;120" dur="1s" repeatCount="indefinite"/><animate attributeName="cy" values="160;80" dur="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1s" repeatCount="indefinite"/></circle>
+              <circle cx="90" cy="164" r="2.4"><animate attributeName="cx" values="90;130" dur="1.2s" begin=".3s" repeatCount="indefinite"/><animate attributeName="cy" values="164;86" dur="1.2s" begin=".3s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.2s" begin=".3s" repeatCount="indefinite"/></circle>
+              <circle cx="200" cy="168" r="2.6"><animate attributeName="cx" values="200;140" dur="1.4s" begin=".6s" repeatCount="indefinite"/><animate attributeName="cy" values="168;90" dur="1.4s" begin=".6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.4s" begin=".6s" repeatCount="indefinite"/></circle>
+            </g>
+            <text x="168" y="26" text-anchor="middle" font-size="11" fill="#A78BFA">~/.trash/caches-*</text>
+          </g>
+        </g>
+        <!-- log -->
+        <g font-size="10" fill="#6D28D9">
+          <text x="30" y="226">space_recovery.txt ▸ 2026-11-25 | moved caches | ~69GB reclaimed</text>
+        </g>
+        <text x="30" y="178" font-size="11" fill="#A78BFA">no rm. moved. logged.</text>
+      </svg>

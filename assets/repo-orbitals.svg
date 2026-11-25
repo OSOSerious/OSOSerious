@@ -1,0 +1,50 @@
+<svg width="520" height="250" viewBox="0 0 520 250" font-family="Courier New,monospace"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }
+@keyframes swim { 0%{transform:translateX(-14%) rotate(-3deg)} 50%{transform:translateX(14%) rotate(3deg)} 100%{transform:translateX(-14%) rotate(-3deg)} }
+@keyframes tailflick { 0%,100%{transform:skewX(0)} 50%{transform:skewX(14deg)} }
+@keyframes ripple { 0%{transform:scale(.6);opacity:.9} 100%{transform:scale(2.4);opacity:0} }</style>
+        <!-- orbit rings -->
+        <ellipse cx="260" cy="125" rx="90" ry="55" fill="none" stroke="#2E1065"/>
+        <ellipse cx="260" cy="125" rx="150" ry="88" fill="none" stroke="#2E1065"/>
+        <ellipse cx="260" cy="125" rx="215" ry="118" fill="none" stroke="#241A38"/>
+        <!-- core -->
+        <circle cx="260" cy="125" r="30" fill="#4C1D95" stroke="#8B5CF6" stroke-width="2"/>
+        <text x="260" y="131" text-anchor="middle" font-weight="900" font-size="17" fill="#E9D5FF">OSO</text>
+        <!-- sats: animateMotion along ellipse paths -->
+        <g font-size="9">
+          <g>
+            <rect x="-24" y="-9" width="48" height="18" rx="9" fill="#8B5CF6"/>
+            <text x="0" y="4" text-anchor="middle" fill="#17121F">harness</text>
+            <animateMotion dur="8s" repeatCount="indefinite" path="M170 125 a90 55 0 1 1 -0.1 0"/>
+          </g>
+          <g>
+            <rect x="-22" y="-9" width="44" height="18" rx="9" fill="#A78BFA"/>
+            <text x="0" y="4" text-anchor="middle" fill="#17121F">memory</text>
+            <animateMotion dur="8s" begin="-2.7s" repeatCount="indefinite" path="M170 125 a90 55 0 1 1 -0.1 0"/>
+          </g>
+          <g>
+            <rect x="-26" y="-9" width="52" height="18" rx="9" fill="#6D28D9"/>
+            <text x="0" y="4" text-anchor="middle" fill="#E9D5FF">mcp-tools</text>
+            <animateMotion dur="15s" repeatCount="indefinite" path="M110 125 a150 88 0 1 1 -0.1 0"/>
+          </g>
+          <g>
+            <rect x="-30" y="-9" width="60" height="18" rx="9" fill="#5B21B6"/>
+            <text x="0" y="4" text-anchor="middle" fill="#E9D5FF">abliterate</text>
+            <animateMotion dur="15s" begin="-7s" repeatCount="indefinite" path="M110 125 a150 88 0 1 1 -0.1 0"/>
+          </g>
+          <g>
+            <rect x="-22" y="-9" width="44" height="18" rx="9" fill="#3B1580" stroke="#8B5CF6"/>
+            <text x="0" y="4" text-anchor="middle" fill="#E9D5FF">erp</text>
+            <animateMotion dur="24s" repeatCount="indefinite" path="M45 125 a215 118 0 1 1 -0.1 0"/>
+          </g>
+          <g>
+            <rect x="-26" y="-9" width="52" height="18" rx="9" fill="#3B1580" stroke="#8B5CF6"/>
+            <text x="0" y="4" text-anchor="middle" fill="#E9D5FF">agents</text>
+            <animateMotion dur="24s" begin="-12s" repeatCount="indefinite" path="M45 125 a215 118 0 1 1 -0.1 0"/>
+          </g>
+        </g>
+        <text x="18" y="236" class="hud" fill="#6D28D9">// constellation · elliptical periods</text>
+      </svg>

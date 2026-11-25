@@ -1,0 +1,36 @@
+<svg width="520" height="240" viewBox="0 0 520 240" font-family="Courier New,monospace"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }
+@keyframes swim { 0%{transform:translateX(-14%) rotate(-3deg)} 50%{transform:translateX(14%) rotate(3deg)} 100%{transform:translateX(-14%) rotate(-3deg)} }
+@keyframes tailflick { 0%,100%{transform:skewX(0)} 50%{transform:skewX(14deg)} }
+@keyframes ripple { 0%{transform:scale(.6);opacity:.9} 100%{transform:scale(2.4);opacity:0} }</style>
+        <path d="M60 20 C 200 60 200 180 60 220" fill="none" stroke="#6D28D9" stroke-width="5" stroke-linecap="round">
+          <animate attributeName="d" values="M60 20 C 200 60 200 180 60 220; M60 20 C -80 60 -80 180 60 220; M60 20 C 200 60 200 180 60 220" dur="6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M60 20 C -80 60 -80 180 60 220" fill="none" stroke="#A78BFA" stroke-width="5" stroke-linecap="round">
+          <animate attributeName="d" values="M60 20 C -80 60 -80 180 60 220; M60 20 C 200 60 200 180 60 220; M60 20 C -80 60 -80 180 60 220" dur="6s" repeatCount="indefinite"/>
+        </path>
+        <!-- helix right half mirrored -->
+        <path d="M460 20 C 320 60 320 180 460 220" fill="none" stroke="#6D28D9" stroke-width="5" stroke-linecap="round">
+          <animate attributeName="d" values="M460 20 C 320 60 320 180 460 220; M460 20 C 600 60 600 180 460 220; M460 20 C 320 60 320 180 460 220" dur="6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M460 20 C 600 60 600 180 460 220" fill="none" stroke="#A78BFA" stroke-width="5" stroke-linecap="round">
+          <animate attributeName="d" values="M460 20 C 600 60 600 180 460 220; M460 20 C 320 60 320 180 460 220; M460 20 C 600 60 600 180 460 220" dur="6s" repeatCount="indefinite"/>
+        </path>
+        <!-- base-pair rungs, sequenced glow -->
+        <g stroke-width="4" stroke-linecap="round">
+          <line x1="60" y1="44" x2="460" y2="44" stroke="#4C1D95"><animate attributeName="stroke" values="#4C1D95;#E9D5FF;#4C1D95" dur="3s" begin="0s" repeatCount="indefinite"/></line>
+          <line x1="60" y1="74" x2="460" y2="74" stroke="#4C1D95"><animate attributeName="stroke" values="#4C1D95;#E9D5FF;#4C1D95" dur="3s" begin="0.3s" repeatCount="indefinite"/></line>
+          <line x1="60" y1="104" x2="460" y2="104" stroke="#4C1D95"><animate attributeName="stroke" values="#4C1D95;#8B5CF6;#4C1D95" dur="3s" begin="0.6s" repeatCount="indefinite"/></line>
+          <line x1="60" y1="134" x2="460" y2="134" stroke="#4C1D95"><animate attributeName="stroke" values="#4C1D95;#E9D5FF;#4C1D95" dur="3s" begin="0.9s" repeatCount="indefinite"/></line>
+          <line x1="60" y1="164" x2="460" y2="164" stroke="#4C1D95"><animate attributeName="stroke" values="#4C1D95;#8B5CF6;#4C1D95" dur="3s" begin="1.2s" repeatCount="indefinite"/></line>
+          <line x1="60" y1="194" x2="460" y2="194" stroke="#4C1D95"><animate attributeName="stroke" values="#4C1D95;#E9D5FF;#4C1D95" dur="3s" begin="1.5s" repeatCount="indefinite"/></line>
+        </g>
+        <!-- codon scanner -->
+        <rect x="40" y="0" width="440" height="16" rx="8" fill="#8B5CF6" opacity=".14">
+          <animate attributeName="y" values="10;210;10" dur="7s" repeatCount="indefinite"/>
+        </rect>
+        <text x="200" y="236" class="hud" fill="#A78BFA">codon scan · ship · repeat</text>
+      </svg>

@@ -1,0 +1,53 @@
+<svg width="520" height="250" viewBox="0 0 520 250" class="mono"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes holoFlick { 0%,100%{opacity:1} 92%{opacity:1} 93%{opacity:.4} 94%{opacity:1} 96%{opacity:.7} 97%{opacity:1} }
+@keyframes holoShift { 0%,100%{transform:translateX(0)} 49%{transform:translateX(0)} 50%{transform:translateX(-2px)} 51%{transform:translateX(1px)} }
+@keyframes ripple { 0%{transform:scale(.6);opacity:.9} 100%{transform:scale(2.6);opacity:0} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }</style>
+        <!-- digits -->
+        <g font-size="64" font-weight="900" fill="#E9D5FF" text-anchor="middle">
+          <g><animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0;0;0" keyTimes="0;.09;.1;.19;.2;.29;.3;.39;.4;.49;.5;.51" dur="6s" repeatCount="indefinite"/>10</g>
+          <g><animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0;0;0" keyTimes="0;.09;.1;.19;.2;.29;.3;.39;.4;.49;.5;.51" dur="6s" repeatCount="indefinite"/>9</g>
+          <g><animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0;0;0" keyTimes="0;.09;.1;.19;.2;.29;.3;.39;.4;.49;.5;.51" dur="6s" repeatCount="indefinite"/>8</g>
+          <g><animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0;0;0" keyTimes="0;.09;.1;.19;.2;.29;.3;.39;.4;.49;.5;.51" dur="6s" repeatCount="indefinite"/>5</g>
+          <g><animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1;0;0" keyTimes="0;.09;.1;.19;.2;.29;.3;.39;.4;.49;.5;.51" dur="6s" repeatCount="indefinite"/>3</g>
+          <g><animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;1;1" keyTimes="0;.09;.1;.19;.2;.29;.3;.39;.4;.49;.5;.51" dur="6s" repeatCount="indefinite"/>
+            <tspan fill="#A78BFA">2</tspan></g>
+        </g>
+        <text x="200" y="52" font-size="13" fill="#6D28D9">T-MINUS</text>
+        <!-- LIFTOFF banner -->
+        <g>
+          <rect x="120" y="66" width="160" height="40" rx="8" fill="#4C1D95" stroke="#E9D5FF" stroke-width="2"/>
+          <text x="200" y="94" text-anchor="middle" font-size="22" font-weight="900" fill="#E9D5FF" letter-spacing="4">LIFTOFF</text>
+          <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.5;.55;.85;.9" dur="6s" repeatCount="indefinite"/>
+        </g>
+        <!-- rocket -->
+        <g>
+          <g>
+            <animateTransform attributeName="transform" type="translate" values="0 0;0 -260" keyTimes="0;.55;.9;1" dur="6s" repeatCount="indefinite"/>
+            <g transform="translate(420,180)">
+              <rect x="-12" y="-46" width="24" height="52" rx="12" fill="#C4B5FD" stroke="#8B5CF6" stroke-width="2"/>
+              <circle cx="0" cy="-30" r="7" fill="#17121F" stroke="#6D28D9"/>
+              <polygon points="-12,4 -26,22 -12,16" fill="#6D28D9"/>
+              <polygon points="12,4 26,22 12,16" fill="#6D28D9"/>
+              <!-- flame -->
+              <polygon points="-8,8 8,8 0,34" fill="#E9D5FF">
+                <animate attributeName="points" values="-8,8 8,8 0,34;-8,8 8,8 0,46;-8,8 8,8 0,34" dur=".3s" repeatCount="indefinite"/>
+              </polygon>
+              <polygon points="-5,8 5,8 0,26" fill="#8B5CF6"/>
+            </g>
+          </g>
+          <!-- pad -->
+          <rect x="390" y="216" width="60" height="14" rx="4" fill="#17121F" stroke="#4C1D95"/>
+          <text x="420" y="244" text-anchor="middle" font-size="10" fill="#6D28D9">prod</text>
+        </g>
+        <!-- checklist ticker -->
+        <g font-size="11">
+          <text x="40" y="150" fill="#A78BFA">✓ tests 3252/3252</text>
+          <text x="40" y="172" fill="#A78BFA">✓ migrations dry-run</text>
+          <text x="40" y="194" fill="#A78BFA">✓ rollback staged</text>
+          <text x="40" y="216" fill="#E9D5FF">▸ canary 5%</text>
+        </g>
+      </svg>

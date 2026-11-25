@@ -1,0 +1,59 @@
+<svg width="540" height="240" viewBox="0 0 540 240" font-family="Courier New,monospace"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }
+@keyframes swim { 0%{transform:translateX(-14%) rotate(-3deg)} 50%{transform:translateX(14%) rotate(3deg)} 100%{transform:translateX(-14%) rotate(-3deg)} }
+@keyframes tailflick { 0%,100%{transform:skewX(0)} 50%{transform:skewX(14deg)} }
+@keyframes ripple { 0%{transform:scale(.6);opacity:.9} 100%{transform:scale(2.4);opacity:0} }</style>
+        <!-- grid backdrop: 24x10 cells of 20px -->
+        <g id="lifegrid">
+          <!-- generation frames via opacity crossfade: G0 glider+blinker+pulsar seed -->
+          <g>
+            <!-- seed G0 -->
+            <g fill="#8B5CF6">
+              <rect x="40" y="40" width="16" height="16"/><rect x="60" y="60" width="16" height="16"/>
+              <rect x="80" y="60" width="16" height="16"/><rect x="80" y="80" width="16" height="16"/>
+              <rect x="60" y="80" width="16" height="16" fill="#A78BFA"/>
+              <rect x="200" y="60" width="16" height="16"/><rect x="220" y="60" width="16" height="16"/><rect x="240" y="60" width="16" height="16"/>
+              <rect x="340" y="140" width="16" height="16" fill="#C4B5FD"/><rect x="360" y="120" width="16" height="16" fill="#C4B5FD"/>
+              <rect x="360" y="160" width="16" height="16" fill="#C4B5FD"/><rect x="380" y="100" width="16" height="16" fill="#E9D5FF"/>
+              <rect x="380" y="180" width="16" height="16" fill="#E9D5FF"/><rect x="400" y="140" width="16" height="16" fill="#C4B5FD"/>
+              <rect x="420" y="120" width="16" height="16" fill="#A78BFA"/><rect x="420" y="160" width="16" height="16" fill="#A78BFA"/>
+              <rect x="440" y="140" width="16" height="16" fill="#8B5CF6"/>
+            </g>
+            <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.24;.25;.99;1" dur="4s" repeatCount="indefinite"/>
+          </g>
+          <g>
+            <!-- G1: glider moved, blinker rotated -->
+            <g fill="#8B5CF6">
+              <rect x="60" y="40" width="16" height="16"/><rect x="80" y="60" width="16" height="16"/>
+              <rect x="60" y="80" width="16" height="16" fill="#A78BFA"/><rect x="80" y="80" width="16" height="16"/>
+              <rect x="40" y="80" width="16" height="16"/>
+              <rect x="220" y="40" width="16" height="16"/><rect x="220" y="60" width="16" height="16"/><rect x="220" y="80" width="16" height="16"/>
+              <rect x="340" y="140" width="16" height="16" fill="#C4B5FD"/><rect x="360" y="140" width="16" height="16" fill="#C4B5FD"/>
+              <rect x="380" y="140" width="16" height="16" fill="#C4B5FD"/>
+              <rect x="400" y="140" width="16" height="16" fill="#C4B5FD"/><rect x="420" y="140" width="16" height="16" fill="#8B5CF6"/>
+            </g>
+            <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.24;.25;.99;1" dur="4s" repeatCount="indefinite"/>
+          </g>
+          <g>
+            <!-- G2: further evolution -->
+            <g fill="#A78BFA">
+              <rect x="60" y="60" width="16" height="16"/><rect x="80" y="40" width="16" height="16"/>
+              <rect x="80" y="60" width="16" height="16"/><rect x="80" y="80" width="16" height="16"/>
+              <rect x="100" y="60" width="16" height="16"/>
+              <rect x="200" y="60" width="16" height="16"/><rect x="220" y="60" width="16" height="16"/><rect x="240" y="60" width="16" height="16"/>
+              <rect x="360" y="120" width="16" height="16" fill="#E9D5FF"/><rect x="360" y="140" width="16" height="16" fill="#C4B5FD"/>
+              <rect x="360" y="160" width="16" height="16" fill="#E9D5FF"/><rect x="340" y="140" width="16" height="16" fill="#C4B5FD"/>
+              <rect x="380" y="140" width="16" height="16" fill="#C4B5FD"/>
+            </g>
+            <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.49;.5;.74;.99;1" dur="4s" repeatCount="indefinite"/>
+          </g>
+        </g>
+        <!-- gridlines -->
+        <g stroke="#241A38" stroke-width="1">
+          <line x1="20" y1="20" x2="520" y2="20"/><line x1="20" y1="120" x2="520" y2="120"/><line x1="20" y1="220" x2="520" y2="220"/>
+        </g>
+        <text x="24" y="234" class="hud" fill="#8B5CF6">B3/S23 · generation loops · glider @ c/4</text>
+      </svg>

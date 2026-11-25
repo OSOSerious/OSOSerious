@@ -1,0 +1,41 @@
+<svg width="430" height="150" viewBox="0 0 430 150"><style>@keyframes vectorProj { 0%{transform:translate(0,0)} 45%{transform:translate(0,0)} 55%{transform:translate(-26px,10px)} 95%{transform:translate(-26px,10px)} 100%{transform:translate(0,0)} }
+@keyframes fadeOutX { 0%,40%{opacity:1} 55%,95%{opacity:.06} 100%{opacity:1} }
+@keyframes countTick { 0%{opacity:.3} 8%{opacity:1} 90%{opacity:1} 100%{opacity:.3} }
+@keyframes edgeDash { to { stroke-dashoffset:-40; } }
+@keyframes ringOut { 0%{transform:scale(.4);opacity:.9} 100%{transform:scale(2.6);opacity:0} }
+@keyframes shiver { 0%,100%{transform:translate(0,0)} 25%{transform:translate(.6px,-.6px)} 75%{transform:translate(-.6px,.6px)} }
+@keyframes sweepBand { 0%{transform:translateX(-40%)} 100%{transform:translateX(640%)} }
+@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes swim { 0%{transform:translateX(-14%) rotate(-3deg)} 50%{transform:translateX(14%) rotate(3deg)} 100%{transform:translateX(-14%) rotate(-3deg)} }
+@keyframes tailflick { 0%,100%{transform:skewX(0)} 50%{transform:skewX(14deg)} }</style>
+        <g class="swimmer">
+          <g>
+            <rect x="150" y="50" width="17" height="17" rx="4" fill="#5B21B6"/><rect x="150" y="50" width="17" height="7" rx="4" fill="#7C3AED" opacity=".8"/>
+            <rect x="169" y="46" width="17" height="17" rx="4" fill="#6D28D9"/><rect x="169" y="46" width="17" height="7" rx="4" fill="#8B5CF6" opacity=".8"/>
+            <rect x="188" y="44" width="17" height="17" rx="4" fill="#6D28D9"/><rect x="188" y="44" width="17" height="7" rx="4" fill="#A78BFA" opacity=".8"/>
+            <rect x="207" y="46" width="17" height="17" rx="4" fill="#8B5CF6"/><rect x="207" y="46" width="17" height="7" rx="4" fill="#C4B5FD" opacity=".85"/>
+            <rect x="150" y="69" width="17" height="17" rx="4" fill="#3B1580"/><rect x="150" y="69" width="17" height="7" rx="4" fill="#5B21B6" opacity=".8"/>
+            <rect x="169" y="65" width="17" height="17" rx="4" fill="#8B5CF6"/><rect x="169" y="65" width="17" height="7" rx="4" fill="#A78BFA" opacity=".8"/>
+            <rect x="188" y="63" width="17" height="17" rx="4" fill="#A78BFA"/><rect x="188" y="63" width="17" height="7" rx="4" fill="#C4B5FD" opacity=".85"/>
+            <rect x="207" y="65" width="17" height="17" rx="4" fill="#6D28D9"/><rect x="207" y="65" width="17" height="7" rx="4" fill="#8B5CF6" opacity=".8"/>
+            <rect x="150" y="88" width="17" height="17" rx="4" fill="#2E1065"/><rect x="150" y="88" width="17" height="7" rx="4" fill="#4C1D95" opacity=".8"/>
+            <rect x="169" y="84" width="17" height="17" rx="4" fill="#241A38"/><rect x="169" y="84" width="17" height="7" rx="4" fill="#3B1580" opacity=".9"/>
+            <rect x="188" y="82" width="17" height="17" rx="4" fill="#5B21B6"/><rect x="188" y="82" width="17" height="7" rx="4" fill="#7C3AED" opacity=".8"/>
+            <rect x="207" y="84" width="17" height="17" rx="4" fill="#4C1D95"/><rect x="207" y="84" width="17" height="7" rx="4" fill="#6D28D9" opacity=".8"/>
+            <rect x="226" y="50" width="17" height="17" rx="4" fill="#C4B5FD"/><rect x="226" y="50" width="17" height="7" rx="4" fill="#E9D5FF" opacity=".9"/>
+            <rect x="226" y="69" width="17" height="17" rx="4" fill="#8B5CF6"/><rect x="226" y="69" width="17" height="7" rx="4" fill="#C4B5FD" opacity=".8"/>
+            <rect x="245" y="57" width="15" height="15" rx="4" fill="#E9D5FF"/><rect x="245" y="74" width="15" height="15" rx="4" fill="#A78BFA"/>
+            <rect x="262" y="58" width="24" height="32" rx="10" fill="#6D28D9"/><rect x="262" y="58" width="24" height="12" rx="10" fill="#A78BFA" opacity=".85"/>
+            <circle cx="276" cy="67" r="3.4" fill="#17121F"/><circle cx="277" cy="66" r="1" fill="#E9D5FF"/>
+            <path class="tail" d="M148 74 q-24 -16 -34 -4 q10 14 34 4" fill="#3B1580"/>
+            <path class="tail" d="M148 74 q-24 16 -34 4 q10 -14 34 -4" fill="#2E1065"/>
+            <path d="M192 104 q8 16 -8 18 q-6 -12 8 -18" fill="#6D28D9" opacity=".8"/>
+            <path d="M212 40 q10 -14 -4 -18 q-7 10 4 18" fill="#A78BFA" opacity=".8"/>
+          </g>
+        </g>
+        <circle cx="215" cy="75" r="10" fill="none" stroke="#4C1D95" style="animation:ripple 2.8s ease-out infinite"/>
+        <circle cx="215" cy="75" r="10" fill="none" stroke="#8B5CF6" style="animation:ripple 2.8s ease-out 1.4s infinite"/>
+      </svg>

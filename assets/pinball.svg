@@ -1,0 +1,55 @@
+<svg width="640" height="300" viewBox="0 0 640 300" class="mono"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes holoFlick { 0%,100%{opacity:1} 92%{opacity:1} 93%{opacity:.4} 94%{opacity:1} 96%{opacity:.7} 97%{opacity:1} }
+@keyframes holoShift { 0%,100%{transform:translateX(0)} 49%{transform:translateX(0)} 50%{transform:translateX(-2px)} 51%{transform:translateX(1px)} }
+@keyframes ripple { 0%{transform:scale(.6);opacity:.9} 100%{transform:scale(2.6);opacity:0} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }</style>
+        <!-- table body -->
+        <path d="M140 280 L140 60 Q140 24 320 24 Q500 24 500 60 L500 280 Z" fill="#0B0716" stroke="#8B5CF6" stroke-width="3"/>
+        <!-- bumpers -->
+        <g font-size="9" text-anchor="middle">
+          <circle cx="240" cy="90" r="26" fill="#2E1065" stroke="#A78BFA" stroke-width="3">
+            <animate attributeName="fill" values="#2E1065;#8B5CF6;#2E1065" dur="2.2s" repeatCount="indefinite"/></circle>
+          <text x="240" y="93" fill="#E9D5FF">mcp</text>
+          <circle cx="400" cy="90" r="26" fill="#2E1065" stroke="#A78BFA" stroke-width="3">
+            <animate attributeName="fill" values="#2E1065;#8B5CF6;#2E1065" dur="2.2s" begin=".7s" repeatCount="indefinite"/></circle>
+          <text x="400" y="93" fill="#E9D5FF">memory</text>
+          <circle cx="320" cy="150" r="30" fill="#4C1D95" stroke="#C4B5FD" stroke-width="3">
+            <animate attributeName="fill" values="#4C1D95;#A78BFA;#4C1D95" dur="2.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+          <text x="320" y="153" fill="#17121F" font-weight="700">harness</text>
+        </g>
+        <!-- slingshot labels -->
+        <text x="176" y="170" font-size="10" fill="#6D28D9" transform="rotate(-14 176 170)">retry L</text>
+        <text x="430" y="170" font-size="10" fill="#6D28D9" transform="rotate(14 430 170)">retry R</text>
+        <!-- ball path: figure-8-ish loop -->
+        <circle r="9" fill="#E9D5FF" stroke="#8B5CF6" stroke-width="2">
+          <animateMotion dur="6s" repeatCount="indefinite" path="M320 260 C 200 250 170 160 240 100 C 300 50 380 60 400 100 C 430 160 380 210 320 150 C 270 110 340 90 400 120 C 460 150 470 230 320 260"/>
+        </circle>
+        <!-- score -->
+        <g transform="translate(156,40)">
+          <rect width="110" height="40" rx="6" fill="#17121F" stroke="#4C1D95"/>
+          <text x="10" y="17" font-size="10" fill="#9D8AB8">TOOLCALLS</text>
+          <text x="10" y="33" font-size="14" fill="#8B5CF6" font-weight="700">
+            <animate attributeName="textContent" values="0042;0043;0044;0045" dur="6s" calcMode="discrete" repeatCount="indefinite"/>
+          </text>
+        </g>
+        <!-- flippers -->
+        <g stroke="#A78BFA" stroke-width="11" stroke-linecap="round">
+          <line x1="270" y1="258" x2="216" y2="276">
+            <animateTransform attributeName="transform" type="rotate" values="0 270 258;-22 270 258;0 270 258" keyTimes="0;.45;.6" dur="3s" repeatCount="indefinite"/>
+          </line>
+          <line x1="370" y1="258" x2="424" y2="276">
+            <animateTransform attributeName="transform" type="rotate" values="0 370 258;22 370 258;0 370 258" keyTimes="0;.5;.65" dur="3s" repeatCount="indefinite"/>
+          </line>
+        </g>
+        <!-- drain -->
+        <text x="320" y="292" text-anchor="middle" font-size="11" fill="#E85D26">▼ DEADLINE ▼</text>
+        <!-- plunger -->
+        <line x1="520" y1="270" x2="520" y2="120" stroke="#9D8AB8" stroke-width="5"/>
+        <circle cx="520" cy="112" r="12" fill="#4C1D95" stroke="#C4B5FD"/>
+        <text x="540" y="140" font-size="10" fill="#6D28D9">plunger</text>
+        <text x="164" y="60" font-size="11" fill="#A78BFA">MULTI-AGENT</text>
+        <text x="164" y="76" font-size="11" fill="#A78BFA">FAILOVER</text>
+      </svg>

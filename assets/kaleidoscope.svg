@@ -1,0 +1,48 @@
+<svg width="520" height="250" viewBox="0 0 520 250" class="mono"><style></style>
+        <defs>
+          <clipPath id="wedge"><polygon points="260,125 480,20 480,230"/></clipPath>
+        </defs>
+        <circle cx="260" cy="125" r="118" fill="#0B0716" stroke="#4C1D95" stroke-width="3"/>
+        <g clip-path="url(#wedge)" transform-origin="260 125">
+          <g>
+            <!-- seed pattern: your cells -->
+            <g fill="#6D28D9">
+              <rect x="300" y="100" width="14" height="14" rx="3" fill="#8B5CF6"/>
+              <rect x="320" y="86" width="14" height="14" rx="3" fill="#A78BFA"/>
+              <rect x="340" y="112" width="14" height="14" rx="3" fill="#4C1D95"/>
+              <rect x="360" y="96" width="14" height="14" rx="3" fill="#C4B5FD"/>
+              <rect x="380" y="120" width="14" height="14" rx="3" fill="#5B21B6"/>
+              <rect x="330" y="140" width="14" height="14" rx="3" fill="#E9D5FF"/>
+              <rect x="360" y="158" width="14" height="14" rx="3" fill="#3B1580"/>
+              <rect x="390" y="86" width="14" height="14" rx="3" fill="#8B5CF6"/>
+              <rect x="410" y="112" width="14" height="14" rx="3" fill="#7C3AED"/>
+              <rect x="428" y="140" width="14" height="14" rx="3" fill="#2E1065"/>
+              <rect x="300" y="132" width="10" height="10" rx="2" fill="#C4B5FD"/>
+              <rect x="350" y="70" width="10" height="10" rx="2" fill="#A78BFA"/>
+            </g>
+            <!-- rotation of the seed -->
+            <animateTransform attributeName="transform" type="rotate" values="0 260 125;30 260 125;0 260 125;-30 260 125;0 260 125" dur="12s" repeatCount="indefinite" additive="sum"/>
+          </g>
+          <!-- mirrored copies -->
+          <g transform="translate(520,0) scale(-1,1)"><g fill="#6D28D9">
+            <rect x="300" y="100" width="14" height="14" rx="3" fill="#8B5CF6"/><rect x="320" y="86" width="14" height="14" rx="3" fill="#A78BFA"/>
+            <rect x="340" y="112" width="14" height="14" rx="3" fill="#4C1D95"/><rect x="360" y="96" width="14" height="14" rx="3" fill="#C4B5FD"/>
+            <rect x="380" y="120" width="14" height="14" rx="3" fill="#5B21B6"/><rect x="330" y="140" width="14" height="14" rx="3" fill="#E9D5FF"/>
+            <rect x="360" y="158" width="14" height="14" rx="3" fill="#3B1580"/><rect x="390" y="86" width="14" height="14" rx="3" fill="#8B5CF6"/>
+            <rect x="410" y="112" width="14" height="14" rx="3" fill="#7C3AED"/><rect x="428" y="140" width="14" height="14" rx="3" fill="#2E1065"/>
+            <rect x="300" y="132" width="10" height="10" rx="2" fill="#C4B5FD"/><rect x="350" y="70" width="10" height="10" rx="2" fill="#A78BFA"/>
+          </g></g>
+        </g>
+        <!-- mirror lines -->
+        <g stroke="#8B5CF6" stroke-width="1.5" stroke-dasharray="6 5" opacity=".8">
+          <line x1="260" y1="125" x2="480" y2="20"/><line x1="260" y1="125" x2="480" y2="230"/>
+          <line x1="260" y1="125" x2="40" y2="20"/><line x1="260" y1="125" x2="40" y2="230"/>
+          <line x1="260" y1="125" x2="260" y2="7"/><line x1="260" y1="125" x2="260" y2="243"/>
+        </g>
+        <!-- eyepiece rings -->
+        <circle cx="260" cy="125" r="92" fill="none" stroke="#2E1065" stroke-width="1"/>
+        <circle cx="260" cy="125" r="60" fill="none" stroke="#241A38" stroke-width="1"/>
+        <circle cx="260" cy="125" r="14" fill="#17121F" stroke="#A78BFA" stroke-width="2"/>
+        <text x="20" y="26" font-size="11" fill="#A78BFA">SYM ▸ 6-fold</text>
+        <text x="20" y="44" font-size="11" fill="#6D28D9">seed: real squares</text>
+      </svg>

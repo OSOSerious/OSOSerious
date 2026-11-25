@@ -1,0 +1,55 @@
+<svg width="560" height="250" viewBox="0 0 560 250" class="mono"><style></style>
+        <!-- conveyor -->
+        <rect x="20" y="180" width="520" height="12" rx="6" fill="#2E1065"/>
+        <g fill="#17121F" stroke="#6D28D9" stroke-width="3">
+          <circle cx="70" cy="186" r="10"><animateTransform attributeName="transform" type="rotate" values="0 70 186;360 70 186" dur="2s" repeatCount="indefinite"/></circle>
+          <circle cx="270" cy="186" r="10"><animateTransform attributeName="transform" type="rotate" values="0 270 186;360 270 186" dur="2s" repeatCount="indefinite"/></circle>
+          <circle cx="470" cy="186" r="10"><animateTransform attributeName="transform" type="rotate" values="0 470 186;360 470 186" dur="2s" repeatCount="indefinite"/></circle>
+        </g>
+        <!-- scanner arch -->
+        <path d="M210 186 L210 90 Q210 60 265 60 Q320 60 320 90 L320 186" fill="#17121F" stroke="#8B5CF6" stroke-width="4"/>
+        <text x="265" y="50" text-anchor="middle" font-size="11" fill="#A78BFA">XR-1</text>
+        <!-- beam inside arch -->
+        <line x1="216" y1="140" x2="314" y2="140" stroke="#E9D5FF" stroke-width="3" opacity=".9">
+          <animate attributeName="y1" values="100;170;100" dur="2s" repeatCount="indefinite"/>
+          <animate attributeName="y2" values="100;170;100" dur="2s" repeatCount="indefinite"/>
+        </line>
+        <!-- box on belt -->
+        <g>
+          <rect x="-22" y="-22" width="44" height="44" rx="5" fill="#4C1D95" stroke="#C4B5FD" stroke-width="2"/>
+          <rect x="-14" y="-8" width="28" height="16" rx="3" fill="#5B21B6"/>
+          <animate attributeName="transform" attributeType="XML" type="translate" values="60 156;265 156;470 156" dur="6s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;1;1" dur="6s" repeatCount="indefinite"/>
+        </g>
+        <!-- x-ray monitor -->
+        <g transform="translate(360,36)">
+          <rect width="180" height="110" rx="10" fill="#0B0716" stroke="#8B5CF6" stroke-width="2"/>
+          <!-- skeleton view of the box -->
+          <g opacity=".95">
+            <rect x="24" y="24" width="56" height="62" fill="none" stroke="#A78BFA" stroke-width="2"/>
+            <rect x="96" y="24" width="60" height="26" fill="none" stroke="#C4B5FD" stroke-width="2"/>
+            <rect x="96" y="60" width="60" height="26" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+            <circle cx="44" cy="44" r="8" fill="none" stroke="#E9D5FF" stroke-width="2"/>
+            <rect x="34" y="62" width="36" height="8" fill="none" stroke="#E9D5FF" stroke-width="2"/>
+            <line x1="52" y1="52" x2="52" y2="62" stroke="#E9D5FF" stroke-width="2"/>
+            <line x1="80" y1="37" x2="96" y2="37" stroke="#6D28D9" stroke-width="2" stroke-dasharray="3 3"/>
+            <line x1="80" y1="73" x2="96" y2="73" stroke="#6D28D9" stroke-width="2" stroke-dasharray="3 3"/>
+            <text x="102" y="42" font-size="9" fill="#C4B5FD">db:5432</text>
+            <text x="102" y="78" font-size="9" fill="#A78BFA">q:rabbit</text>
+            <text x="30" y="98" font-size="9" fill="#E9D5FF">svc/api</text>
+          </g>
+          <!-- scan line on screen -->
+          <line x1="6" y1="0" x2="174" y2="0" stroke="#E9D5FF" stroke-width="2" opacity=".7">
+            <animate attributeName="y1" values="6;104;6" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="y2" values="6;104;6" dur="3s" repeatCount="indefinite"/>
+          </line>
+          <!-- verdict -->
+          <g>
+            <rect x="34" y="118" width="112" height="26" rx="6" fill="#2E1065" stroke="#E9D5FF"/>
+            <text x="90" y="136" text-anchor="middle" font-size="13" font-weight="700" fill="#E9D5FF">SAFE ✓</text>
+            <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.4;.5;1" dur="6s" repeatCount="indefinite"/>
+          </g>
+        </g>
+        <text x="24" y="34" font-size="11" fill="#A78BFA">// inventory by truth, not by claim</text>
+        <text x="24" y="52" font-size="11" fill="#6D28D9">belt: 6s cycle</text>
+      </svg>

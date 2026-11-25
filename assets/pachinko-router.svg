@@ -1,0 +1,57 @@
+<svg width="520" height="250" viewBox="0 0 520 250" class="mono"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes holoFlick { 0%,100%{opacity:1} 92%{opacity:1} 93%{opacity:.4} 94%{opacity:1} 96%{opacity:.7} 97%{opacity:1} }
+@keyframes holoShift { 0%,100%{transform:translateX(0)} 49%{transform:translateX(0)} 50%{transform:translateX(-2px)} 51%{transform:translateX(1px)} }
+@keyframes ripple { 0%{transform:scale(.6);opacity:.9} 100%{transform:scale(2.6);opacity:0} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }</style>
+        <!-- hopper -->
+        <polygon points="230,18 290,18 276,52 244,52" fill="#4C1D95" stroke="#A78BFA"/>
+        <text x="260" y="14" text-anchor="middle" font-size="10" fill="#9D8AB8">token in</text>
+        <!-- pins -->
+        <g fill="#6D28D9">
+          <circle cx="180" cy="80" r="5"/><circle cx="260" cy="80" r="5"/><circle cx="340" cy="80" r="5"/>
+          <circle cx="220" cy="115" r="5"/><circle cx="300" cy="115" r="5"/>
+          <circle cx="160" cy="150" r="5"/><circle cx="240" cy="150" r="5"/><circle cx="320" cy="150" r="5"/><circle cx="380" cy="150" r="5"/>
+        </g>
+        <!-- ball -->
+        <circle r="8" fill="#E9D5FF" stroke="#8B5CF6" stroke-width="2">
+          <animateMotion dur="5s" repeatCount="indefinite"
+            path="M260 56 L260 66 L232 96 L252 122 L300 132 L320 156 L300 182 L300 196"/>
+        </circle>
+        <!-- buckets -->
+        <g font-size="11" text-anchor="middle">
+          <g>
+            <rect x="80" y="200" width="110" height="40" rx="6" fill="#17121F" stroke="#4C1D95"/>
+            <rect x="84" y="228" width="102" height="8" rx="4" fill="#2E1065"/>
+            <rect x="84" y="228" width="102" height="8" rx="4" fill="#6D28D9">
+              <animate attributeName="width" values="8;74;8" dur="5s" keyTimes="0;.7;1" repeatCount="indefinite"/></rect>
+            <text x="135" y="218" fill="#A78BFA">LOCAL</text>
+          </g>
+          <g>
+            <rect x="205" y="200" width="110" height="40" rx="6" fill="#17121F" stroke="#8B5CF6"/>
+            <rect x="209" y="228" width="102" height="8" rx="4" fill="#2E1065"/>
+            <rect x="209" y="228" width="102" height="8" rx="4" fill="#A78BFA">
+              <animate attributeName="width" values="8;96;8" dur="5s" keyTimes="0;.7;1" repeatCount="indefinite"/></rect>
+            <text x="260" y="218" fill="#E9D5FF" font-weight="700">BALANCED</text>
+          </g>
+          <g>
+            <rect x="330" y="200" width="110" height="40" rx="6" fill="#17121F" stroke="#4C1D95"/>
+            <rect x="334" y="228" width="102" height="8" rx="4" fill="#2E1065"/>
+            <rect x="334" y="228" width="102" height="8" rx="4" fill="#6D28D9">
+              <animate attributeName="width" values="8;24;8" dur="5s" keyTimes="0;.7;1" repeatCount="indefinite"/></rect>
+            <text x="385" y="218" fill="#A78BFA">FRONTIER</text>
+          </g>
+        </g>
+        <!-- cost readout -->
+        <g transform="translate(418,40)">
+          <rect width="84" height="64" rx="7" fill="#17121F" stroke="#4C1D95"/>
+          <text x="10" y="22" font-size="10" fill="#9D8AB8">$/1k tok</text>
+          <text x="10" y="44" font-size="17" fill="#E9D5FF" font-weight="700">
+            <animate attributeName="textContent" values="0.31;0.04;0.31" dur="5s" calcMode="discrete" repeatCount="indefinite"/>
+          </text>
+          <text x="10" y="58" font-size="9" fill="#6D28D9">sla: p95 &lt; 800ms</text>
+        </g>
+        <text x="40" y="110" font-size="10" fill="#6D28D9" transform="rotate(-90 40 110)">deflect on sla breach</text>
+      </svg>

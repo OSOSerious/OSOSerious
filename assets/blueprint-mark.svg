@@ -1,0 +1,50 @@
+<svg width="540" height="250" viewBox="0 0 540 250" class="mono"><style>@keyframes palflip { 0%,42%{transform:rotate(0)} 50%,92%{transform:rotate(180deg)} 100%{transform:rotate(360deg)} }
+@keyframes glowpulse { 0%,100%{filter:drop-shadow(0 0 4px #6D28D9)} 50%{filter:drop-shadow(0 0 18px #8B5CF6)} }
+@keyframes blink { 0%,92%{opacity:1} 94%,100%{opacity:0} }
+@keyframes typeline { from{clip-path:inset(0 100% 0 0)} to{clip-path:inset(0 0 0 0)} }
+@keyframes sweepX { from{transform:translateX(-120%)} to{transform:translateX(320%)} }
+@keyframes dr { 0%{stroke-dashoffset:1400} 45%,80%{stroke-dashoffset:0} 100%{stroke-dashoffset:-1400} }
+@keyframes stamp { 0%,55%{opacity:0} 65%,85%{opacity:1} 100%{opacity:0} }</style>
+        <defs>
+          <style>
+            .draw { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: dr 4s ease-in-out infinite; }
+            .draw2 { stroke-dasharray: 600; stroke-dashoffset: 600; animation: dr 4s .6s ease-in-out infinite; }
+            .draw3 { stroke-dasharray: 300; stroke-dashoffset: 300; animation: dr 4s 1.4s ease-in-out infinite; }
+            @keyframes dr { 0%{stroke-dashoffset:1400} 45%,80%{stroke-dashoffset:0} 100%{stroke-dashoffset:-1400} }
+            @keyframes stamp { 0%,55%{opacity:0} 65%,85%{opacity:1} 100%{opacity:0} }
+          </style>
+        </defs>
+        <!-- grid -->
+        <g stroke="#241A38" stroke-width="1">
+          <line x1="20" y1="20" x2="520" y2="20"/><line x1="20" y1="70" x2="520" y2="70"/><line x1="20" y1="120" x2="520" y2="120"/><line x1="20" y1="170" x2="520" y2="170"/><line x1="20" y1="220" x2="520" y2="220"/>
+          <line x1="20" y1="20" x2="20" y2="220"/><line x1="140" y1="20" x2="140" y2="220"/><line x1="270" y1="20" x2="270" y2="220"/><line x1="400" y1="20" x2="400" y2="220"/><line x1="520" y1="20" x2="520" y2="220"/>
+        </g>
+        <!-- construction circles -->
+        <circle class="draw2" cx="270" cy="120" r="86" fill="none" stroke="#4C1D95" stroke-width="1.5" stroke-dasharray="600"/>
+        <circle class="draw3" cx="270" cy="120" r="60" fill="none" stroke="#3B1580" stroke-width="1" stroke-dasharray="300"/>
+        <!-- centerlines -->
+        <line class="draw3" x1="150" y1="120" x2="390" y2="120" stroke="#6D28D9" stroke-dasharray="10 6"/>
+        <line class="draw3" x1="270" y1="30" x2="270" y2="210" stroke="#6D28D9" stroke-dasharray="10 6"/>
+        <!-- the mark: OSO as drawn strokes -->
+        <g class="draw" fill="none" stroke="#A78BFA" stroke-width="6" stroke-linecap="round">
+          <path d="M175 150 v-60 a30 30 0 0 1 60 0 v60 a30 30 0 0 1 -60 0" />
+          <path d="M255 90 a30 30 0 0 1 60 0 a30 30 0 0 1 -60 0"/>
+          <path d="M335 150 v-60 a30 30 0 0 1 60 0 v60 a30 30 0 0 1 -60 0"/>
+        </g>
+        <!-- dimension callouts stamp in -->
+        <g style="animation: stamp 6s infinite" font-size="11" fill="#8B5CF6">
+          <line x1="175" y1="196" x2="395" y2="196" stroke="#8B5CF6"/>
+          <polygon points="175,196 185,192 185,200" fill="#8B5CF6"/><polygon points="395,196 385,192 385,200" fill="#8B5CF6"/>
+          <text x="285" y="212" text-anchor="middle">180° palindrome</text>
+        </g>
+        <g style="animation: stamp 6s .3s infinite" font-size="11" fill="#E9D5FF">
+          <line x1="428" y1="90" x2="428" y2="150" stroke="#E9D5FF"/>
+          <polygon points="428,90 424,100 432,100" fill="#E9D5FF"/><polygon points="428,150 424,140 432,140" fill="#E9D5FF"/>
+          <text x="440" y="124">favicon 16px</text>
+        </g>
+        <g style="animation: stamp 6s .6s infinite" font-size="11" fill="#C4B5FD">
+          <text x="40" y="46">SCALE 1:1 · FLAT · NO GRADIENT</text>
+          <text x="40" y="64" fill="#6D28D9">MATTE: ink #0B0B0D</text>
+        </g>
+        <text x="400" y="238" font-size="10" fill="#4C1D95">DWG OSO-001 · REV 5</text>
+      </svg>
