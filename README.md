@@ -48,6 +48,10 @@
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/iso-map.svg" width="100%" alt="the README as a 3D isometric map — ten extruded tiles, signal walking the path"/>
 
+**And the product itself, stacked:** five isometric layers — `DATA ▸ STATE ▸ AGENTS ▸ TOOLS ▸ SURFACE` — floating as one tower, each plate only touching the one below, with energy pulses climbing bottom to top. The architecture, as an object you could pick up.
+
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/stack-tower.svg" width="100%" alt="the stack as a five-layer isometric tower with energy climbing"/>
+
 ---
 
 
@@ -238,7 +242,7 @@ Every graphic below is **my own pure-SVG animation** living in this repo's `asse
 
 <img src="https://img.shields.io/badge/Elixir-8B5CF6?style=flat-square" alt="Elixir"/> <img src="https://img.shields.io/badge/GraphQL-8B5CF6?style=flat-square" alt="GraphQL"/> <img src="https://img.shields.io/badge/Python-6D28D9?style=flat-square" alt="Python"/> <img src="https://img.shields.io/badge/TypeScript-6D28D9?style=flat-square" alt="TypeScript"/> <img src="https://img.shields.io/badge/Go-6D28D9?style=flat-square" alt="Go"/> <img src="https://img.shields.io/badge/Rust-4C1D95?style=flat-square" alt="Rust"/>
 
-<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lang-bars.svg" width="100%" alt="languages by depth — Elixir leads"/>
+<img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/lang-bars-3d.svg" width="100%" alt="languages, extruded — Elixir is the tallest tower"/>
 
 <img src="https://raw.githubusercontent.com/OSOSerious/OSOSerious/main/assets/table-02.svg" width="100%" alt="languages — purple data table"/>
 
